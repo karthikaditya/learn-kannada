@@ -1,0 +1,3 @@
+<template>
+    <h2>About the application</h2>
+</template>
