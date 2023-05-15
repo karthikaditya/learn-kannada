@@ -4,10 +4,14 @@
 
 <script>
 export default {
-    props: { title: String, image_src: String },
+    props: { title: String, image_src: String, showLetterText: Boolean },
     data() {
         return {
             publicPath: import.meta.env.BASE_URL
+        }
+    }, methods: {
+        myMethod(num) {
+            alert(num + " image clicked")
         }
     }
 }
@@ -15,10 +19,15 @@ export default {
 </script>
 
 <template>
-    <div class="content">
-        <img :src="`${publicPath}./assets/${image_src}`">
-        <h3>{{ title }}</h3>
+    <div :style="`display: inline-block; border: 2px solid white; margin: 2px`">
+        <p v-if="showLetterText">Text</p>
+        <img :src="`${publicPath}./assets/${image_src}`" :alt="`Image text`" :style="`max-height: 250px;
+    max-width: 100px; margin: 10px; display: block;`" @click="myMethod(1)">
     </div>
+    <!-- <div class="content"> -->
+
+    <!-- <h3>{{ title }}</h3> -->
+    <!-- </div> -->
 
 
     <!-- <div class="container">
@@ -32,6 +41,13 @@ export default {
 </template>
 
 <style>
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .content {
     /* width: 400px; */
     /* border: 4px solid red; */

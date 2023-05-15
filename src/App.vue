@@ -1,8 +1,8 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import ImageFlipCard from './components/ImageFlipCard.vue'
-import BasicLetter from './components/BasicLetter.vue'
+import Learn from './components/Learn.vue'
+
 import About from './components/About.vue'
 
 </script>
@@ -10,63 +10,31 @@ import About from './components/About.vue'
 <template>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <sidebar-menu :menu="menu" />
-  <header>
-    <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" /> -->
+  <sidebar-menu v-model:collapsed="collapsed" :menu="menu" @update:collapsed="onToggleCollapse" :theme="white-theme"/>
+  <div v-if="!collapsed" class="sidebar-overlay" @click="collapsed = true"></div>
 
-    <!-- <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div> -->
-  </header>
-
-  <main>
-    <!-- <ImageFlipCard v-for="(todo, index) in todos" :key="todo.id" :title="todo.title" :style="{
-        'display': flex,
-        'flex-direction': row,
-        'flex-wrap': wrap,
-        'justify-content': 'space-between'
-      }" /> -->
-    <!-- <TheWelcome /> -->
-
-    <!-- <div class="row">
-      <div class="column">
-        <BasicLetter v-for="post in todos" :key="post.id" :title="post.title" :image_src="post.src" />
+  <div id="demo" :class="[{ collapsed: collapsed }]">
+    <div class="demo">
+      <div class="container">
+        <component :is="currentView" />
       </div>
-      <div class="column">
-        <BasicLetter v-for="post in todos" :key="post.id" :title="post.title" :image_src="post.src" />
-      </div>
-    </div> -->
-  </main>
-  <component :is="currentView" />
+    </div>
+  </div>
 </template>
 
 <script>
 const routes = {
   '/': HelloWorld,
+  '/learn': Learn,
   '/about': About
 }
+
 
 export default {
   data() {
     return {
       currentPath: window.location.hash,
-      todos: [
-        {
-          id: 1,
-          title: 'Do the dishes',
-          src:"image1.jpg",
-        },
-        {
-          id: 2,
-          src:"image1.jpg",
-          title: 'Take out the trash'
-        },
-        {
-          id: 3,
-          src:"image2.jpg",
-          title: 'Mow the lawn'
-        }
-      ],
+      collapsed: true,
       menu: [
         {
           header: 'Navigation',
@@ -74,6 +42,11 @@ export default {
         },
         {
           href: '#/',
+          title: 'Home',
+          icon: 'fa fa-home'
+        },
+        {
+          href: '#/learn',
           title: 'Learn',
           icon: 'fa fa-university'
         },
@@ -81,23 +54,65 @@ export default {
           href: '#/about',
           title: 'About',
           icon: 'fa fa-inbox'
-        }
+        },
         // {
-        //   href: '/charts',
-        //   title: 'Charts',
-        //   icon: 'fa fa-chart-area',
+        //   href: '/page',
+        //   title: 'Dropdown Page',
         //   child: [
         //     {
-        //       href: '/charts/sublink',
-        //       title: 'Sub Link'
-        //     }
-        //   ]
-        // }
+        //       href: '/page/sub-page-1',
+        //       title: 'Sub Page 01',
+        //     },
+        //     {
+        //       href: '/page/sub-page-2',
+        //       title: 'Sub Page 02',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'Multiple Level',
+        //   child: [
+        //     {
+        //       title: 'page',
+        //     },
+        //     {
+        //       title: 'Level 2 ',
+        //       child: [
+        //         {
+        //           title: 'page',
+        //         },
+        //         {
+        //           title: 'Page',
+        //         },
+        //       ],
+        //     },
+        //     {
+        //       title: 'Page',
+        //     },
+        //     {
+        //       title: 'Another Level 2',
+        //       child: [
+        //         {
+        //           title: 'Level 3',
+        //           child: [
+        //             {
+        //               title: 'Page',
+        //             },
+        //             {
+        //               title: 'Page',
+        //             },
+        //           ],
+        //         },
+        //       ],
+        //     },
+        //   ],
+        // },
       ],
-      theme: {
-        type: String,
-        default: ''
-      },
+      methods: {
+        onToggleCollapse(collapsed) {
+          console.log('onToggleCollapse')
+        },
+      }
     }
   },
   computed: {
@@ -107,48 +122,55 @@ export default {
   },
   mounted() {
     window.addEventListener('hashchange', () => {
-		  this.currentPath = window.location.hash
-		})
+      this.currentPath = window.location.hash
+    })
   }
-  // components: {
-  //   SidebarMenu
-  // }
 }
 </script>
 
 <style>
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
 
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+.sidebar-overlay {
+  position: fixed;
   width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 900;
+}
+
+#demo {
+  padding-left: 290px;
+  transition: 0.3s ease;
+}
+
+#demo.collapsed {
+  padding-left: 65px;
+}
+
+.demo {
+  /* padding: 20px; */
+}
+
+.container {
+  /* max-width: 900px; */
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
-}
+} */
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
   }
-}
+} */
 </style>

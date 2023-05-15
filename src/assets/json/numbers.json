@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "number": "೧",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 2,
+        "number": "೨",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 3,
+        "number": "೩",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 4,
+        "number": "೪",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 5,
+        "number": "೫",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 6,
+        "number": "೬",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 7,
+        "number": "೭",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 8,
+        "number": "೮",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 9,
+        "number": "೯",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 10,
+        "number": "೦",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    }
+]

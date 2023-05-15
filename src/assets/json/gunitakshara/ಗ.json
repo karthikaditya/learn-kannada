@@ -1,0 +1,109 @@
+{
+    "gunitaksharas": [
+        {
+            "id": 1,
+            "gunitakshara": "ಗ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 2,
+            "gunitakshara": "ಗಾ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 3,
+            "gunitakshara": "ಗಿ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 4,
+            "gunitakshara": "ಗೀ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 5,
+            "gunitakshara": "ಗು",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 6,
+            "gunitakshara": "ಗೂ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 7,
+            "gunitakshara": "ಗೃ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 8,
+            "gunitakshara": "ಗೆ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 9,
+            "gunitakshara": "ಗೇ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 10,
+            "gunitakshara": "ಗೈ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 11,
+            "gunitakshara": "ಗೊ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 12,
+            "gunitakshara": "ಗೋ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 13,
+            "gunitakshara": "ಗೌ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 14,
+            "gunitakshara": "ಗಂ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        },
+        {
+            "id": 15,
+            "gunitakshara": "ಗಃ",
+            "isAvailable": true,
+            "similarForms": [],
+            "differentForms": []
+        }
+    ]
+}

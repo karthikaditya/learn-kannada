@@ -1,25 +1,37 @@
 <script setup>
 import { VueFlip } from 'vue-flip';
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
 
-// export default {
-// 	props: ['title'],
-// }
+</script>
+
+<script>
+export default {
+    props: {},
+    data() {
+        return {
+            publicPath: import.meta.env.BASE_URL
+        }
+    }
+}
 
 </script>
 <template>
-    <vue-flip active-click="true" width="200px" height="50px">
-        <template v-slot:front class="front" #icon>
-            <!-- <CommunityIcon /> -->
-            <img alt="Vue logo" class="logo" src="../assets/image1.jpg" width="125" height="125" />
-
-        </template>
-        <template v-slot:back class="back" #icon>
-            <!-- <SupportIcon/> -->
-            <img alt="Vue logo" class="logo" src="../assets/image2.jpg" width="125" height="125" />
-
-        </template>
-    </vue-flip>
+    <div class="content">
+        <vue-flip active-click="true" width="200px" height="50px">
+            <template v-slot:front class="front" #icon>
+                <img :src="`${publicPath}./assets/image1.jpg`" :alt="`Image text`" width="125" height="125">
+            </template>
+            <template v-slot:back class="back" #icon>
+                <img :src="`${publicPath}./assets/image2.jpg`" :alt="`Image text`" width="125" height="125">
+            </template>
+        </vue-flip>
+    </div>
 </template>
+
+<style>
+.content {
+    /* width: 40px; */
+    /* border: 4px solid red; */
+    padding: 5px;
+    overflow: hidden;
+}
+</style>

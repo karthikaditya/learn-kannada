@@ -1,0 +1,64 @@
+{
+    "letters": [
+        {
+            "id": 1,
+            "alphabet": "ಅ"
+        },
+        {
+            "id": 2,
+            "alphabet": "ಆ"
+        },
+        {
+            "id": 3,
+            "alphabet": "ಇ"
+        },
+        {
+            "id": 4,
+            "alphabet": "ಈ"
+        },
+        {
+            "id": 5,
+            "alphabet": "ಉ"
+        },
+        {
+            "id": 6,
+            "alphabet": "ಊ"
+        },
+        {
+            "id": 7,
+            "alphabet": "ಋ"
+        },
+        {
+            "id": 8,
+            "alphabet": "ಎ"
+        },
+        {
+            "id": 9,
+            "alphabet": "ಏ"
+        },
+        {
+            "id": 10,
+            "alphabet": "ಐ"
+        },
+        {
+            "id": 11,
+            "alphabet": "ಒ"
+        },
+        {
+            "id": 12,
+            "alphabet": "ಓ"
+        },
+        {
+            "id": 13,
+            "alphabet": "ಔ"
+        },
+        {
+            "id": 14,
+            "alphabet": "ಅಂ"
+        },
+        {
+            "id": 15,
+            "alphabet": "ಅಃ"
+        }
+    ]
+}
