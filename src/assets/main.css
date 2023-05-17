@@ -39,6 +39,13 @@ a,
   margin: 5px;
 }
 
+/* Add a card effect for articles */
+.card {
+  /* background-color: white; */
+  padding: 20px;
+  /* margin-top: 20px; */
+}
+
 /* @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);

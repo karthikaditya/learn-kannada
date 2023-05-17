@@ -209,13 +209,6 @@ export default {
     padding: 20px;
 }
 
-/* Add a card effect for articles */
-.card {
-    /* background-color: white; */
-    padding: 20px;
-    /* margin-top: 20px; */
-}
-
 /* Clear floats after the columns */
 .row::after {
     content: "";

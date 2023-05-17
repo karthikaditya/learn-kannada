@@ -4,21 +4,18 @@ import TheWelcome from './components/TheWelcome.vue'
 import Learn from './components/Learn.vue'
 
 import About from './components/About.vue'
+import LetterForms from './components/LetterForms.vue'
 
 </script>
 
 <template>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <sidebar-menu v-model:collapsed="collapsed" :menu="menu" @update:collapsed="onToggleCollapse" :theme="white-theme"/>
+  <sidebar-menu v-model:collapsed="collapsed" :menu="menu" @update:collapsed="onToggleCollapse" :theme="'white-theme'" />
   <div v-if="!collapsed" class="sidebar-overlay" @click="collapsed = true"></div>
 
-  <div id="demo" :class="[{ collapsed: collapsed }]">
-    <div class="demo">
-      <div class="container">
-        <component :is="currentView" />
-      </div>
-    </div>
+  <div id="demo" :class="[{ collapsed: collapsed }]" :style="`text-align: center;`">
+    <component :is="currentView" />
   </div>
 </template>
 
@@ -26,6 +23,7 @@ import About from './components/About.vue'
 const routes = {
   '/': HelloWorld,
   '/learn': Learn,
+  '/letter-forms': LetterForms,
   '/about': About
 }
 
@@ -48,6 +46,11 @@ export default {
         {
           href: '#/learn',
           title: 'Learn',
+          icon: 'fa fa-university'
+        },
+        {
+          href: '#/letter-forms',
+          title: 'Letter forms',
           icon: 'fa fa-university'
         },
         {
@@ -129,7 +132,6 @@ export default {
 </script>
 
 <style>
-
 .sidebar-overlay {
   position: fixed;
   width: 100%;
@@ -139,6 +141,13 @@ export default {
   background-color: #000;
   opacity: 0.5;
   z-index: 900;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
 #demo {
