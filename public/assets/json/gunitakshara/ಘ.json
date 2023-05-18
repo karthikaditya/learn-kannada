@@ -1,11 +1,9 @@
-{
-    "gunitaksharas": [
-        {
-            "id": 1,
-            "gunitakshara": "ಗ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "key": "ಗ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    }
+]

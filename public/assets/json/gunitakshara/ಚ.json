@@ -1,109 +1,107 @@
-{
-    "gunitaksharas": [
-        {
-            "id": 1,
-            "gunitakshara": "ಚ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 2,
-            "gunitakshara": "ಚಾ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 3,
-            "gunitakshara": "ಚಿ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 4,
-            "gunitakshara": "ಚೀ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 5,
-            "gunitakshara": "ಚು",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 6,
-            "gunitakshara": "ಚೂ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 7,
-            "gunitakshara": "ಚೃ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 8,
-            "gunitakshara": "ಚೆ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 9,
-            "gunitakshara": "ಚೇ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 10,
-            "gunitakshara": "ಚೈ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 11,
-            "gunitakshara": "ಚೊ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 12,
-            "gunitakshara": "ಚೋ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 13,
-            "gunitakshara": "ಚೌ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 14,
-            "gunitakshara": "ಚಂ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        },
-        {
-            "id": 15,
-            "gunitakshara": "ಚಃ",
-            "isAvailable": true,
-            "similarForms": [],
-            "differentForms": []
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "key": "ಚ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 2,
+        "key": "ಚಾ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 3,
+        "key": "ಚಿ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 4,
+        "key": "ಚೀ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 5,
+        "key": "ಚು",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 6,
+        "key": "ಚೂ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 7,
+        "key": "ಚೃ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 8,
+        "key": "ಚೆ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 9,
+        "key": "ಚೇ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 10,
+        "key": "ಚೈ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 11,
+        "key": "ಚೊ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 12,
+        "key": "ಚೋ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 13,
+        "key": "ಚೌ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 14,
+        "key": "ಚಂ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    },
+    {
+        "id": 15,
+        "key": "ಚಃ",
+        "isAvailable": true,
+        "similarForms": [],
+        "differentForms": []
+    }
+]

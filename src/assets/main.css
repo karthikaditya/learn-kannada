@@ -19,6 +19,13 @@ a,
   padding: 20px;
 }
 
+h2 {
+  color: black;
+}
+
+p {
+  color: black;
+}
 
 .flex-container {
   display: flex;

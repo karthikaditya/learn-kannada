@@ -1,84 +1,84 @@
 [
     {
         "id": 1,
-        "gunitakshara": "ಟ",
+        "key": "ಟ",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []
     },
     {
         "id": 2,
-        "gunitakshara": "ಟಾ",
+        "key": "ಟಾ",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []
     },
     {
         "id": 3,
-        "gunitakshara": "ಟಿ",
+        "key": "ಟಿ",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []
     },
     {
         "id": 4,
-        "gunitakshara": "ಟೀ",
+        "key": "ಟೀ",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []
     },
     {
         "id": 5,
-        "gunitakshara": "ಟು",
+        "key": "ಟು",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []
     },
     {
         "id": 6,
-        "gunitakshara": "ಟೂ",
+        "key": "ಟೂ",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []
     },
     {
         "id": 7,
-        "gunitakshara": "ಟೆ",
+        "key": "ಟೆ",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []
     },
     {
         "id": 8,
-        "gunitakshara": "ಟೇ",
+        "key": "ಟೇ",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []
     },
     {
         "id": 9,
-        "gunitakshara": "ಟೈ",
+        "key": "ಟೈ",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []
     },
     {
         "id": 10,
-        "gunitakshara": "ಟೊ",
+        "key": "ಟೊ",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []
     },
     {
         "id": 11,
-        "gunitakshara": "ಟೋ",
+        "key": "ಟೋ",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []
     },
     {
         "id": 12,
-        "gunitakshara": "ಟೌ",
+        "key": "ಟೌ",
         "isAvailable": true,
         "similarForms": [],
         "differentForms": []

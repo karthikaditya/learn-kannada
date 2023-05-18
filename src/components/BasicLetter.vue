@@ -3,11 +3,13 @@
 </script>
 
 <script>
+ 
 export default {
     props: { title: String, image_src: String, showLetterText: Boolean },
     data() {
         return {
-            publicPath: import.meta.env.BASE_URL
+            publicPath: import.meta.env.BASE_URL,
+            imagesFolder: "1300-1400_Kannada_Characters"
         }
     }, methods: {
         myMethod(num) {
@@ -21,7 +23,7 @@ export default {
 <template>
     <div :style="`display: inline-block; border: 2px solid white; margin: 2px`">
         <p v-if="showLetterText">Text</p>
-        <img :src="`${publicPath}./assets/${image_src}`" :alt="`Image text`" :style="`max-height: 250px;
+        <img :src="`${publicPath}./assets/${imagesFolder}/${image_src}`" :alt="`Image text`" :style="`max-height: 250px;
     max-width: 100px; margin: 10px; display: block;`" @click="myMethod(1)">
     </div>
     <!-- <div class="content"> -->

@@ -11,7 +11,8 @@ import LetterForms from './components/LetterForms.vue'
 <template>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <sidebar-menu v-model:collapsed="collapsed" :menu="menu" @update:collapsed="onToggleCollapse" :theme="'white-theme'" />
+  <sidebar-menu v-model:collapsed="collapsed" :menu="menu" @update:collapsed="onToggleCollapse" />
+  <!-- :theme="'white-theme'" -->
   <div v-if="!collapsed" class="sidebar-overlay" @click="collapsed = true"></div>
 
   <div id="demo" :class="[{ collapsed: collapsed }]" :style="`text-align: center;`">

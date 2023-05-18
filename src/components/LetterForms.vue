@@ -88,14 +88,14 @@ export default {
     },
     methods: {
         myMethod(num) {
-            this.selectedLetter = this.jsonData.find(a => a.id == num).alphabet
+            this.selectedLetter = this.jsonData.find(a => a.id == num)
             // alert(num + " image clicked")
         },
         fetchData() {
-            axios.get(`${this.publicPath}./assets/json/swara.json`)
+            axios.get(`${this.publicPath}./assets/json/numbers.json`)
                 .then(response => {
-                    this.jsonData = response.data.letters
-                    this.selectedLetter = this.jsonData[0].alphabet
+                    this.jsonData = response.data.filter(l => l.isAvailable == true)
+                    this.selectedLetter = this.jsonData[0]
 
                 })
                 .catch(error => {
@@ -111,11 +111,12 @@ export default {
     <div class="body-padding" style="margin: auto;">
         <h2>ವರ್ಣಮಾಲೆ</h2>
 
-        <div class="flex-container" style="margin: auto; width: 50%;">
+        <div class="flex-container" style="justify-content: center;">
+            <!-- margin: auto; width: 50%;  -->
             <div class="flex-item-left">
                 <div v-for="item in jsonData" :key="item.id" @click="myMethod(item.id)"
                     :style="`display: inline-block; border: 2px solid white; margin: 2px; padding: 5px;`">
-                    {{ item.alphabet }}
+                    <p>{{ item.key }}</p>
                 </div>
 
             </div>
@@ -127,7 +128,7 @@ export default {
                 <img :src="`${publicPath}./assets/image1.jpg`" :alt="`Image text`">
             </div>
             <div class="right-column">
-                <h1>{{ selectedLetter }}</h1>
+                <h2>{{ selectedLetter.key }}</h2>
                 <!-- <p>Description</p> -->
 
                 <div class="card">
@@ -135,20 +136,20 @@ export default {
 
                     <div class="flex-container">
                         <div class="flex-item-left">
-                            <BasicLetter v-for="post in todos" :key="post.id" :title="post.title" :image_src="post.src"
+                            <BasicLetter v-for="letter in selectedLetter.similarForms" :image_src="letter"
                                 :showLetterText="false" />
                         </div>
 
                     </div>
                 </div>
 
-
+                <!-- v-if="selectedLetter.similarForms.length > 0"  -->
                 <div class="card">
                     <h2>ವಿಭಿನ್ನ ರೂಪಗಳು</h2>
 
                     <div class="flex-container">
                         <div class="flex-item-left">
-                            <BasicLetter v-for="post in todos" :key="post.id" :title="post.title" :image_src="post.src"
+                            <BasicLetter v-for="letter in selectedLetter.differentForms" :image_src="letter"
                                 :showLetterText="false" />
                         </div>
 
