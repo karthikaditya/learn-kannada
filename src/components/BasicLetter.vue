@@ -22,7 +22,7 @@ export default {
 
 <template>
     <div :style="`display: inline-block; border: 2px solid white; margin: 2px`">
-        <p v-if="showLetterText">Text</p>
+        <p v-if="showLetterText">{{title}}</p>
         <img :src="`${publicPath}./assets/${imagesFolder}/${image_src}`" :alt="`Image text`" :style="`max-height: 250px;
     max-width: 100px; margin: 10px; display: block;`" @click="myMethod(1)">
     </div>

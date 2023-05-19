@@ -2,6 +2,7 @@
 
 import ImageFlipCard from '../components/ImageFlipCard.vue'
 import BasicLetter from '../components/BasicLetter.vue'
+import axios from 'axios';
 
 </script>
 
@@ -16,7 +17,8 @@ import BasicLetter from '../components/BasicLetter.vue'
 
             <div class="flex-container">
                 <div class="flex-item-left">
-                    <BasicLetter v-for="post in todos" :key="post.id" :title="post.title" :image_src="post.src" :showLetterText="true"/>
+                    <BasicLetter v-for="letter in swaragalu" :key="letter.id" :title="letter.key" :image_src="letter.baseImage"
+                        :showLetterText="true" />
                 </div>
 
             </div>
@@ -27,24 +29,26 @@ import BasicLetter from '../components/BasicLetter.vue'
 
             <div class="flex-container">
                 <div class="flex-item-left">
-                    <BasicLetter v-for="post in todos" :key="post.id" :title="post.title" :image_src="post.src" :showLetterText="true"/>
+                    <BasicLetter v-for="letter in vyanjanagalu" :key="letter.id" :title="letter.key" :image_src="letter.baseImage"
+                        :showLetterText="true" />
                 </div>
 
             </div>
         </div>
 
-        <div class="card"  >
+        <!-- <div class="card">
             <h2>ಅವರ್ಗೀಯ ವ್ಯಂಗನಗಳು</h2>
 
             <div class="flex-container" style="border: 2px solid white;">
                 <div class="flex-item-left">
-                    <BasicLetter v-for="post in todos" :key="post.id" :title="post.title" :image_src="post.src" :showLetterText="false"/>
+                    <BasicLetter v-for="post in todos" :key="post.id" :title="post.title" :image_src="post.src"
+                        :showLetterText="false" />
                 </div>
 
             </div>
-        </div>
+        </div> -->
 
-        
+
     </div>
     <!-- <div class="row">
         <div class="leftcolumn">
@@ -90,77 +94,22 @@ import BasicLetter from '../components/BasicLetter.vue'
 export default {
     data() {
         return {
-            todos: [
-                {
-                    id: 1,
-                    title: 'Do the dishes',
-                    src: "image1.jpg",
-                },
-                {
-                    id: 2,
-                    src: "image1.jpg",
-                    title: 'Take out the trash'
-                },
-                {
-                    id: 3,
-                    src: "image1.jpg",
-                    title: 'Mow the lawn'
-                },
-                {
-                    id: 1,
-                    title: 'Do the dishes',
-                    src: "image1.jpg",
-                },
-                {
-                    id: 2,
-                    src: "image1.jpg",
-                    title: 'Take out the trash'
-                },
-                {
-                    id: 3,
-                    src: "image1.jpg",
-                    title: 'Mow the lawn'
-                },
-                {
-                    id: 1,
-                    title: 'Do the dishes',
-                    src: "image1.jpg",
-                },
-                {
-                    id: 2,
-                    src: "image1.jpg",
-                    title: 'Take out the trash'
-                },
-                {
-                    id: 3,
-                    src: "image1.jpg",
-                    title: 'Mow the lawn'
-                },
-                {
-                    id: 1,
-                    title: 'Do the dishes',
-                    src: "image1.jpg",
-                },
-                {
-                    id: 2,
-                    src: "image1.jpg",
-                    title: 'Take out the trash'
-                },
-                {
-                    id: 3,
-                    src: "image1.jpg",
-                    title: 'Mow the lawn'
-                }
-            ],
-            methods: {
-                getFilesInFolder() {
-                    const fonts = import.meta.glob('@/assets/*.jpg')
-                    console.log(fonts)
-                    return fonts
-                }
-            }
+            publicPath: import.meta.env.BASE_URL,
+            swaragalu: [],
+            vyanjanagalu: [],
         }
-    }
+    },
+    methods: {
+        fetchData(jsonPath) {
+            return axios.get(`${this.publicPath}${jsonPath}`)
+                .then(response => response.data.filter(l => l.isAvailable == true))
+        },
+    },
+    mounted() {
+        this.fetchData('./assets/json/swara.json').then(data => { this.swaragalu = data });
+        this.fetchData('./assets/json/vyanjana.json').then(data => { this.vyanjanagalu = data });
+
+    },
 }
 </script>
 

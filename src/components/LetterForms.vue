@@ -8,74 +8,12 @@ import BasicLetter from '../components/BasicLetter.vue'
 
 
 export default {
-    props: { title: String, image_src: String, showLetterText: Boolean },
+    props: { jsonPath: String },
     data() {
         return {
             jsonData: [],
             publicPath: import.meta.env.BASE_URL,
-            selectedLetter: '',
-            todos: [
-                {
-                    id: 1,
-                    title: 'Do the dishes',
-                    src: "image1.jpg",
-                },
-                {
-                    id: 2,
-                    src: "image1.jpg",
-                    title: 'Take out the trash'
-                },
-                {
-                    id: 3,
-                    src: "image1.jpg",
-                    title: 'Mow the lawn'
-                },
-                {
-                    id: 1,
-                    title: 'Do the dishes',
-                    src: "image1.jpg",
-                },
-                {
-                    id: 2,
-                    src: "image1.jpg",
-                    title: 'Take out the trash'
-                },
-                {
-                    id: 3,
-                    src: "image1.jpg",
-                    title: 'Mow the lawn'
-                },
-                {
-                    id: 1,
-                    title: 'Do the dishes',
-                    src: "image1.jpg",
-                },
-                {
-                    id: 2,
-                    src: "image1.jpg",
-                    title: 'Take out the trash'
-                },
-                {
-                    id: 3,
-                    src: "image1.jpg",
-                    title: 'Mow the lawn'
-                },
-                {
-                    id: 1,
-                    title: 'Do the dishes',
-                    src: "image1.jpg",
-                },
-                {
-                    id: 2,
-                    src: "image1.jpg",
-                    title: 'Take out the trash'
-                },
-                {
-                    id: 3,
-                    src: "image1.jpg",
-                    title: 'Mow the lawn'
-                }
-            ],
+            selectedLetter: '', 
         }
     },
     mounted() {
@@ -92,7 +30,7 @@ export default {
             // alert(num + " image clicked")
         },
         fetchData() {
-            axios.get(`${this.publicPath}./assets/json/numbers.json`)
+            axios.get(`${this.publicPath}${this.jsonPath}`)
                 .then(response => {
                     this.jsonData = response.data.filter(l => l.isAvailable == true)
                     this.selectedLetter = this.jsonData[0]
@@ -109,14 +47,13 @@ export default {
 
 <template>
     <div class="body-padding" style="margin: auto;">
-        <h2>ವರ್ಣಮಾಲೆ</h2>
 
         <div class="flex-container" style="justify-content: center;">
             <!-- margin: auto; width: 50%;  -->
             <div class="flex-item-left">
                 <div v-for="item in jsonData" :key="item.id" @click="myMethod(item.id)"
                     :style="`display: inline-block; border: 2px solid white; margin: 2px; padding: 5px;`">
-                    <p>{{ item.key }}</p>
+                    <p style="font-size: 32px; padding: 5px; cursor: pointer;">{{ item.key }}</p>
                 </div>
 
             </div>
@@ -125,10 +62,11 @@ export default {
 
         <div class="container">
             <div class="left-column">
-                <img :src="`${publicPath}./assets/image1.jpg`" :alt="`Image text`">
+                <!-- <img :src="`${publicPath}./assets/image1.jpg`" :alt="`Image text`"> -->
+                <h2 style="color: red; background-color: yellow; font-size: 64px;">{{ selectedLetter.key }}</h2>
             </div>
             <div class="right-column">
-                <h2>{{ selectedLetter.key }}</h2>
+                <!-- <h2>{{ selectedLetter.key }}</h2> -->
                 <!-- <p>Description</p> -->
 
                 <div class="card">

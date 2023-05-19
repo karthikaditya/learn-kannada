@@ -1,33 +1,21 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import Learn from './components/Learn.vue'
-
-import About from './components/About.vue'
-import LetterForms from './components/LetterForms.vue'
 
 </script>
 
 <template>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <sidebar-menu v-model:collapsed="collapsed" :menu="menu" @update:collapsed="onToggleCollapse" />
+  <sidebar-menu v-model:collapsed="collapsed" :menu="menu" @update:collapsed="onToggleCollapse" :show-one-child="true"/>
   <!-- :theme="'white-theme'" -->
   <div v-if="!collapsed" class="sidebar-overlay" @click="collapsed = true"></div>
 
   <div id="demo" :class="[{ collapsed: collapsed }]" :style="`text-align: center;`">
-    <component :is="currentView" />
+    <!-- <component :is="currentView" /> -->
+    <router-view />
   </div>
 </template>
 
 <script>
-const routes = {
-  '/': HelloWorld,
-  '/learn': Learn,
-  '/letter-forms': LetterForms,
-  '/about': About
-}
-
 
 export default {
   data() {
@@ -40,77 +28,42 @@ export default {
           hiddenOnCollapse: true
         },
         {
-          href: '#/',
+          href: '/',
           title: 'Home',
           icon: 'fa fa-home'
         },
         {
-          href: '#/learn',
-          title: 'Learn',
-          icon: 'fa fa-university'
+          href: '/learn',
+          title: 'ವರ್ಣಮಾಲೆ',
+          icon: 'fa fa-university',
+          child: [
+            {
+              href: '/learn/AksharaRupagalu',
+              title: 'ಅಕ್ಷರ ರೂಪಗಳು',
+              icon: 'fa fa-university',
+            },
+            {
+              href: '/learn/Gunitaksharagalu',
+              title: 'ಗುಣಿತಾಕ್ಷರಗಳು',
+              icon: 'fa fa-university',
+            },
+            {
+              href: '/learn/Samyuktaksharagalu',
+              title: 'ಸಂಯುಕ್ತಾಕ್ಷರಗಳು',
+              icon: 'fa fa-university',
+            },
+            {
+              href: '/learn/Sankegalu',
+              title: 'ಸಂಖ್ಯೆಗಳು',
+              icon: 'fa fa-university',
+            },
+          ]
         },
         {
-          href: '#/letter-forms',
-          title: 'Letter forms',
-          icon: 'fa fa-university'
-        },
-        {
-          href: '#/about',
+          href: '/about',
           title: 'About',
           icon: 'fa fa-inbox'
         },
-        // {
-        //   href: '/page',
-        //   title: 'Dropdown Page',
-        //   child: [
-        //     {
-        //       href: '/page/sub-page-1',
-        //       title: 'Sub Page 01',
-        //     },
-        //     {
-        //       href: '/page/sub-page-2',
-        //       title: 'Sub Page 02',
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: 'Multiple Level',
-        //   child: [
-        //     {
-        //       title: 'page',
-        //     },
-        //     {
-        //       title: 'Level 2 ',
-        //       child: [
-        //         {
-        //           title: 'page',
-        //         },
-        //         {
-        //           title: 'Page',
-        //         },
-        //       ],
-        //     },
-        //     {
-        //       title: 'Page',
-        //     },
-        //     {
-        //       title: 'Another Level 2',
-        //       child: [
-        //         {
-        //           title: 'Level 3',
-        //           child: [
-        //             {
-        //               title: 'Page',
-        //             },
-        //             {
-        //               title: 'Page',
-        //             },
-        //           ],
-        //         },
-        //       ],
-        //     },
-        //   ],
-        // },
       ],
       methods: {
         onToggleCollapse(collapsed) {
@@ -120,14 +73,14 @@ export default {
     }
   },
   computed: {
-    currentView() {
-      return routes[this.currentPath.slice(1) || '/'] || TheWelcome
-    }
+    // currentView() {
+    //   return routes[this.currentPath.slice(1) || '/'] || TheWelcome
+    // }
   },
   mounted() {
-    window.addEventListener('hashchange', () => {
-      this.currentPath = window.location.hash
-    })
+    // window.addEventListener('hashchange', () => {
+    //   this.currentPath = window.location.hash
+    // })
   }
 }
 </script>

@@ -1,62 +1,122 @@
 [
     {
         "id": 1,
-        "key": "ಅ"
+        "key": "ಅ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 2,
-        "key": "ಆ"
+        "key": "ಆ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 3,
-        "key": "ಇ"
+        "key": "ಇ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 4,
-        "key": "ಈ"
+        "key": "ಈ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 5,
-        "key": "ಉ"
+        "key": "ಉ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 6,
-        "key": "ಊ"
+        "key": "ಊ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 7,
-        "key": "ಋ"
+        "key": "ಋ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 8,
-        "key": "ಎ"
+        "key": "ಎ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 9,
-        "key": "ಏ"
+        "key": "ಏ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 10,
-        "key": "ಐ"
+        "key": "ಐ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 11,
-        "key": "ಒ"
+        "key": "ಒ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 12,
-        "key": "ಓ"
+        "key": "ಓ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 13,
-        "key": "ಔ"
+        "key": "ಔ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 14,
-        "key": "ಅಂ"
+        "key": "ಅಂ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     },
     {
         "id": 15,
-        "key": "ಅಃ"
+        "key": "ಅಃ",
+        "isAvailable": true,
+        "baseImage": "",
+        "similarForms": [],
+        "differentForms": []
     }
 ]
