@@ -1,6 +1,7 @@
 <script setup>
 import axios from 'axios';
-import BasicLetter from '../components/BasicLetter.vue'
+import LetterFormsDisplay from './LetterForms/LetterFormsDisplay.vue';
+import LetterSelector from './LetterForms/LetterSelector.vue'
 
 </script>
 
@@ -13,7 +14,7 @@ export default {
         return {
             jsonData: [],
             publicPath: import.meta.env.BASE_URL,
-            selectedLetter: '', 
+            selectedLetter: '',
         }
     },
     mounted() {
@@ -25,10 +26,6 @@ export default {
         }
     },
     methods: {
-        myMethod(num) {
-            this.selectedLetter = this.jsonData.find(a => a.id == num)
-            // alert(num + " image clicked")
-        },
         fetchData() {
             axios.get(`${this.publicPath}${this.jsonPath}`)
                 .then(response => {
@@ -40,6 +37,10 @@ export default {
                     console.log(error);
                 });
         },
+
+        updateLetter(variable) {
+            this.selectedLetter = variable
+        }
     }
 }
 
@@ -48,74 +49,13 @@ export default {
 <template>
     <div class="body-padding" style="margin: auto;">
 
-        <div class="flex-container" style="justify-content: center;">
-            <!-- margin: auto; width: 50%;  -->
-            <div class="flex-item-left">
-                <div v-for="item in jsonData" :key="item.id" @click="myMethod(item.id)"
-                    :style="`display: inline-block; border: 2px solid white; margin: 2px; padding: 5px;`">
-                    <p style="font-size: 32px; padding: 5px; cursor: pointer;">{{ item.key }}</p>
-                </div>
+        <LetterSelector :jsonData="jsonData" @eventname="updateLetter" />
 
-            </div>
-
-        </div>
-
-        <div class="container">
-            <div class="left-column">
-                <!-- <img :src="`${publicPath}./assets/image1.jpg`" :alt="`Image text`"> -->
-                <h2 style="color: red; background-color: yellow; font-size: 64px;">{{ selectedLetter.key }}</h2>
-            </div>
-            <div class="right-column">
-                <!-- <h2>{{ selectedLetter.key }}</h2> -->
-                <!-- <p>Description</p> -->
-
-                <div class="card">
-                    <h2>ಸಾಮಾನ್ಯ ರೂಪಗಳು</h2>
-
-                    <div class="flex-container">
-                        <div class="flex-item-left">
-                            <BasicLetter v-for="letter in selectedLetter.similarForms" :image_src="letter"
-                                :showLetterText="false" />
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- v-if="selectedLetter.similarForms.length > 0"  -->
-                <div class="card">
-                    <h2>ವಿಭಿನ್ನ ರೂಪಗಳು</h2>
-
-                    <div class="flex-container">
-                        <div class="flex-item-left">
-                            <BasicLetter v-for="letter in selectedLetter.differentForms" :image_src="letter"
-                                :showLetterText="false" />
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
+        <LetterFormsDisplay :selectedLetter="selectedLetter" />
     </div>
 </template>
 
 <style>
-.container {
-    display: flex;
-}
-
-.left-column {
-    flex-basis: 40%;
-    padding: 20px;
-}
-
-.right-column {
-    flex-basis: 60%;
-    padding: 20px;
-}
-
 img {
     max-width: 100%;
 }
