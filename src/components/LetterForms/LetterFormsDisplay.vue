@@ -43,12 +43,12 @@ export default {
 }
 
 .left-column {
-    flex-basis: 40%;
+    flex-basis: 20%;
     padding: 20px;
 }
 
 .right-column {
-    flex-basis: 60%;
+    flex-basis: 80%;
     padding: 20px;
 }
 </style>

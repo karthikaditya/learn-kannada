@@ -187,19 +187,5 @@
     "isAvailable": true,
     "baseImage": "",
     "forms": []
-  },
-  {
-    "id": 49,
-    "key": "ಳ",
-    "isAvailable": true,
-    "baseImage": "",
-    "forms": []
-  },
-  {
-    "id": 50,
-    "key": "ಱ",
-    "isAvailable": true,
-    "baseImage": "",
-    "forms": []
   }
 ]

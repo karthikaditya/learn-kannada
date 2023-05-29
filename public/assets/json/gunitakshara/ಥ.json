@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "key": "ಥ",
+    "isAvailable": true,
+    "forms": [
+      "tha/tha_form1/1336_Bn110_Byadarahalli_10_8_tha.JPG",
+      "tha/tha_form1/1336_Bn110_Byadarahalli_45_9_tha.JPG",
+      "tha/tha_form1/1336_Bn110_Byadarahalli_47_12_tha.JPG",
+      "tha/tha_form1/1336_Bn110_Byadarahalli_9_12_tha.JPG",
+      "tha/tha_form1/1370_IthDar_DoddaGubbi_11_4_tha.jpg",
+      "tha/tha_form1/1388_MG20_HuleLinganaAre_3_7_tha.JPG"
+    ],
+    "IASTform": ""
+  },
+  {
+    "id": 2,
+    "key": "ಥಾ",
+    "isAvailable": true,
+    "forms": [
+      "thā/thā_form1/1336_DV46_Sadenahalli_5_2_thā.JPG",
+      "thā/thā_form1/1340_Bn111_Ramasamudra_16_4_thā.JPG"
+    ],
+    "IASTform": ""
+  },
+  {
+    "id": 3,
+    "key": "ಥಿ",
+    "isAvailable": true,
+    "forms": [
+      "thi/thi_form1/1336_Bn110_Byadarahalli_11_2_thi.JPG",
+      "thi/thi_form1/1340_Bn111_Ramasamudra_3_1_thi.JPG"
+    ],
+    "IASTform": ""
+  },
+  {
+    "id": 4,
+    "key": "ಥೀ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 5,
+    "key": "ಥು",
+    "isAvailable": true,
+    "forms": [
+      "thu/thu_form1/1336_Bn110_Byadarahalli_2_2_thu.JPG"
+    ],
+    "IASTform": ""
+  },
+  {
+    "id": 6,
+    "key": "ಥೂ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 7,
+    "key": "ಥೆ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 8,
+    "key": "ಥೇ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 9,
+    "key": "ಥೊ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 10,
+    "key": "ಥೋ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 11,
+    "key": "ಥೈ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 12,
+    "key": "ಥೌ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 13,
+    "key": "ಥೃ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 14,
+    "key": "ಥಃ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 15,
+    "key": "ಥಂ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  }
+]

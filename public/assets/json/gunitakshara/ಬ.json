@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1,
+    "key": "ಬ",
+    "isAvailable": true,
+    "forms": [
+      "ba/ba_form1/1306_DB52_Isturu_11_18_ba.JPG",
+      "ba/ba_form1/1306_DB52_Isturu_3_19_ba.JPG",
+      "ba/ba_form1/1306_DB52_Isturu_8_17_ba.JPG",
+      "ba/ba_form1/1306_DB52_Isturu_8_3_ba.JPG",
+      "ba/ba_form1/1329_IthDar_Kadatanamale_4_8_ba.JPG",
+      "ba/ba_form1/1329_IthDar_Kadatanamale_5_2_ba.JPG",
+      "ba/ba_form1/1336_Bn110_Byadarahalli_12_13_ba.JPG",
+      "ba/ba_form1/1336_Bn110_Byadarahalli_17_5_ba.JPG",
+      "ba/ba_form1/1336_Bn110_Byadarahalli_19_13_ba.JPG",
+      "ba/ba_form1/1336_Bn110_Byadarahalli_23_3_ba.JPG",
+      "ba/ba_form1/1336_Bn110_Byadarahalli_2_6_ba.JPG",
+      "ba/ba_form1/1336_Bn110_Byadarahalli_31_6_ba.JPG",
+      "ba/ba_form1/1336_Bn110_Byadarahalli_3_13_ba.JPG",
+      "ba/ba_form1/1336_Bn110_Byadarahalli_41_3_ba.JPG",
+      "ba/ba_form1/1336_Bn110_Byadarahalli_47_13_ba.JPG",
+      "ba/ba_form1/1336_Bn110_Byadarahalli_4_9_ba.JPG",
+      "ba/ba_form1/1336_Bn120_Katanayakanapura_11_17_ba.jpg",
+      "ba/ba_form1/1336_Bn120_Katanayakanapura_3_3_ba.jpg",
+      "ba/ba_form1/1336_DV46_Sadenahalli_11_6_ba.JPG",
+      "ba/ba_form1/1336_DV46_Sadenahalli_6_3_ba.JPG",
+      "ba/ba_form1/1336_DV46_Sadenahalli_6_8_ba.JPG",
+      "ba/ba_form1/1340_Bn111_Ramasamudra_14_11_ba.JPG",
+      "ba/ba_form1/1340_Bn111_Ramasamudra_15_14_ba.JPG",
+      "ba/ba_form1/1340_Bn111_Ramasamudra_24_2_ba.JPG",
+      "ba/ba_form1/1340_Bn111_Ramasamudra_25_11_ba.JPG",
+      "ba/ba_form1/1340_Bn111_Ramasamudra_45_9_ba.JPG",
+      "ba/ba_form1/1340_Bn111_Ramasamudra_4_18_ba.JPG",
+      "ba/ba_form1/1340_Bn111_Ramasamudra_51_4_ba.JPG",
+      "ba/ba_form1/1340_Bn111_Ramasamudra_8_13_ba.JPG",
+      "ba/ba_form1/1342_BN21_Jakkur_10_11_ba.jpg",
+      "ba/ba_form1/1342_BN21_Jakkur_20_1_ba.jpg",
+      "ba/ba_form1/1342_BN21_Jakkur_4_8_ba.jpg",
+      "ba/ba_form1/1342_BN24_Ganigarahalli_10_15_ba.JPG",
+      "ba/ba_form1/1342_BN24_Ganigarahalli_12_4_ba.JPG",
+      "ba/ba_form1/1342_BN24_Ganigarahalli_5_7_ba.JPG",
+      "ba/ba_form1/1342_BN24_Ganigarahalli_8_12_ba.JPG",
+      "ba/ba_form1/1363_BN81_AgaraMuseum_15_8_ba.JPG",
+      "ba/ba_form1/1369_CP150_Malurpatna_4_3_ba.JPG",
+      "ba/ba_form1/1369_CP150_Malurpatna_4_9_ba.JPG",
+      "ba/ba_form1/1370_IthDar_DoddaGubbi_11_1_ba.jpg",
+      "ba/ba_form1/1370_IthDar_DoddaGubbi_5_4_ba.jpg",
+      "ba/ba_form1/1370_IthDar_DoddaGubbi_6_4_ba.jpg",
+      "ba/ba_form1/1370_IthDar_DoddaGubbi_8_2_ba.jpg",
+      "ba/ba_form1/1370_IthDar_DoddaGubbi_8_7_ba.jpg",
+      "ba/ba_form1/1382_DV57_Chikkajala_2_3_ba.JPG",
+      "ba/ba_form1/1382_DV57_Chikkajala_7_12_ba.JPG",
+      "ba/ba_form1/1400_Bn90_Begurdoorpost_11_3_ba.jpg",
+      "ba/ba_form1/1400_Hennagara_Unpub_2_3_ba.JPG"
+    ],
+    "IASTform": ""
+  },
+  {
+    "id": 2,
+    "key": "ಬಾ",
+    "isAvailable": true,
+    "forms": [
+      "bā/bā_form1/1363_BN81_AgaraMuseum_12_4_bā.JPG",
+      "bā/bā_form1/1363_BN81_AgaraMuseum_4_3_bā.JPG",
+      "bā/bā_form1/1363_BN81_AgaraMuseum_6_7_bā.JPG"
+    ],
+    "IASTform": ""
+  },
+  {
+    "id": 3,
+    "key": "ಬಿ",
+    "isAvailable": true,
+    "forms": [
+      "bi/bi_form1/1336_Bn110_Byadarahalli_36_10_bi.JPG",
+      "bi/bi_form1/1369_CP150_Malurpatna_9_5_bi.JPG",
+      "bi/bi_form1/1370_IthDar_DoddaGubbi_4_3_bi.jpg",
+      "bi/bi_form1/1382_DV57_Chikkajala_2_4_bi.JPG",
+      "bi/bi_form2/1336_DV46_Sadenahalli_11_1_bi.JPG"
+    ],
+    "IASTform": ""
+  },
+  {
+    "id": 4,
+    "key": "ಬೀ",
+    "isAvailable": true,
+    "forms": [
+      "bī/bī_form1/1336_Bn110_Byadarahalli_20_8_bī.JPG",
+      "bī/bī_form1/1369_CP150_Malurpatna_5_5_bī.JPG"
+    ],
+    "IASTform": ""
+  },
+  {
+    "id": 5,
+    "key": "ಬು",
+    "isAvailable": true,
+    "forms": [
+      "bu/bu_form1/1329_IthDar_Kadatanamale_3_4_bu.JPG",
+      "bu/bu_form1/1336_Bn110_Byadarahalli_10_11_bu.JPG",
+      "bu/bu_form1/1336_Bn110_Byadarahalli_1_6_bu.JPG",
+      "bu/bu_form1/1336_Bn110_Byadarahalli_26_14_bu.JPG",
+      "bu/bu_form1/1336_DV46_Sadenahalli_6_1_bu.JPG",
+      "bu/bu_form1/1342_BN24_Ganigarahalli_3_10_bu.JPG",
+      "bu/bu_form1/1353_IthDar_Bidarahalli_6_4_bu.JPG",
+      "bu/bu_form1/1353_IthDar_Bidarahalli_9_5_bu.JPG",
+      "bu/bu_form1/1363_BN81_AgaraMuseum_3_1_bu.JPG",
+      "bu/bu_form1/1363_BN81_AgaraMuseum_5_4_bu.JPG",
+      "bu/bu_form1/1369_CP150_Malurpatna_3_3_bu.JPG",
+      "bu/bu_form1/1369_CP150_Malurpatna_7_17_bu.JPG",
+      "bu/bu_form1/1388_MG20_HuleLinganaAre_2_32_bu.JPG",
+      "bu/bu_form1/1400_Bommenhallli_Unpub_8_3_bu.JPG"
+    ],
+    "IASTform": ""
+  },
+  {
+    "id": 6,
+    "key": "ಬೂ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 7,
+    "key": "ಬೆ",
+    "isAvailable": true,
+    "forms": [
+      "be/be_form1/1400_Bn90_Begurdoorpost_2_7_be.jpg",
+      "be/be_form2/1336_Bn110_Byadarahalli_6_10_be.JPG"
+    ],
+    "IASTform": ""
+  },
+  {
+    "id": 8,
+    "key": "ಬೇ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 9,
+    "key": "ಬೊ",
+    "isAvailable": true,
+    "forms": [
+      "bo/bo_form1/1336_Bn110_Byadarahalli_48_3_bo.JPG",
+      "bo/bo_form1/1340_Bn111_Ramasamudra_50_5_bo.JPG",
+      "bo/bo_form1/1342_BN24_Ganigarahalli_12_12_bo.JPG"
+    ],
+    "IASTform": ""
+  },
+  {
+    "id": 10,
+    "key": "ಬೋ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 11,
+    "key": "ಬೈ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 12,
+    "key": "ಬೌ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 13,
+    "key": "ಬೃ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 14,
+    "key": "ಬಃ",
+    "isAvailable": false,
+    "forms": [],
+    "IASTform": ""
+  },
+  {
+    "id": 15,
+    "key": "ಬಂ",
+    "isAvailable": true,
+    "forms": [
+      "baṃ/baṃ_form1/1336_Bn110_Byadarahalli_14_3_baṃ.JPG",
+      "baṃ/baṃ_form1/1370_IthDar_DoddaGubbi_4_9_baṃ.jpg",
+      "baṃ/baṃ_form1/1388_MG20_HuleLinganaAre_3_1_baṃ.JPG",
+      "baṃ/baṃ_form1/1400_Bommenhallli_Unpub_10_3_baṃ.JPG"
+    ],
+    "IASTform": ""
+  }
+]

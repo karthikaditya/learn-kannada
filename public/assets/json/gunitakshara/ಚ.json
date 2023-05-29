@@ -1,107 +1,154 @@
 [
-    {
-        "id": 1,
-        "key": "ಚ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 2,
-        "key": "ಚಾ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 3,
-        "key": "ಚಿ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 4,
-        "key": "ಚೀ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 5,
-        "key": "ಚು",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 6,
-        "key": "ಚೂ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 7,
-        "key": "ಚೃ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 8,
-        "key": "ಚೆ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 9,
-        "key": "ಚೇ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 10,
-        "key": "ಚೈ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 11,
-        "key": "ಚೊ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 12,
-        "key": "ಚೋ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 13,
-        "key": "ಚೌ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 14,
-        "key": "ಚಂ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 15,
-        "key": "ಚಃ",
-        "isAvailable": true,
-        "forms": []
-  
-    }
+  {
+    "id": 1,
+    "key": "ಚ",
+    "isAvailable": true,
+    "forms": [
+      "ca/ca_form1/ca_form1/1306_DB52_Isturu_6_8_ca.JPG",
+      "ca/ca_form1/ca_form1/1306_DB52_Isturu_8_11_ca.JPG",
+      "ca/ca_form1/ca_form1/1329_IthDar_Kadatanamale_15_12_ca.JPG",
+      "ca/ca_form1/ca_form1/1329_IthDar_Kadatanamale_3_11_ca.JPG",
+      "ca/ca_form1/ca_form1/1336_Bn110_Byadarahalli_18_6_ca.JPG",
+      "ca/ca_form1/ca_form1/1336_Bn110_Byadarahalli_29_1_ca.JPG",
+      "ca/ca_form1/ca_form1/1336_Bn110_Byadarahalli_9_1_ca.JPG",
+      "ca/ca_form1/ca_form1/1336_Bn120_Katanayakanapura_6_13_ca.jpg",
+      "ca/ca_form1/ca_form1/1336_DV46_Sadenahalli_5_4_ca.JPG",
+      "ca/ca_form1/ca_form1/1340_Bn111_Ramasamudra_13_16_ca.JPG",
+      "ca/ca_form1/ca_form1/1340_Bn111_Ramasamudra_14_1_ca.JPG",
+      "ca/ca_form1/ca_form1/1340_Bn111_Ramasamudra_15_1_ca.JPG",
+      "ca/ca_form1/ca_form1/1342_BN21_Jakkur_16_9_ca.jpg",
+      "ca/ca_form1/ca_form1/1342_BN21_Jakkur_19_2_ca.jpg",
+      "ca/ca_form1/ca_form1/1342_BN24_Ganigarahalli_16_18_ca.JPG",
+      "ca/ca_form1/ca_form1/1342_BN24_Ganigarahalli_17_13_ca.JPG",
+      "ca/ca_form1/ca_form1/1342_BN24_Ganigarahalli_3_4_ca.JPG",
+      "ca/ca_form1/ca_form1/1342_BN24_Ganigarahalli_4_6_ca.JPG",
+      "ca/ca_form1/ca_form1/1353_IthDar_Bidarahalli_5_6_ca.JPG",
+      "ca/ca_form1/ca_form1/1363_BN81_AgaraMuseum_13_9_ca.JPG",
+      "ca/ca_form1/ca_form1/1400_Bommenhallli_Unpub_4_5_ca.JPG",
+      "ca/ca_form1/ca_form2/1342_BN24_Ganigarahalli_12_6_ca.JPG",
+      "ca/ca_form1/ca_form2/1369_CP150_Malurpatna_2_13_ca.JPG"
+    ]
+  },
+  {
+    "id": 2,
+    "key": "ಚಾ",
+    "isAvailable": true,
+    "forms": [
+      "cā/cā_form1/1306_DB52_Isturu_7_9_cā.JPG",
+      "cā/cā_form1/1336_Bn110_Byadarahalli_15_12_cā.JPG",
+      "cā/cā_form1/1336_Bn110_Byadarahalli_15_3_cā.JPG",
+      "cā/cā_form1/1340_Bn111_Ramasamudra_13_8_cā.JPG",
+      "cā/cā_form1/1340_Bn111_Ramasamudra_7_10_cā.JPG",
+      "cā/cā_form1/1345_Dv3_Jalige_4_6_cā.jpg",
+      "cā/cā_form1/1370_IthDar_DoddaGubbi_5_2_cā.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "key": "ಚಿ",
+    "isAvailable": true,
+    "forms": [
+      "ci/ci_form1/1329_IthDar_Kadatanamale_12_8_ci.JPG",
+      "ci/ci_form1/1336_DV46_Sadenahalli_2_8_ci.JPG",
+      "ci/ci_form1/1342_BN21_Jakkur_10_9_ci.jpg",
+      "ci/ci_form1/1342_BN21_Jakkur_2_1_ci.jpg",
+      "ci/ci_form1/1342_BN24_Ganigarahalli_11_13_ci.JPG",
+      "ci/ci_form1/1342_BN24_Ganigarahalli_2_5_ci.JPG",
+      "ci/ci_form1/1342_BN24_Ganigarahalli_8_10_ci.JPG",
+      "ci/ci_form2/1336_Bn110_Byadarahalli_27_15_ci.JPG",
+      "ci/ci_form2/1336_Bn110_Byadarahalli_29_3_ci.JPG",
+      "ci/ci_form2/1336_Bn110_Byadarahalli_31_8_ci.JPG",
+      "ci/ci_form2/1369_CP150_Malurpatna_14_10_ci.JPG"
+    ]
+  },
+  {
+    "id": 4,
+    "key": "ಚೀ",
+    "isAvailable": false,
+    "forms": []
+  },
+  {
+    "id": 5,
+    "key": "ಚು",
+    "isAvailable": true,
+    "forms": [
+      "cu/cu_form1/1306_DB52_Isturu_4_5_cu.JPG"
+    ]
+  },
+  {
+    "id": 6,
+    "key": "ಚೂ",
+    "isAvailable": true,
+    "forms": [
+      "cū/cū_form1/1336_Bn110_Byadarahalli_5_3_cū.JPG",
+      "cū/cū_form1/1340_Bn111_Ramasamudra_5_6_cū.JPG"
+    ]
+  },
+  {
+    "id": 7,
+    "key": "ಚೃ",
+    "isAvailable": false,
+    "forms": []
+  },
+  {
+    "id": 8,
+    "key": "ಚೆ",
+    "isAvailable": false,
+    "forms": []
+  },
+  {
+    "id": 9,
+    "key": "ಚೇ",
+    "isAvailable": false,
+    "forms": []
+  },
+  {
+    "id": 10,
+    "key": "ಚೈ",
+    "isAvailable": false,
+    "forms": []
+  },
+  {
+    "id": 11,
+    "key": "ಚೊ",
+    "isAvailable": true,
+    "forms": [
+      "co/co_form1/1306_DB52_Isturu_7_2_co.JPG",
+      "co/co_form1/1336_Bn110_Byadarahalli_14_8_co.JPG",
+      "co/co_form1/1340_Bn111_Ramasamudra_13_1_co.JPG",
+      "co/co_form1/1342_BN24_Ganigarahalli_9_13_co.JPG"
+    ]
+  },
+  {
+    "id": 12,
+    "key": "ಚೋ",
+    "isAvailable": false,
+    "forms": []
+  },
+  {
+    "id": 13,
+    "key": "ಚೌ",
+    "isAvailable": false,
+    "forms": []
+  },
+  {
+    "id": 14,
+    "key": "ಚಂ",
+    "isAvailable": true,
+    "forms": [
+      "caṃ/caṃ_form1/1306_DB52_Isturu_5_7_caṃ.JPG",
+      "caṃ/caṃ_form1/1329_IthDar_Kadatanamale_17_6_caṃ.JPG",
+      "caṃ/caṃ_form1/1336_Bn110_Byadarahalli_24_15_caṃ.JPG",
+      "caṃ/caṃ_form1/1336_Bn110_Byadarahalli_7_7_caṃ.JPG",
+      "caṃ/caṃ_form1/1340_Bn111_Ramasamudra_10_12_caṃ.JPG",
+      "caṃ/caṃ_form1/1340_Bn111_Ramasamudra_43_14_caṃ.JPG",
+      "caṃ/caṃ_form1/1363_BN81_AgaraMuseum_15_1_caṃ.JPG"
+    ]
+  },
+  {
+    "id": 15,
+    "key": "ಚಃ",
+    "isAvailable": false,
+    "forms": []
+  }
 ]
