@@ -13,7 +13,7 @@ export default {
             fileName: ''
         }
     }, methods: {
-        myMethod(num) {
+        letterClicked(num) {
             alert(num + " image clicked")
         }
     }, mounted() {
@@ -31,7 +31,7 @@ export default {
         <!-- border: 2px solid lightgray; -->
         <p v-if="showLetterText">{{ title }}</p>
         <img :src="`${publicPath}./assets/${imagesFolder}/${image_src}`" :alt="`Image text`" :style="`max-height: 250px;
-    max-width: 100px; display: block; width: 100%;height: 100px;object-fit: fill;`" @click="myMethod(1)"
+    max-width: 100px; display: block; width: 100%;height: 100px;object-fit: fill;`" @click="letterClicked(`${image_src}`)"
             :title="`${fileName}`">
     </div>
     <!-- <div class="content"> -->

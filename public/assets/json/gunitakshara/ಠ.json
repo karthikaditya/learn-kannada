@@ -1,26 +1,8 @@
 [
   {
-    "id": 1,
-    "key": "ಗ",
-    "isAvailable": true,
-    "forms": []
-  },
-  {
-    "id": 2,
-    "key": "ಗಾ",
-    "isAvailable": true,
-    "forms": []
-  },
-  {
-    "id": 3,
-    "key": "ಗಿ",
-    "isAvailable": true,
-    "forms": []
-  },
-  {
     "id": 4,
     "key": "ಠ",
-    "isAvailable": false,
+    "isAvailable": true,
     "forms": [
       "ṭha/ṭha_form1/1336_Bn110_Byadarahalli_10_2_ṭha.JPG",
       "ṭha/ṭha_form1/1388_MG20_HuleLinganaAre_3_4_ṭha.JPG"
@@ -37,7 +19,7 @@
   {
     "id": 6,
     "key": "ಠಿ",
-    "isAvailable": false,
+    "isAvailable": true,
     "forms": [
       "ṭhi/ṭhi_form1/1306_DB52_Isturu_6_18_ṭhi.JPG"
     ],
@@ -46,7 +28,7 @@
   {
     "id": 7,
     "key": "ಠೀ",
-    "isAvailable": false,
+    "isAvailable": true,
     "forms": [
       "ṭhī/ṭhī_form1/1340_Bn111_Ramasamudra_12_1_ṭhī.JPG"
     ],

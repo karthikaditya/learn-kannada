@@ -1,30 +1,39 @@
 [
     {
-        "id": 1,
-        "key": "ಗೊಂ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 2,
+        "id": 26,
+        "IASTform": "gga",
         "key": "ಗ್ಗ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "gga/gga_form1/1306_DB52_Isturu_6_5_gga.JPG",
+            "gga/gga_form1/1382_DV57_Chikkajala_7_9_gga.JPG"
+        ]
     },
     {
-        "id": 3,
+        "id": 28,
+        "IASTform": "gna",
         "key": "ಗ್ನ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "gna/gna_form1/1336_Bn110_Byadarahalli_5_2_gna.JPG"
+        ]
     },
     {
-        "id": 4,
+        "id": 29,
+        "IASTform": "grā",
         "key": "ಗ್ರಾ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "grā/grā_form1/1382_DV57_Chikkajala_7_2_grā.JPG"
+        ]
+    },
+    {
+        "id": 30,
+        "IASTform": "gŏṃ",
+        "key": "ಗೊಂ",
+        "isAvailable": true,
+        "forms": [
+            "gŏṃ/gŏṃ_form1/1340_Bn111_Ramasamudra_40_9_gŏṃ.JPG"
+        ]
     }
 ]

@@ -1,0 +1,51 @@
+[
+    {
+        "id": 31,
+        "IASTform": "hiṃ",
+        "key": "ಹಿಂ",
+        "isAvailable": true,
+        "forms": [
+            "hiṃ/hiṃ_form1/1369_CP150_Malurpatna_8_9_hiṃ.JPG"
+        ]
+    },
+    {
+        "id": 32,
+        "IASTform": "hka",
+        "key": "ಹ್ಕ",
+        "isAvailable": true,
+        "forms": [
+            "hka/hka_form1/1342_BN21_Jakkur_7_9_hka.jpg"
+        ]
+    },
+    {
+        "id": 33,
+        "IASTform": "hma",
+        "key": "ಹ್ಮ",
+        "isAvailable": true,
+        "forms": [
+            "hma/hma_form1/1336_Bn110_Byadarahalli_13_8_hma.JPG"
+        ]
+    },
+    {
+        "id": 34,
+        "IASTform": "hĕṃ",
+        "key": "ಹೆಂ",
+        "isAvailable": true,
+        "forms": [
+            "hĕṃ/hĕṃ_form1/1336_Bn110_Byadarahalli_13_2_hĕṃ.JPG"
+        ]
+    },
+    {
+        "id": 35,
+        "IASTform": "hŏṃ",
+        "key": "ಹೊಂ",
+        "isAvailable": true,
+        "forms": [
+            "hŏṃ/hŏṃ_form1/1336_Bn110_Byadarahalli_27_6_hŏṃ.JPG",
+            "hŏṃ/hŏṃ_form1/1336_Bn110_Byadarahalli_28_2_hŏṃ.JPG",
+            "hŏṃ/hŏṃ_form1/1336_Bn110_Byadarahalli_29_5_hŏṃ.JPG",
+            "hŏṃ/hŏṃ_form1/1336_Bn110_Byadarahalli_30_12_hŏṃ.JPG",
+            "hŏṃ/hŏṃ_form1/1340_Bn111_Ramasamudra_42_11_hŏṃ.JPG"
+        ]
+    }
+]

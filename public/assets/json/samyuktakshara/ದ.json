@@ -1,111 +1,176 @@
 [
     {
-        "id": 1,
-        "key": "ದಾಂ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 2,
-        "key": "ದಿಂ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 3,
-        "key": "ದುಂ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 4,
+        "id": 9,
+        "IASTform": "dda",
         "key": "ದ್ದ",
         "isAvailable": true,
-        "forms": []
-  
-    },{
-        "id": 5,
-        "key": "ದ್ದೆ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 6,
-        "key": "ದ್ಧ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 7,
-        "key": "ದ್ಧಾ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 8,
-        "key": "ದ್ಧಿ",
-        "isAvailable": true,
-        "forms": []
-  
-    },{
-        "id": 9,
-        "key": "ದ್ಯು",
-        "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "dda/dda_form1/1336_Bn120_Katanayakanapura_4_4_dda.jpg",
+            "dda/dda_form1/1336_Bn120_Katanayakanapura_5_6_dda.jpg",
+            "dda/dda_form1/1353_IthDar_Bidarahalli_11_4_dda.JPG",
+            "dda/dda_form1/1363_BN81_AgaraMuseum_13_7_dda.JPG",
+            "dda/dda_form2/1329_IthDar_Kadatanamale_16_11_dda.JPG",
+            "dda/dda_form2/1336_Bn110_Byadarahalli_25_14_dda.JPG",
+            "dda/dda_form2/1342_BN21_Jakkur_15_7_dda.jpg"
+        ]
     },
     {
         "id": 10,
-        "key": "ದ್ರ",
+        "IASTform": "ddha",
+        "key": "ದ್ಧ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "ddha/ddha_form1/1340_Bn111_Ramasamudra_23_12_ddha.JPG",
+            "ddha/ddha_form1/1400_Bommenhallli_Unpub_5_3_ddha.JPG",
+            "ddha/ddha_form2/1345_Dv3_Jalige_3_4_ddha.jpg"
+        ]
     },
     {
         "id": 11,
-        "key": "ದ್ರಾ",
+        "IASTform": "ddhi",
+        "key": "ದ್ಧಿ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "ddhi/ddhi_form1/1306_DB52_Isturu_6_1_ddhi.JPG",
+            "ddhi/ddhi_form2/1340_Bn111_Ramasamudra_11_11_ddhi.JPG"
+        ]
     },
     {
         "id": 12,
-        "key": "ದ್ರಾಂ",
+        "IASTform": "ddhā",
+        "key": "ದ್ಧಾ",
         "isAvailable": true,
-        "forms": []
-  
-    },{
+        "forms": [
+            "ddhā/ddhā_form1/1369_CP150_Malurpatna_11_16_ddhā.JPG"
+        ]
+    },
+    {
         "id": 13,
-        "key": "ದ್ರೋ",
+        "IASTform": "ddĕ",
+        "key": "ದ್ದೆ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "ddĕ/ddĕ_form1/1342_BN21_Jakkur_15_5_ddĕ.jpg",
+            "ddĕ/ddĕ_form1/1363_BN81_AgaraMuseum_13_5_ddĕ.JPG"
+        ]
     },
     {
         "id": 14,
-        "key": "ದ್ವಾ",
+        "IASTform": "dhya",
+        "key": "ಧ್ಯ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "dhya/dhya_form1/1369_CP150_Malurpatna_5_20_dhya.JPG"
+        ]
     },
     {
         "id": 15,
-        "key": "ದ್ವಿ",
+        "IASTform": "diṃ",
+        "key": "ದಿಂ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "diṃ/diṃ_form1/1336_Bn110_Byadarahalli_21_2_diṃ.JPG",
+            "diṃ/diṃ_form1/1340_Bn111_Ramasamudra_16_8_diṃ.JPG",
+            "diṃ/diṃ_form1/1369_CP150_Malurpatna_13_13_diṃ.JPG"
+        ]
     },
     {
         "id": 16,
+        "IASTform": "dra",
+        "key": "ದ್ರ",
+        "isAvailable": true,
+        "forms": [
+            "dra/dra_form1/1329_IthDar_Kadatanamale_17_7_dra.JPG",
+            "dra/dra_form1/1340_Bn111_Ramasamudra_41_14_dra.JPG",
+            "dra/dra_form1/1340_Bn111_Ramasamudra_9_5_dra.JPG",
+            "dra/dra_form2/1336_Bn110_Byadarahalli_20_6_dra.JPG",
+            "dra/dra_form2/1369_CP150_Malurpatna_7_11_dra.JPG"
+        ]
+    },
+    {
+        "id": 17,
+        "IASTform": "dro",
+        "key": "ದ್ರೋ",
+        "isAvailable": true,
+        "forms": [
+            "dro/dro_form1/1340_Bn111_Ramasamudra_20_12_dro.JPG"
+        ]
+    },
+    {
+        "id": 18,
+        "IASTform": "drā",
+        "key": "ದ್ರಾ",
+        "isAvailable": true,
+        "forms": [
+            "drā/drā_form1/1340_Bn111_Ramasamudra_43_15_drā.JPG",
+            "drā/drā_form1/1342_BN24_Ganigarahalli_17_15_drā.JPG",
+            "drā/drā_form1/1369_CP150_Malurpatna_2_17_drā.JPG",
+            "drā/drā_form2/1342_BN21_Jakkur_19_4_drā.jpg",
+            "drā/drā_form2/1363_BN81_AgaraMuseum_15_2_drā.JPG"
+        ]
+    },
+    {
+        "id": 19,
+        "IASTform": "drāṃ",
+        "key": "ದ್ರಾಂ",
+        "isAvailable": true,
+        "forms": [
+            "drāṃ/drāṃ_form1/1340_Bn111_Ramasamudra_9_12_drāṃ.JPG"
+        ]
+    },
+    {
+        "id": 20,
+        "IASTform": "duṃ",
+        "key": "ದುಂ",
+        "isAvailable": true,
+        "forms": [
+            "duṃ/duṃ_form1/1382_DV57_Chikkajala_2_2_duṃ.JPG"
+        ]
+    },
+    {
+        "id": 21,
+        "IASTform": "dvi",
+        "key": "ದ್ವಿ",
+        "isAvailable": true,
+        "forms": [
+            "dvi/dvi_form1/1306_DB52_Isturu_3_21_dvi.JPG"
+        ]
+    },
+    {
+        "id": 22,
+        "IASTform": "dviṃ",
         "key": "ದ್ವಿಂ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "dviṃ/dviṃ_form1/1336_Bn110_Byadarahalli_4_11_dviṃ.JPG"
+        ]
+    },
+    {
+        "id": 23,
+        "IASTform": "dvā",
+        "key": "ದ್ವಾ",
+        "isAvailable": true,
+        "forms": [
+            "dvā/dvā_form1/1306_DB52_Isturu_3_3_dvā.JPG",
+            "dvā/dvā_form1/1340_Bn111_Ramasamudra_4_2_dvā.JPG"
+        ]
+    },
+    {
+        "id": 24,
+        "IASTform": "dyu",
+        "key": "ದ್ಯು",
+        "isAvailable": true,
+        "forms": [
+            "dyu/dyu_form1/1340_Bn111_Ramasamudra_4_20_dyu.JPG"
+        ]
+    },
+    {
+        "id": 25,
+        "IASTform": "dāṃ",
+        "key": "ದಾಂ",
+        "isAvailable": true,
+        "forms": [
+            "dāṃ/dāṃ_form1/1306_DB52_Isturu_9_25_dāṃ.JPG"
+        ]
     }
 ]

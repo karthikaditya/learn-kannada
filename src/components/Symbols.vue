@@ -5,9 +5,9 @@ import LetterForms from './LetterForms/LetterForms.vue';
 
 <template>
     <div class="body-padding" style="margin: auto;">
-        <h2>ಸಂಖ್ಯೆಗಳು</h2>
+        <h2>ಚಿಹ್ನೆಗಳು</h2>
 
-        <LetterForms :jsonPath="`./assets/json/numbers.json`" :showImage="true"/>
+        <LetterForms :jsonPath="`./assets/json/symbols.json`" :showImage="false" />
     </div>
 </template>
 

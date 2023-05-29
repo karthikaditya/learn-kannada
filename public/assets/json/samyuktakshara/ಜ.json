@@ -1,37 +1,77 @@
 [
     {
-        "id": 1,
+        "id": 37,
+        "IASTform": "juṃ",
         "key": "ಜುಂ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "juṃ/juṃ_form1/1336_Bn120_Katanayakanapura_2_4_juṃ.JPG"
+        ]
     },
     {
-        "id": 1,
+        "id": 38,
+        "IASTform": "jya",
         "key": "ಜ್ಯ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "jya/jya_form1/1306_DB52_Isturu_6_25_jya.JPG",
+            "jya/jya_form1/1306_DB52_Isturu_7_5_jya.JPG",
+            "jya/jya_form1/1306_DB52_Isturu_8_28_jya.JPG",
+            "jya/jya_form1/1340_Bn111_Ramasamudra_12_16_jya.JPG",
+            "jya/jya_form1/1340_Bn111_Ramasamudra_12_8_jya.JPG",
+            "jya/jya_form1/1342_BN21_Jakkur_6_5_jya.jpg",
+            "jya/jya_form1/1342_BN24_Ganigarahalli_6_13_jya.JPG",
+            "jya/jya_form1/1363_BN81_AgaraMuseum_8_12_jya.JPG",
+            "jya/jya_form1/1400_Bommenhallli_Unpub_9_2_jya.JPG"
+        ]
     },
     {
-        "id": 2,
+        "id": 39,
+        "IASTform": "jyaṃ",
         "key": "ಜ್ಯಂ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "jyaṃ/jyaṃ_form1/1329_IthDar_Kadatanamale_8_2_ jyaṃ.JPG",
+            "jyaṃ/jyaṃ_form1/1336_Bn110_Byadarahalli_21_7_jyaṃ.JPG",
+            "jyaṃ/jyaṃ_form1/1336_DV46_Sadenahalli_9_2_jyaṃ.JPG",
+            "jyaṃ/jyaṃ_form1/1340_Bn111_Ramasamudra_16_12_jyaṃ.JPG",
+            "jyaṃ/jyaṃ_form1/1340_Bn111_Ramasamudra_44_9_jyaṃ.JPG",
+            "jyaṃ/jyaṃ_form1/1353_IthDar_Bidarahalli_10_7_jyaṃ.JPG",
+            "jyaṃ/jyaṃ_form1/1363_BN81_AgaraMuseum_7_3_jyaṃ.JPG",
+            "jyaṃ/jyaṃ_form1/1369_CP150_Malurpatna_3_12_jyaṃ.JPG",
+            "jyaṃ/jyaṃ_form1/1369_CP150_Malurpatna_6_10_jyaṃ.JPG"
+        ]
     },
     {
-        "id": 3,
-        "key": "ಜ್ಯಾ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 4,
+        "id": 40,
+        "IASTform": "jye",
         "key": "ಜ್ಯೇ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "jye/jye_form1/1329_IthDar_Kadatanamale_2_10_jye.JPG",
+            "jye/jye_form1/1336_DV46_Sadenahalli_3_10_jye.JPG",
+            "jye/jye_form1/1363_BN81_AgaraMuseum_2_9_jye.JPG"
+        ]
+    },
+    {
+        "id": 41,
+        "IASTform": "jyā",
+        "key": "ಜ್ಯಾ",
+        "isAvailable": true,
+        "forms": [
+            "jyā/jyā_form1/1340_Bn111_Ramasamudra_17_1_jyā.JPG"
+        ]
+    },
+    {
+        "id": 42,
+        "IASTform": "jī",
+        "key": "ಜೀ",
+        "isAvailable": true,
+        "forms": [
+            "jī/jī_form1/1336_Bn110_Byadarahalli_12_11_jī.JPG",
+            "jī/jī_form1/1340_Bn111_Ramasamudra_38_13_jī.JPG",
+            "jī/jī_form1/1342_BN24_Ganigarahalli_12_17_jī.JPG",
+            "jī/jī_form1/1363_BN81_AgaraMuseum_10_2_jī.JPG"
+        ]
     }
 ]

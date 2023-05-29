@@ -1,135 +1,117 @@
 [
     {
-        "id": 1,
-        "key": "ಕಾಂ",
+        "id": 43,
+        "IASTform": "kaṃ",
+        "key": "ಕಂ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "kaṃ/kaṃ_form1/1336_Bn110_Byadarahalli_17_6_kaṃ.JPG",
+            "kaṃ/kaṃ_form1/1336_Bn110_Byadarahalli_48_6_kaṃ.JPG",
+            "kaṃ/kaṃ_form1/1336_Bn110_Byadarahalli_4_2_kaṃ.JPG",
+            "kaṃ/kaṃ_form1/1340_Bn111_Ramasamudra_11_21_kaṃ.JPG",
+            "kaṃ/kaṃ_form1/1353_IthDar_Bidarahalli_9_6_kaṃ.JPG",
+            "kaṃ/kaṃ_form1/1363_BN81_AgaraMuseum_5_14_kaṃ.JPG",
+            "kaṃ/kaṃ_form1/1363_BN81_AgaraMuseum_7_9_kaṃ.JPG",
+            "kaṃ/kaṃ_form2/1306_DB52_Isturu_3_2_kaṃ.JPG",
+            "kaṃ/kaṃ_form2/1306_DB52_Isturu_6_17_kaṃ.JPG",
+            "kaṃ/kaṃ_form3/1369_CP150_Malurpatna_3_4_kaṃ.JPG",
+            "kaṃ/kaṃ_form3/1369_CP150_Malurpatna_9_7_kaṃ.JPG"
+        ]
     },
     {
-        "id": 2,
-        "key": "ಕುಂ",
+        "id": 44,
+        "IASTform": "ke",
+        "key": "ಕೇ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "ke/ke_form1/1340_Bn111_Ramasamudra_50_7_ke.JPG",
+            "ke/ke_form1/1382_DV57_Chikkajala_3_12_ke.JPG"
+        ]
     },
     {
-        "id": 3,
-        "key": "ಕೊಂ",
+        "id": 45,
+        "IASTform": "khya",
+        "key": "ಖ್ಯ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "khya/khya_form1/1369_CP150_Malurpatna_4_20_khya.JPG"
+        ]
     },
     {
-        "id": 4,
+        "id": 46,
+        "IASTform": "kka",
         "key": "ಕ್ಕ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "kka/kka_form1/1329_IthDar_Kadatanamale_10_5_kka.JPG",
+            "kka/kka_form1/1329_IthDar_Kadatanamale_11_7_kka.JPG",
+            "kka/kka_form1/1329_IthDar_Kadatanamale_14_10_kka.JPG",
+            "kka/kka_form1/1336_Bn120_Katanayakanapura_2_11_kka.JPG",
+            "kka/kka_form1/1336_Bn120_Katanayakanapura_2_14_kka.JPG",
+            "kka/kka_form1/1336_Bn120_Katanayakanapura_5_3_kka.jpg",
+            "kka/kka_form1/1340_Bn111_Ramasamudra_49_5_kka.JPG",
+            "kka/kka_form1/1340_Bn111_Ramasamudra_50_17_kka.JPG",
+            "kka/kka_form1/1342_BN21_Jakkur_10_10_kka.jpg",
+            "kka/kka_form1/1342_BN24_Ganigarahalli_14_12_kka.JPG",
+            "kka/kka_form1/1353_IthDar_Bidarahalli_12_4_kka.JPG",
+            "kka/kka_form1/1363_BN81_AgaraMuseum_5_5_kka.JPG",
+            "kka/kka_form1/1363_BN81_AgaraMuseum_9_11_kka.JPG",
+            "kka/kka_form1/1382_DV57_Chikkajala_5_6_kka.JPG",
+            "kka/kka_form1/1388_MG20_HuleLinganaAre_2_33_kka.JPG",
+            "kka/kka_form2/1336_Bn110_Byadarahalli_25_6_kka.JPG",
+            "kka/kka_form2/1336_Bn110_Byadarahalli_26_7_kka.JPG",
+            "kka/kka_form2/1336_Bn110_Byadarahalli_27_13_kka.JPG",
+            "kka/kka_form2/1336_Bn110_Byadarahalli_29_4_kka.JPG",
+            "kka/kka_form2/1336_Bn110_Byadarahalli_33_10_kka.JPG",
+            "kka/kka_form2/1336_Bn110_Byadarahalli_33_6_kka.JPG",
+            "kka/kka_form2/1336_Bn110_Byadarahalli_40_15_kka.JPG",
+            "kka/kka_form2/1336_Bn110_Byadarahalli_43_10_kka.JPG",
+            "kka/kka_form2/1336_Bn110_Byadarahalli_43_7_kka.JPG",
+            "kka/kka_form2/1340_Bn111_Ramasamudra_20_8_kka.JPG",
+            "kka/kka_form2/1342_BN24_Ganigarahalli_8_11_kka.JPG",
+            "kka/kka_form3/1400_Bommenhallli_Unpub_8_4_kka.JPG"
+        ]
     },
     {
-        "id": 5,
-        "key": "ಕ್ಕ೦",
+        "id": 47,
+        "IASTform": "kkaṃ",
+        "key": "ಕ್ಕಂ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "kkaṃ/kkaṃ_form1/1336_Bn110_Byadarahalli_27_16_kkaṃ.JPG",
+            "kkaṃ/kkaṃ_form1/1336_Bn110_Byadarahalli_29_9_kkaṃ.JPG"
+        ]
     },
     {
-        "id": 6,
-        "key": "ಕ್ಕಾ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 7,
+        "id": 48,
+        "IASTform": "kki",
         "key": "ಕ್ಕಿ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "kki/kki_form1/1340_Bn111_Ramasamudra_42_14_kki.JPG"
+        ]
     },
     {
-        "id": 8,
-        "key": "ಕ್ಕೂ",
+        "id": 49,
+        "IASTform": "kkā",
+        "key": "ಕ್ಕಾ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "kkā/kkā_form1/1370_IthDar_DoddaGubbi_6_3_kkā.jpg"
+        ]
     },
     {
-        "id": 9,
+        "id": 50,
+        "IASTform": "kkĕ",
         "key": "ಕ್ಕೆ",
         "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 10,
-        "key": "ಕೈ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 11,
-        "key": "ಕ್ಕೊ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 12,
-        "key": "ಕ್ತ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 13,
-        "key": "ಕ್ರ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 14,
-        "key": "ಕ್ರು",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 15,
-        "key": "ಕ್ರೇ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 16,
-        "key": "ಕ್ಲ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 17,
-        "key": "ಕ್ಷ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 18,
-        "key": "ಕ್ಷಿ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 19,
-        "key": "ಕ್ಷು",
-        "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "kkĕ/kkĕ_form1/1336_Bn120_Katanayakanapura_6_9_kkĕ.jpg",
+            "kkĕ/kkĕ_form1/1336_Bn120_Katanayakanapura_7_8_kkĕ.jpg",
+            "kkĕ/kkĕ_form1/1336_Bn120_Katanayakanapura_9_16_kkĕ.jpg",
+            "kkĕ/kkĕ_form1/1336_Bn120_Katanayakanapura_9_2_kkĕ.jpg",
+            "kkĕ/kkĕ_form2/1340_Bn111_Ramasamudra_41_18_kkĕ.JPG",
+            "kkĕ/kkĕ_form2/1340_Bn111_Ramasamudra_45_8_kkĕ.JPG"
+        ]
     }
 ]

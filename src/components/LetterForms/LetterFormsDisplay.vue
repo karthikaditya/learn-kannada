@@ -1,11 +1,11 @@
 <script setup>
-import BasicLetter from '../../components/BasicLetter.vue'
+import BasicLetter from '../../components/LetterForms/BasicLetter.vue'
 
 </script>
 
 <template>
     <div class="container">
-        <div class="left-column">
+        <div v-if="showImage" class="left-column">
             <!-- <img :src="`${publicPath}./assets/image1.jpg`" :alt="`Image text`"> -->
             <h2 style="color: red; background-color: yellow; font-size: 64px;">{{ selectedLetter.key }}</h2>
         </div>
@@ -14,15 +14,12 @@ import BasicLetter from '../../components/BasicLetter.vue'
             <!-- <p>Description</p> -->
 
             <!-- <div class="card"> -->
-                <h2>ರೂಪಗಳು</h2>
+            <!-- <h2>ರೂಪಗಳು</h2> -->
 
-                <div class="flex-container">
-                    <!-- <div class="flex-item-left"> -->
-                        <BasicLetter v-for="letter in selectedLetter.forms" :image_src="letter"
-                            :showLetterText="false" />
-                    <!-- </div> -->
+            <div class="flex-container">
+                <BasicLetter v-for="letter in selectedLetter.forms" :image_src="letter" :showLetterText="false" />
 
-                </div>
+            </div>
             <!-- </div> -->
         </div>
     </div>
@@ -30,7 +27,7 @@ import BasicLetter from '../../components/BasicLetter.vue'
 
 <script>
 export default {
-    props: { selectedLetter: Object },
+    props: { selectedLetter: Object, showImage: Boolean },
     data() {
         return {}
     }

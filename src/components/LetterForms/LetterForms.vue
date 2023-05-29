@@ -1,7 +1,7 @@
 <script setup>
 import axios from 'axios';
-import LetterFormsDisplay from './LetterForms/LetterFormsDisplay.vue';
-import LetterSelector from './LetterForms/LetterSelector.vue'
+import LetterFormsDisplay from './LetterFormsDisplay.vue';
+import LetterSelector from './LetterSelector.vue'
 
 </script>
 
@@ -9,7 +9,7 @@ import LetterSelector from './LetterForms/LetterSelector.vue'
 
 
 export default {
-    props: { jsonPath: String },
+    props: { jsonPath: String, showImage: Boolean },
     data() {
         return {
             jsonData: [],
@@ -49,23 +49,12 @@ export default {
 <template>
     <div class="body-padding" style="margin: auto;">
 
-        <LetterSelector :jsonData="jsonData" @eventname="updateLetter" />
+        <LetterSelector v-if="showImage" :jsonData="jsonData" @eventname="updateLetter" />
 
-        <LetterFormsDisplay :selectedLetter="selectedLetter" />
+        <LetterFormsDisplay :selectedLetter="selectedLetter" :showImage="showImage"/>
     </div>
 </template>
 
 <style>
-img {
-    max-width: 100%;
-}
 
-h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 16px;
-}
 </style>

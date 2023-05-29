@@ -5,7 +5,7 @@
 <template>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <sidebar-menu v-model:collapsed="collapsed" :menu="menu" @update:collapsed="onToggleCollapse" :show-one-child="true"/>
+  <sidebar-menu v-model:collapsed="collapsed" :menu="menu" @update:collapsed="onToggleCollapse" :show-one-child="true" />
   <!-- :theme="'white-theme'" -->
   <div v-if="!collapsed" class="sidebar-overlay" @click="collapsed = true"></div>
 
@@ -35,7 +35,7 @@ export default {
         {
           href: '/learn',
           title: 'ವರ್ಣಮಾಲೆ',
-          icon: 'fa fa-university',
+          icon: 'fa fa-book',
           child: [
             {
               href: '/learn/AksharaRupagalu',
@@ -45,17 +45,22 @@ export default {
             {
               href: '/learn/Gunitaksharagalu',
               title: 'ಗುಣಿತಾಕ್ಷರಗಳು',
-              icon: 'fa fa-university',
+              icon: 'fa fa-list-ul',
             },
             {
               href: '/learn/Samyuktaksharagalu',
               title: 'ಸಂಯುಕ್ತಾಕ್ಷರಗಳು',
-              icon: 'fa fa-university',
+              icon: 'fa fa-subscript',
             },
             {
               href: '/learn/Sankegalu',
               title: 'ಸಂಖ್ಯೆಗಳು',
-              icon: 'fa fa-university',
+              icon: 'fa fa-sliders',
+            }, 
+            {
+              href: '/learn/Symbols',
+              title: 'ಚಿಹ್ನೆಗಳು',
+              icon: 'fa fa-star',
             },
           ]
         },

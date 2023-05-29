@@ -1,5 +1,5 @@
 <script setup>
-import LetterForms from './LetterForms.vue';
+import LetterForms from './LetterForms/LetterForms.vue';
 
 </script>
 
@@ -7,9 +7,9 @@ import LetterForms from './LetterForms.vue';
     <div class="body-padding" style="margin: auto;">
         <h2>ಅಕ್ಷರ ರೂಪಗಳು</h2>
 
-        <LetterForms :jsonPath="`./assets/json/swara.json`"/>
+        <LetterForms :jsonPath="`./assets/json/swara.json`" :showImage="true"/>
 
-        <LetterForms :jsonPath="`./assets/json/vyanjana.json`"/>
+        <!-- <LetterForms :jsonPath="`./assets/json/vyanjana.json`"/> -->
 
     </div>
 </template>

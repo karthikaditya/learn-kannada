@@ -1,23 +1,32 @@
 [
     {
-        "id": 1,
-        "key": "ಚೆಂ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 2,
+        "id": 6,
+        "IASTform": "cca",
         "key": "ಚ್ಚ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "cca/cca_form1/1342_BN21_Jakkur_3_8_cca.jpg"
+        ]
     },
     {
-        "id": 3,
+        "id": 7,
+        "IASTform": "csa",
         "key": "ಚ್ಸ",
         "isAvailable": true,
-        "forms": []
-  
+        "forms": [
+            "csa/csa_form1/1336_Bn120_Katanayakanapura_1_5_csa.JPG"
+        ]
+    },
+    {
+        "id": 8,
+        "IASTform": "cĕṃ",
+        "key": "ಚೆಂ",
+        "isAvailable": true,
+        "forms": [
+            "cĕṃ/cĕṃ_form1/1336_Bn110_Byadarahalli_33_7_cĕṃ.JPG",
+            "cĕṃ/cĕṃ_form1/1340_Bn111_Ramasamudra_37_1_cĕṃ.JPG",
+            "cĕṃ/cĕṃ_form1/1340_Bn111_Ramasamudra_43_5_cĕṃ.JPG",
+            "cĕṃ/cĕṃ_form2/1336_Bn110_Byadarahalli_40_10_cĕṃ.JPG"
+        ]
     }
 ]
