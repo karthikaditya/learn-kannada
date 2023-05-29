@@ -13,33 +13,17 @@ import BasicLetter from '../../components/BasicLetter.vue'
             <!-- <h2>{{ selectedLetter.key }}</h2> -->
             <!-- <p>Description</p> -->
 
-            <div class="card">
-                <h2>ಸಾಮಾನ್ಯ ರೂಪಗಳು</h2>
+            <!-- <div class="card"> -->
+                <h2>ರೂಪಗಳು</h2>
 
                 <div class="flex-container">
-                    <div class="flex-item-left">
-                        <BasicLetter v-for="letter in selectedLetter.similarForms" :image_src="letter"
+                    <!-- <div class="flex-item-left"> -->
+                        <BasicLetter v-for="letter in selectedLetter.forms" :image_src="letter"
                             :showLetterText="false" />
-                    </div>
+                    <!-- </div> -->
 
                 </div>
-            </div>
-
-            <!-- v-if="selectedLetter.similarForms.length > 0"  -->
-            <div class="card">
-                <h2>ವಿಭಿನ್ನ ರೂಪಗಳು</h2>
-
-                <div class="flex-container">
-                    <div class="flex-item-left">
-                        <BasicLetter v-for="letter in selectedLetter.differentForms" :image_src="letter"
-                            :showLetterText="false" />
-                    </div>
-
-                </div>
-            </div>
-
-
-
+            <!-- </div> -->
         </div>
     </div>
 </template>

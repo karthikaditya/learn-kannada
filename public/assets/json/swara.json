@@ -4,119 +4,119 @@
         "key": "ಅ",
         "isAvailable": true,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": ["a/a_form1/1336_Bn110_Byadarahalli_36_11_a.JPG","a/a_form1/1336_Bn110_Byadarahalli_44_16_a.JPG","a/a_form1/1336_Bn120_Katanayakanapura_11_5_a.jpg","a/a_form1/1336_Bn120_Katanayakanapura_7_9_a.jpg","a/a_form1/1340_Bn111_Ramasamudra_10_14_a.JPG","a/a_form1/1340_Bn111_Ramasamudra_42_15_a.JPG","a/a_form1/1340_Bn111_Ramasamudra_50_19_a.JPG","a/a_form1/1369_CP150_Malurpatna_14_18_a.JPG","a/a_form1/1369_CP150_Malurpatna_1_13_a.JPG","a/a_form1/1382_DV57_Chikkajala_4_12_a.JPG","a/a_form1/1400_Bn90_Begurdoorpost_8_5_a.jpg","a/a_form2/1336_Bn110_Byadarahalli_10_6_a.JPG","a/a_form2/1340_Bn111_Ramasamudra_39_13_a.JPG","a/a_form2/1342_BN21_Jakkur_12_10_a.jpg","a/a_form2/1342_BN24_Ganigarahalli_12_14_a.JPG","a/a_form2/1342_BN24_Ganigarahalli_14_14_a.JPG","a/a_form2/1342_BN24_Ganigarahalli_9_3_a.JPG","a/a_form2/1382_DV57_Chikkajala_8_5_a.JPG","a/a_form3/1363_BN81_AgaraMuseum_3_13_a.JPG","a/a_form3/1363_BN81_AgaraMuseum_9_14_a.JPG","a/a_form3/1382_DV57_Chikkajala_3_6_a.JPG","a/a_form3/1388_MG20_HuleLinganaAre_1_2_a.JPG","a/a_form3/1400_Hennagara_Unpub_3_6_a.JPG"]
+  
     },
     {
         "id": 2,
         "key": "ಆ",
         "isAvailable": true,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": ["ā/ā_form1/1329_IthDar_Kadatanamale_17_4_ā.JPG","ā/ā_form1/1336_Bn110_Byadarahalli_13_12_ā.JPG","ā/ā_form1/1336_Bn110_Byadarahalli_25_16_ā.JPG","ā/ā_form1/1336_Bn110_Byadarahalli_39_13_ā.JPG","ā/ā_form1/1336_Bn110_Byadarahalli_44_14_ā.JPG","ā/ā_form1/1336_Bn110_Byadarahalli_7_9_ā.JPG","ā/ā_form1/1342_BN21_Jakkur_2_6_ā.jpg","ā/ā_form1/1345_Dv3_Jalige_3_6_ā.jpg","ā/ā_form1/1353_IthDar_Bidarahalli_11_6_ā.JPG","ā/ā_form1/1369_CP150_Malurpatna_7_18_ā.JPG","ā/ā_form1/1370_IthDar_DoddaGubbi_7_5_ā.jpg","ā/ā_form1/1400_Bommenhallli_Unpub_11_5_ā.JPG","ā/ā_form2/1369_CP150_Malurpatna_15_24_ā.JPG","ā/ā_form3/1369_CP150_Malurpatna_14_12_ā.JPG"]
+  
     },
     {
         "id": 3,
         "key": "ಇ",
         "isAvailable": true,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": ["i/i_form1/1340_Bn111_Ramasamudra_37_10_i.JPG","i/i_form1/1340_Bn111_Ramasamudra_46_1_i.JPG","i/i_form1/1370_IthDar_DoddaGubbi_10_5_i.jpg","i/i_form1/1400_Bommenhallli_Unpub_6_8_i.JPG"]
+  
     },
     {
         "id": 4,
         "key": "ಈ",
         "isAvailable": true,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": ["ī/ī_form1/1340_Bn111_Ramasamudra_47_11_ī.JPG"]
+  
     },
     {
         "id": 5,
         "key": "ಉ",
         "isAvailable": true,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": ["u/u_form1/1329_IthDar_Kadatanamale_5_10_u.JPG","u/u_form1/1329_IthDar_Kadatanamale_8_5_u.JPG","u/u_form1/1336_DV46_Sadenahalli_9_5_u.JPG","u/u_form1/1369_CP150_Malurpatna_12_3_u.JPG","u/u_form1/1369_CP150_Malurpatna_15_4_u.JPG","u/u_form1/1369_CP150_Malurpatna_16_12_u.JPG","u/u_form1/1369_CP150_Malurpatna_3_15_u.JPG","u/u_form1/1369_CP150_Malurpatna_6_13_u.JPG","u/u_form1/1400_Bn90_Begurdoorpost_5_3_u.jpg","u/u_form1/1400_Bn90_Begurdoorpost_7_2_u.jpg","u/u_form2/1340_Bn111_Ramasamudra_7_2_u.JPG","u/u_form2/1342_BN21_Jakkur_5_6_u.jpg"]
+  
     },
     {
         "id": 6,
         "key": "ಊ",
         "isAvailable": true,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": ["ū/ū_form1/1329_IthDar_Kadatanamale_11_3_ū.JPG","ū/ū_form1/1329_IthDar_Kadatanamale_12_3_ū.JPG"]
+  
     },
     {
         "id": 7,
         "key": "ಋ",
-        "isAvailable": true,
+        "isAvailable": false,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 8,
         "key": "ಎ",
         "isAvailable": true,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": ["ĕ/ĕ_form1/1329_IthDar_Kadatanamale_11_4_ĕ.JPG","ĕ/ĕ_form1/1329_IthDar_Kadatanamale_14_7_ĕ.JPG","ĕ/ĕ_form1/1342_BN21_Jakkur_7_7_ĕ.jpg","ĕ/ĕ_form1/1353_IthDar_Bidarahalli_12_3_ĕ.JPG","ĕ/ĕ_form1/1353_IthDar_Bidarahalli_3_3_ĕ.JPG","ĕ/ĕ_form1/1363_BN81_AgaraMuseum_9_8_ĕ.JPG","ĕ/ĕ_form1/1370_IthDar_DoddaGubbi_2_1_ĕ.jpg"]
+  
     },
     {
         "id": 9,
         "key": "ಏ",
         "isAvailable": true,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": ["e/e_form1/1306_DB52_Isturu_5_9_e.JPG","e/e_form1/1336_Bn110_Byadarahalli_40_4_e.JPG","e/e_form1/1336_Bn110_Byadarahalli_8_1_e.JPG","e/e_form1/1340_Bn111_Ramasamudra_11_1_e.JPG","e/e_form1/1342_BN21_Jakkur_17_4_e.jpg"]
+  
     },
     {
         "id": 10,
         "key": "ಐ",
-        "isAvailable": true,
+        "isAvailable": false,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 11,
         "key": "ಒ",
         "isAvailable": true,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": ["ŏ/ŏ_form1/1400_Bommenhallli_Unpub_8_6_ŏ.JPG"]
+  
     },
     {
         "id": 12,
         "key": "ಓ",
-        "isAvailable": true,
+        "isAvailable": false,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 13,
         "key": "ಔ",
-        "isAvailable": true,
+        "isAvailable": false,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 14,
         "key": "ಅಂ",
         "isAvailable": true,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": ["aṃ/aṃ _form1/1336_Bn120_Katanayakanapura_10_4_aṃ.jpg"]
+  
     },
     {
         "id": 15,
         "key": "ಅಃ",
-        "isAvailable": true,
+        "isAvailable": false,
         "baseImage": "",
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     }
 ]

@@ -9,9 +9,10 @@ defineProps({
 
 <template>
   <div class="body-padding">
-    <h2>Hello world</h2>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+    <h2>The Mythic Society</h2>
+    <p>The Mythic Society is a pioneering institution of Indic studies in South India, founded in 1909</p>
+
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FThe.Mythic.Society.1909&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     <!-- <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>

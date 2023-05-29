@@ -1,105 +1,77 @@
 [
     {
         "id": 1,
-        "key": "ಗ",
+        "key": "ತಿಂ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 2,
-        "key": "ಗಾ",
+        "key": "ತುಃ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 3,
-        "key": "ಗಿ",
+        "key": "ತೆಂ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 4,
-        "key": "ಗೀ",
+        "key": "ತ್ತ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 5,
-        "key": "ಗು",
+        "key": "ತ್ತಿ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 6,
-        "key": "ಗೂ",
+        "key": "ತ್ತೂ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 7,
-        "key": "ಗೃ",
+        "key": "ತ್ತ್ಯ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 8,
-        "key": "ಗೆ",
+        "key": "ತ್ಯ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 9,
-        "key": "ಗೇ",
+        "key": "ತ್ರ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 10,
-        "key": "ಗೈ",
+        "key": "ತ್ವಿ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 11,
-        "key": "ಗೊ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 12,
-        "key": "ಗೋ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 13,
-        "key": "ಗೌ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 14,
-        "key": "ಗಂ",
-        "isAvailable": true,
-        "forms": []
-  
-    },
-    {
-        "id": 15,
-        "key": "ಗಃ",
+        "key": "ತ್ಸ",
         "isAvailable": true,
         "forms": []
   

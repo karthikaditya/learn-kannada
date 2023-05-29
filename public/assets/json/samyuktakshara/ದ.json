@@ -1,105 +1,109 @@
 [
     {
         "id": 1,
-        "key": "ಗ",
+        "key": "ದಾಂ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 2,
-        "key": "ಗಾ",
+        "key": "ದಿಂ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 3,
-        "key": "ಗಿ",
+        "key": "ದುಂ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 4,
-        "key": "ಗೀ",
+        "key": "ದ್ದ",
         "isAvailable": true,
         "forms": []
   
-    },
-    {
+    },{
         "id": 5,
-        "key": "ಗು",
+        "key": "ದ್ದೆ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 6,
-        "key": "ಗೂ",
+        "key": "ದ್ಧ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 7,
-        "key": "ಗೃ",
+        "key": "ದ್ಧಾ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 8,
-        "key": "ಗೆ",
+        "key": "ದ್ಧಿ",
         "isAvailable": true,
         "forms": []
   
-    },
-    {
+    },{
         "id": 9,
-        "key": "ಗೇ",
+        "key": "ದ್ಯು",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 10,
-        "key": "ಗೈ",
+        "key": "ದ್ರ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 11,
-        "key": "ಗೊ",
+        "key": "ದ್ರಾ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 12,
-        "key": "ಗೋ",
+        "key": "ದ್ರಾಂ",
         "isAvailable": true,
         "forms": []
   
-    },
-    {
+    },{
         "id": 13,
-        "key": "ಗೌ",
+        "key": "ದ್ರೋ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 14,
-        "key": "ಗಂ",
+        "key": "ದ್ವಾ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 15,
-        "key": "ಗಃ",
+        "key": "ದ್ವಿ",
+        "isAvailable": true,
+        "forms": []
+  
+    },
+    {
+        "id": 16,
+        "key": "ದ್ವಿಂ",
         "isAvailable": true,
         "forms": []
   

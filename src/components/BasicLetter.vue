@@ -3,28 +3,36 @@
 </script>
 
 <script>
- 
+
 export default {
     props: { title: String, image_src: String, showLetterText: Boolean },
     data() {
         return {
             publicPath: import.meta.env.BASE_URL,
-            imagesFolder: "1300-1400_Kannada_Characters"
+            imagesFolder: "1300-1400_Kannada_Characters",
+            fileName: ''
         }
     }, methods: {
         myMethod(num) {
             alert(num + " image clicked")
         }
+    }, mounted() {
+        let indx = this.image_src.lastIndexOf("/");
+        let result = this.image_src.substring(indx + 1);
+        let dotIdx = result.lastIndexOf(".");
+        this.fileName = result.substring(0, dotIdx);
     }
 }
 
 </script>
 
 <template>
-    <div :style="`display: inline-block; border: 2px solid white; margin: 2px`">
-        <p v-if="showLetterText">{{title}}</p>
+    <div :style="`display: inline-block; margin: 2px; box-shadow: 5px 5px 5px gray; width: 100px;`">
+        <!-- border: 2px solid lightgray; -->
+        <p v-if="showLetterText">{{ title }}</p>
         <img :src="`${publicPath}./assets/${imagesFolder}/${image_src}`" :alt="`Image text`" :style="`max-height: 250px;
-    max-width: 100px; margin: 10px; display: block;`" @click="myMethod(1)">
+    max-width: 100px; display: block; width: 100%;height: 100px;object-fit: fill;`" @click="myMethod(1)"
+            :title="`${fileName}`">
     </div>
     <!-- <div class="content"> -->
 

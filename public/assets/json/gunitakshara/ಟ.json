@@ -3,84 +3,84 @@
         "id": 1,
         "key": "ಟ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 2,
         "key": "ಟಾ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 3,
         "key": "ಟಿ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 4,
         "key": "ಟೀ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 5,
         "key": "ಟು",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 6,
         "key": "ಟೂ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 7,
         "key": "ಟೆ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 8,
         "key": "ಟೇ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 9,
         "key": "ಟೈ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 10,
         "key": "ಟೊ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 11,
         "key": "ಟೋ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 12,
         "key": "ಟೌ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     }
 ]

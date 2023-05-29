@@ -1,105 +1,133 @@
 [
     {
         "id": 1,
-        "key": "ಗ",
+        "key": "ಕಾಂ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 2,
-        "key": "ಗಾ",
+        "key": "ಕುಂ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 3,
-        "key": "ಗಿ",
+        "key": "ಕೊಂ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 4,
-        "key": "ಗೀ",
+        "key": "ಕ್ಕ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 5,
-        "key": "ಗು",
+        "key": "ಕ್ಕ೦",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 6,
-        "key": "ಗೂ",
+        "key": "ಕ್ಕಾ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 7,
-        "key": "ಗೃ",
+        "key": "ಕ್ಕಿ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 8,
-        "key": "ಗೆ",
+        "key": "ಕ್ಕೂ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 9,
-        "key": "ಗೇ",
+        "key": "ಕ್ಕೆ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 10,
-        "key": "ಗೈ",
+        "key": "ಕೈ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 11,
-        "key": "ಗೊ",
+        "key": "ಕ್ಕೊ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 12,
-        "key": "ಗೋ",
+        "key": "ಕ್ತ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 13,
-        "key": "ಗೌ",
+        "key": "ಕ್ರ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 14,
-        "key": "ಗಂ",
+        "key": "ಕ್ರು",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 15,
-        "key": "ಗಃ",
+        "key": "ಕ್ರೇ",
+        "isAvailable": true,
+        "forms": []
+  
+    },
+    {
+        "id": 16,
+        "key": "ಕ್ಲ",
+        "isAvailable": true,
+        "forms": []
+  
+    },
+    {
+        "id": 17,
+        "key": "ಕ್ಷ",
+        "isAvailable": true,
+        "forms": []
+  
+    },
+    {
+        "id": 18,
+        "key": "ಕ್ಷಿ",
+        "isAvailable": true,
+        "forms": []
+  
+    },
+    {
+        "id": 19,
+        "key": "ಕ್ಷು",
         "isAvailable": true,
         "forms": []
   

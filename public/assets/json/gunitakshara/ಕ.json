@@ -3,105 +3,105 @@
         "id": 1,
         "key": "ಕ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "ka"
     },
     {
         "id": 2,
         "key": "ಕಾ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "kā"
     },
     {
         "id": 3,
         "key": "ಕಿ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "ki"
     },
     {
         "id": 4,
         "key": "ಕೀ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "kī"
     },
     {
         "id": 5,
         "key": "ಕು",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "ku"
     },
     {
         "id": 6,
         "key": "ಕೂ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "kū"
     },
     {
         "id": 7,
         "key": "ಕೃ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "kṛ"
     },
     {
         "id": 8,
         "key": "ಕೆ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "ke"
     },
     {
         "id": 9,
         "key": "ಕೇ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "kē"
     },
     {
         "id": 10,
         "key": "ಕೈ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "kai"
     },
     {
         "id": 11,
         "key": "ಕೊ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "ko"
     },
     {
         "id": 12,
         "key": "ಕೋ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "kō"
     },
     {
         "id": 13,
         "key": "ಕೌ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "kau"
     },
     {
         "id": 14,
         "key": "ಕಂ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "kaṁ"
     },
     {
         "id": 15,
         "key": "ಕಃ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": [],
+        "IASTform": "kaḥ"
     }
 ]

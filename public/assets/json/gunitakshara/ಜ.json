@@ -3,84 +3,84 @@
         "id": 1,
         "key": "ಜ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 2,
         "key": "ಜಾ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 3,
         "key": "ಜಿ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 4,
         "key": "ಜೀ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 5,
         "key": "ಜು",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 6,
         "key": "ಜೂ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 7,
         "key": "ಜೆ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 8,
         "key": "ಜೇ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 9,
         "key": "ಜೈ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 10,
         "key": "ಜೊ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 11,
         "key": "ಜೋ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     },
     {
         "id": 12,
         "key": "ಜೌ",
         "isAvailable": true,
-        "similarForms": [],
-        "differentForms": []
+        "forms": []
+  
     }
 ]

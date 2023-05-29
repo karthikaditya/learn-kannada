@@ -1,21 +1,28 @@
 [
     {
         "id": 1,
-        "key": "ಗ",
+        "key": "ಗೊಂ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 2,
-        "key": "ಗಾ",
+        "key": "ಗ್ಗ",
         "isAvailable": true,
         "forms": []
   
     },
     {
         "id": 3,
-        "key": "ಗಿ",
+        "key": "ಗ್ನ",
+        "isAvailable": true,
+        "forms": []
+  
+    },
+    {
+        "id": 4,
+        "key": "ಗ್ರಾ",
         "isAvailable": true,
         "forms": []
   

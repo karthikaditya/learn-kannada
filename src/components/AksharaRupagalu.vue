@@ -8,6 +8,9 @@ import LetterForms from './LetterForms.vue';
         <h2>ಅಕ್ಷರ ರೂಪಗಳು</h2>
 
         <LetterForms :jsonPath="`./assets/json/swara.json`"/>
+
+        <LetterForms :jsonPath="`./assets/json/vyanjana.json`"/>
+
     </div>
 </template>
 
