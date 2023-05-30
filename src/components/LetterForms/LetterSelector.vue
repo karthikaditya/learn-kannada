@@ -28,7 +28,8 @@ export default {
         <div class="flex-item-left">
             <div v-for="item in jsonData" :key="item.id" @click="selectLetter(item.id)"
                 :style="`display: inline-block; border: 2px solid white; margin: 2px; padding: 5px;`">
-                <p style="font-size: 32px; padding: 5px; cursor: pointer;">{{ item.key }}</p>
+                <p :style="[selectedLetter.id === item.id ? { 'border-bottom': '3px solid red' } : {  }]"
+                    style="font-size: 32px; padding: 5px; cursor: pointer;">{{ item.key }}</p>
             </div>
 
         </div>

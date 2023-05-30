@@ -16,11 +16,12 @@ import BasicLetter from '../../components/LetterForms/BasicLetter.vue'
             <!-- <div class="card"> -->
             <!-- <h2>ರೂಪಗಳು</h2> -->
 
-            <div v-for="group in groupedLetters" class="flex-container">
+            <div v-for="group in groupedLetters" class="flex-container-parent">
 
-                <p>{{ group[0] }}</p>
-                <BasicLetter v-for="letter in group[1]" :image_src="letter.path" :showLetterText="false" />
-
+                <h2 style="border-bottom: 2px solid red;">{{ getGroupName(group[0]) }}</h2>
+                <div class="flex-container">
+                    <BasicLetter v-for="letter in group[1]" :image_src="letter.path" :showLetterText="false" />
+                </div>
             </div>
             <!-- </div> -->
         </div>
@@ -62,6 +63,10 @@ export default {
 
         getLetterForForm(formId) {
             return this.groupedLetters.get(formId)
+        },
+
+        getGroupName(formId){
+            return "ರೂಪ " + formId.substr(-1)
         }
 
     }, mounted() {
