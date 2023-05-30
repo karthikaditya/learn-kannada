@@ -3,41 +3,97 @@
     "id": 1,
     "key": "ಟ",
     "isAvailable": true,
-    "forms": [
-      "ṭa/ṭa_form1/1336_Bn110_Byadarahalli_17_1_ṭa.JPG",
-      "ṭa/ṭa_form1/1340_Bn111_Ramasamudra_47_15_ṭa.JPG",
-      "ṭa/ṭa_form1/1342_BN21_Jakkur_21_8_ṭa.jpg",
-      "ṭa/ṭa_form1/1388_MG20_HuleLinganaAre_3_2_ṭa.JPG",
-      "ṭa/ṭa_form2/1363_BN81_AgaraMuseum_11_4_ṭa.JPG"
+    "forms": [],
+    "letterForms": [
+      {
+        "id": 1,
+        "form": "ṭa_form1",
+        "path": "ṭa/ṭa_form1/1336_Bn110_Byadarahalli_17_1_ṭa.JPG"
+      },
+      {
+        "id": 2,
+        "form": "ṭa_form1",
+        "path": "ṭa/ṭa_form1/1340_Bn111_Ramasamudra_47_15_ṭa.JPG"
+      },
+      {
+        "id": 3,
+        "form": "ṭa_form1",
+        "path": "ṭa/ṭa_form1/1342_BN21_Jakkur_21_8_ṭa.jpg"
+      },
+      {
+        "id": 4,
+        "form": "ṭa_form1",
+        "path": "ṭa/ṭa_form1/1388_MG20_HuleLinganaAre_3_2_ṭa.JPG"
+      },
+      {
+        "id": 5,
+        "form": "ṭa_form2",
+        "path": "ṭa/ṭa_form2/1363_BN81_AgaraMuseum_11_4_ṭa.JPG"
+      }
     ]
   },
   {
     "id": 2,
     "key": "ಟಾ",
     "isAvailable": true,
-    "forms": [
-      "ṭā/ṭā_form1/1306_DB52_Isturu_2_19_ṭā.JPG",
-      "ṭā/ṭā_form1/1336_Bn110_Byadarahalli_3_14_ṭā.JPG",
-      "ṭā/ṭā_form1/1340_Bn111_Ramasamudra_40_14_ṭā.JPG"
+    "forms": [],
+    "letterForms": [
+      {
+        "id": 1,
+        "form": "ṭā_form1",
+        "path": "ṭā/ṭā_form1/1306_DB52_Isturu_2_19_ṭā.JPG"
+      },
+      {
+        "id": 2,
+        "form": "ṭā_form1",
+        "path": "ṭā/ṭā_form1/1336_Bn110_Byadarahalli_3_14_ṭā.JPG"
+      },
+      {
+        "id": 3,
+        "form": "ṭā_form1",
+        "path": "ṭā/ṭā_form1/1340_Bn111_Ramasamudra_40_14_ṭā.JPG"
+      }
     ]
   },
   {
     "id": 3,
     "key": "ಟಿ",
     "isAvailable": true,
-    "forms": [
-      "ṭi/ṭi_form1/1336_Bn110_Byadarahalli_36_2_ṭi.JPG",
-      "ṭi/ṭi_form1/1336_Bn110_Byadarahalli_40_7_ṭi.JPG",
-      "ṭi/ṭi_form1/1340_Bn111_Ramasamudra_23_9_ṭi.JPG",
-      "ṭi/ṭi_form1/1353_IthDar_Bidarahalli_12_5_ṭi.JPG"
+    "forms": [],
+    "letterForms": [
+      {
+        "id": 1,
+        "form": "ṭi_form1",
+        "path": "ṭi/ṭi_form1/1336_Bn110_Byadarahalli_36_2_ṭi.JPG"
+      },
+      {
+        "id": 2,
+        "form": "ṭi_form1",
+        "path": "ṭi/ṭi_form1/1336_Bn110_Byadarahalli_40_7_ṭi.JPG"
+      },
+      {
+        "id": 3,
+        "form": "ṭi_form1",
+        "path": "ṭi/ṭi_form1/1340_Bn111_Ramasamudra_23_9_ṭi.JPG"
+      },
+      {
+        "id": 4,
+        "form": "ṭi_form1",
+        "path": "ṭi/ṭi_form1/1353_IthDar_Bidarahalli_12_5_ṭi.JPG"
+      }
     ]
   },
   {
     "id": 4,
     "key": "ಟೀ",
     "isAvailable": true,
-    "forms": [
-      "ṭī/ṭī_form1/1336_Bn110_Byadarahalli_17_7_ṭī.JPG"
+    "forms": [],
+    "letterForms": [
+      {
+        "id": 1,
+        "form": "ṭī_form1",
+        "path": "ṭī/ṭī_form1/1336_Bn110_Byadarahalli_17_7_ṭī.JPG"
+      }
     ]
   },
   {

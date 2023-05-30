@@ -3,9 +3,18 @@
     "id": 1,
     "key": "ಘ",
     "isAvailable": true,
-    "forms": [
-      "gha/gha_form1/1336_Bn110_Byadarahalli_23_2_gha.JPG",
-      "gha/gha_form1/1369_CP150_Malurpatna_13_19_gha.JPG"
+    "forms": [],
+    "letterForms": [
+      {
+        "id": 1,
+        "form": "gha_form1",
+        "path": "gha/gha_form1/1336_Bn110_Byadarahalli_23_2_gha.JPG"
+      },
+      {
+        "id": 2,
+        "form": "gha_form1",
+        "path": "gha/gha_form1/1369_CP150_Malurpatna_13_19_gha.JPG"
+      }
     ]
   },
   {

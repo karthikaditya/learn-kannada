@@ -3,10 +3,15 @@
     "id": 1,
     "key": "ಞ",
     "isAvailable": false,
-    "forms": [
-      "ña/ña_form1/1369_CP150_Malurpatna_12_17_ña.JPG"
-    ],
-    "IASTform": ""
+    "forms": [],
+    "IASTform": "",
+    "letterForms": [
+      {
+        "id": 1,
+        "form": "ña_form1",
+        "path": "ña/ña_form1/1369_CP150_Malurpatna_12_17_ña.JPG"
+      }
+    ]
   },
   {
     "id": 2,

@@ -16,8 +16,10 @@ import BasicLetter from '../../components/LetterForms/BasicLetter.vue'
             <!-- <div class="card"> -->
             <!-- <h2>ರೂಪಗಳು</h2> -->
 
-            <div class="flex-container">
-                <BasicLetter v-for="letter in selectedLetter.forms" :image_src="letter" :showLetterText="false" />
+            <div v-for="group in groupedLetters" class="flex-container">
+
+                <p>{{ group[0] }}</p>
+                <BasicLetter v-for="letter in group[1]" :image_src="letter.path" :showLetterText="false" />
 
             </div>
             <!-- </div> -->
@@ -27,9 +29,51 @@ import BasicLetter from '../../components/LetterForms/BasicLetter.vue'
 
 <script>
 export default {
+
     props: { selectedLetter: Object, showImage: Boolean },
+    watch: {
+        selectedLetter(newValue, oldValue) {
+            // console.log('newValue:', newValue, 'previousValue:', oldValue);
+
+            //const uniqueItems = [...new Set(newValue.letterForms.map((item) => item.form))];
+
+            this.groupedLetters = this.groupBy(newValue.letterForms, letter => letter.form);
+        },
+    },
     data() {
-        return {}
+        return {
+            groupedLetters: ''
+        }
+    },
+    methods: {
+        groupBy(list, keyGetter) {
+            const map = new Map();
+            list.forEach((item) => {
+                const key = keyGetter(item);
+                const collection = map.get(key);
+                if (!collection) {
+                    map.set(key, [item]);
+                } else {
+                    collection.push(item);
+                }
+            });
+            return map;
+        },
+
+        getLetterForForm(formId) {
+            return this.groupedLetters.get(formId)
+        }
+
+    }, mounted() {
+
+        if (this.selectedLetter !== "") {
+            this.groupedLetters = this.groupBy(this.selectedLetter.letterForms, letter => letter.form);
+        }
+        // let allForms = this.selectedLetter.letterForms.map(letterForm => ({ letterForm: letterForm.form })).flat()
+        // let uniqueItems = [...new Set(allForms)]
+
+        // const grouped = groupBy(selectedLetter.letterForms, letter => letter.form);
+
     }
 }
 </script>

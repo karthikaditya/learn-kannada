@@ -34,11 +34,6 @@ export default {
     max-width: 100px; display: block; width: 100%;height: 100px;object-fit: fill;`" @click="letterClicked(`${image_src}`)"
             :title="`${fileName}`">
     </div>
-    <!-- <div class="content"> -->
-
-    <!-- <h3>{{ title }}</h3> -->
-    <!-- </div> -->
-
 
     <!-- <div class="container">
         <img :src="`${publicPath}./assets/${image_src}`" alt="Snow" style="width:100%;">

@@ -16,7 +16,7 @@ import axios from 'axios';
 
             <div class="flex-container">
 
-                <BasicLetter v-for="letter in swaragalu" :key="letter.id" :title="letter.key" :image_src="letter.forms[0]"
+                <BasicLetter v-for="letter in swaragalu" :key="letter.id" :title="letter.key" :image_src="letter.letterForms[0].path"
                     :showLetterText="true" />
 
             </div>
@@ -42,10 +42,7 @@ export default {
         },
     },
     mounted() {
-        this.fetchData('./assets/json/swara.json')
-
-        // this.fetchData('./assets/json/vyanjana.json').then(
-        //     data => { this.vyanjanagalu = data });
+        this.fetchData('./assets/json/letters.json')
 
     },
 }

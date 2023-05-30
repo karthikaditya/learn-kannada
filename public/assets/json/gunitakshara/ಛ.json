@@ -3,10 +3,15 @@
     "id": 1,
     "key": "ಛ",
     "isAvailable": false,
-    "forms": [
-      "cha/cha_form1/1340_Bn111_Ramasamudra_24_16_cha.JPG"
-    ],
-    "IASTform": ""
+    "forms": [],
+    "IASTform": "",
+    "letterForms": [
+      {
+        "id": 1,
+        "form": "cha_form1",
+        "path": "cha/cha_form1/1340_Bn111_Ramasamudra_24_16_cha.JPG"
+      }
+    ]
   },
   {
     "id": 2,
