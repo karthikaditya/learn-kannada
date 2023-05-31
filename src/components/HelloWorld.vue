@@ -1,10 +1,16 @@
 <script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
+
+</script>
+
+<script>
+
+export default {
+  data() {
+    return {
+      publicPath: import.meta.env.BASE_URL,
+    }
   }
-})
+}
 </script>
 
 <template>
@@ -12,7 +18,15 @@ defineProps({
     <h2>The Mythic Society</h2>
     <p>The Mythic Society is a pioneering institution of Indic studies in South India, founded in 1909</p>
 
-      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FThe.Mythic.Society.1909&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    <div class="home-flex-container">
+      <img :src="`${publicPath}./assets/Home-image.png`" :alt="`Image text`">
+
+      <iframe
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FThe.Mythic.Society.1909&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+        width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+    </div>
     <!-- <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
@@ -25,26 +39,16 @@ defineProps({
 </template>
 
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  top: -10px;
-}
 
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
+.home-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* font-size: 30px; */
+  /* text-align: center; */
+  /* align-items: center; */
+  justify-content: center;
+  column-gap: 1rem;
+  /* row-gap: 1rem; */
+  padding: 10px;
 }
 </style>

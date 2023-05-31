@@ -6,7 +6,6 @@ import BasicLetter from '../../components/LetterForms/BasicLetter.vue'
 <template>
     <div class="container">
         <div v-if="showImage" class="left-column">
-            <!-- <img :src="`${publicPath}./assets/image1.jpg`" :alt="`Image text`"> -->
             <h2 style="color: red; background-color: yellow; font-size: 64px;">{{ selectedLetter.key }}</h2>
         </div>
         <div class="right-column">

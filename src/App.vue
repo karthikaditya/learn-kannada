@@ -10,7 +10,6 @@
   <div v-if="!collapsed" class="sidebar-overlay" @click="collapsed = true"></div>
 
   <div id="demo" :class="[{ collapsed: collapsed }]" :style="`text-align: center;`">
-    <!-- <component :is="currentView" /> -->
     <router-view />
   </div>
 </template>
@@ -56,7 +55,7 @@ export default {
               href: '/learn/Sankegalu',
               title: 'ಸಂಖ್ಯೆಗಳು',
               icon: 'fa fa-sliders',
-            }, 
+            },
             {
               href: '/learn/Symbols',
               title: 'ಚಿಹ್ನೆಗಳು',

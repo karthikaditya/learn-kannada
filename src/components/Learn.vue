@@ -8,15 +8,10 @@ import axios from 'axios';
 <template>
     <div class="body-padding">
         <h2>ವರ್ಣಮಾಲೆ</h2>
-        <p>ಕನ್ನಡವನ್ನು ಹಿಂದೆ ಕೆನರೀಸ್ ಎಂದೂ ಕರೆಯಲಾಗುತ್ತಿತ್ತು, ಇದು ನೈಋತ್ಯ ಭಾರತದ ಕರ್ನಾಟಕದ ಜನರು ಪ್ರಧಾನವಾಗಿ ಮಾತನಾಡುವ ದ್ರಾವಿಡ
-            ಭಾಷೆಯಾಗಿದೆ.</p>
 
         <div class="card">
-            <!-- <h2>ಸ್ವರಗಳು</h2> -->
-
             <div class="flex-container">
-
-                <BasicLetter v-for="letter in swaragalu" :key="letter.id" :title="letter.key" :image_src="letter.letterForms[0].path"
+                <BasicLetter v-for="letter in allLetters" :key="letter.id" :title="letter.key" :image_src="letter.letterForms[0].path"
                     :showLetterText="true" />
 
             </div>
@@ -29,15 +24,14 @@ export default {
     data() {
         return {
             publicPath: import.meta.env.BASE_URL,
-            swaragalu: [],
-            // vyanjanagalu: [],
+            allLetters: [],
         }
     },
     methods: {
         fetchData(jsonPath) {
             axios.get(`${this.publicPath}${jsonPath}`)
                 .then(response => {
-                    this.swaragalu = response.data.filter(l => l.isAvailable == true)
+                    this.allLetters = response.data.filter(l => l.isAvailable == true)
                 })
         },
     },

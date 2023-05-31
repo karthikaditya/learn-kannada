@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "key": "0",
+    "key": "೦",
     "isAvailable": true,
     "letterForms": [
       {
@@ -34,7 +34,7 @@
   },
   {
     "id": 2,
-    "key": "1",
+    "key": "೧",
     "isAvailable": true,
     "letterForms": [
       {
@@ -167,7 +167,7 @@
   },
   {
     "id": 3,
-    "key": "2",
+    "key": "೨",
     "isAvailable": true,
     "letterForms": [
       {
@@ -250,7 +250,7 @@
   },
   {
     "id": 4,
-    "key": "3",
+    "key": "೩",
     "isAvailable": true,
     "letterForms": [
       {
@@ -293,14 +293,14 @@
   },
   {
     "id": 5,
-    "key": "4",
+    "key": "೪",
     "isAvailable": false,
     "letterForms": [],
     "IASTform": ""
   },
   {
     "id": 6,
-    "key": "5",
+    "key": "೫",
     "isAvailable": true,
     "letterForms": [
       {
@@ -348,7 +348,7 @@
   },
   {
     "id": 7,
-    "key": "6",
+    "key": "೬",
     "isAvailable": true,
     "letterForms": [
       {
@@ -381,7 +381,7 @@
   },
   {
     "id": 8,
-    "key": "7",
+    "key": "೭",
     "isAvailable": true,
     "letterForms": [
       {
@@ -394,7 +394,7 @@
   },
   {
     "id": 9,
-    "key": "8",
+    "key": "೮",
     "isAvailable": true,
     "letterForms": [
       {
@@ -412,7 +412,7 @@
   },
   {
     "id": 10,
-    "key": "9",
+    "key": "೯",
     "isAvailable": true,
     "letterForms": [
       {
