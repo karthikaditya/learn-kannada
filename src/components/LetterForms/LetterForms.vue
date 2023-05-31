@@ -2,7 +2,7 @@
 import axios from 'axios';
 import LetterFormsDisplay from './LetterFormsDisplay.vue';
 import LetterSelector from './LetterSelector.vue'
-
+import YearFilterVue from '../SubComponents/YearFilter.vue';
 </script>
 
 <script>
@@ -15,6 +15,7 @@ export default {
             jsonData: [],
             publicPath: import.meta.env.BASE_URL,
             selectedLetter: '',
+            yearData: ''
         }
     },
     mounted() {
@@ -40,7 +41,10 @@ export default {
 
         updateLetter(variable) {
             this.selectedLetter = variable
-        }
+        },
+        getData(data) {
+            this.yearData = data;
+        },
     }
 }
 
@@ -49,12 +53,12 @@ export default {
 <template>
     <div class="body-padding" style="margin: auto;">
 
+        <YearFilterVue @yearData="getData" />
+
         <LetterSelector v-if="showImage" :jsonData="jsonData" @eventname="updateLetter" />
 
-        <LetterFormsDisplay :selectedLetter="selectedLetter" :showImage="showImage"/>
+        <LetterFormsDisplay :selectedLetter="selectedLetter" :showImage="showImage" :yearData="yearData" />
     </div>
 </template>
 
-<style>
-
-</style>
+<style></style>

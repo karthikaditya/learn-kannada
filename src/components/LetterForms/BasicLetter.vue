@@ -1,11 +1,16 @@
 <script setup>
-
+import { getFileNameFromPath } from '../../models/utils';
 </script>
 
 <script>
 
 export default {
     props: { title: String, image_src: String, showLetterText: Boolean },
+    watch: {
+        image_src(newValue, oldValue) {
+            this.fileName = getFileNameFromPath(newValue)
+        }
+    },
     data() {
         return {
             publicPath: import.meta.env.BASE_URL,
@@ -14,13 +19,10 @@ export default {
         }
     }, methods: {
         letterClicked(num) {
-            alert(num + " image clicked")
+            //alert(num + " image clicked")
         }
     }, mounted() {
-        let indx = this.image_src.lastIndexOf("/");
-        let result = this.image_src.substring(indx + 1);
-        let dotIdx = result.lastIndexOf(".");
-        this.fileName = result.substring(0, dotIdx);
+        this.fileName = getFileNameFromPath(this.image_src)
     }
 }
 
@@ -31,8 +33,8 @@ export default {
         <!-- border: 2px solid lightgray; -->
         <p v-if="showLetterText">{{ title }}</p>
         <img :src="`${publicPath}./assets/${imagesFolder}/${image_src}`" :alt="`Image text`" :style="`max-height: 250px;
-    max-width: 100px; display: block; width: 100%;height: 100px;object-fit: fill;`" @click="letterClicked(`${image_src}`)"
-            :title="`${fileName}`">
+    max-width: 100px; display: block; width: 100%;height: 100px;object-fit: fill;`"
+            @click="letterClicked(`${image_src}`)" :title="`${fileName}`">
     </div>
 
     <!-- <div class="container">

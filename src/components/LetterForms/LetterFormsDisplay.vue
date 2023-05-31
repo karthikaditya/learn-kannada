@@ -1,5 +1,6 @@
 <script setup>
 import BasicLetter from '../../components/LetterForms/BasicLetter.vue'
+import { getFileNameFromPath } from '../../models/utils';
 
 </script>
 
@@ -9,20 +10,18 @@ import BasicLetter from '../../components/LetterForms/BasicLetter.vue'
             <h2 style="color: red; background-color: yellow; font-size: 64px;">{{ selectedLetter.key }}</h2>
         </div>
         <div class="right-column">
-            <!-- <h2>{{ selectedLetter.key }}</h2> -->
-            <!-- <p>Description</p> -->
-
-            <!-- <div class="card"> -->
-            <!-- <h2>ರೂಪಗಳು</h2> -->
-
             <div v-for="group in groupedLetters" class="flex-container-parent">
 
+                <!-- <div v-if="group[1].length > 0"> -->
                 <h2 style="border-bottom: 2px solid red;">{{ getGroupName(group[0]) }}</h2>
                 <div class="flex-container">
                     <BasicLetter v-for="letter in group[1]" :image_src="letter.path" :showLetterText="false" />
                 </div>
+                <!-- </div>
+                <div v-else>
+                    <h2>No letters available</h2>
+                </div> -->
             </div>
-            <!-- </div> -->
         </div>
     </div>
 </template>
@@ -30,15 +29,17 @@ import BasicLetter from '../../components/LetterForms/BasicLetter.vue'
 <script>
 export default {
 
-    props: { selectedLetter: Object, showImage: Boolean },
+    props: { selectedLetter: String, showImage: Boolean, yearData: String },
     watch: {
         selectedLetter(newValue, oldValue) {
             // console.log('newValue:', newValue, 'previousValue:', oldValue);
-
             //const uniqueItems = [...new Set(newValue.letterForms.map((item) => item.form))];
 
-            this.groupedLetters = this.groupBy(newValue.letterForms, letter => letter.form);
+            let filteredData = this.applyYearFilter(newValue.letterForms, this.yearData);
         },
+        yearData(newValue, oldValue) {
+            let filteredData = this.applyYearFilter(this.selectedLetter.letterForms, newValue);
+        }
     },
     data() {
         return {
@@ -64,14 +65,46 @@ export default {
             return this.groupedLetters.get(formId)
         },
 
-        getGroupName(formId){
+        getGroupName(formId) {
             return "ರೂಪ " + formId.substr(-1)
+        },
+
+        getYear(filePath) {
+            let fileName = getFileNameFromPath(filePath);
+            let indx = fileName.indexOf("_");
+            let imageYear = new Date().getFullYear();
+
+            if (indx !== -1) {
+                imageYear = fileName.substring(0, indx);
+            }
+            return imageYear
+        },
+
+        getGroupedForms(letterForms) {
+            this.groupedLetters = this.groupBy(letterForms, letter => letter.form);
+        },
+        applyYearFilter(letterForms, yearData) {
+
+            if (yearData !== "") {
+                let filteredData = letterForms.map(l => {
+                    return {
+                        form: l.form,
+                        path: l.path,
+                        year: this.getYear(l.path)
+                    };
+                }).filter(l => l.year >= yearData.fromYear & l.year <= yearData.toYear);
+
+                this.getGroupedForms(filteredData);
+            } else {
+                this.getGroupedForms(letterForms);
+            }
         }
+
 
     }, mounted() {
 
         if (this.selectedLetter !== "") {
-            this.groupedLetters = this.groupBy(this.selectedLetter.letterForms, letter => letter.form);
+            this.getGroupedForms(this.selectedLetter.letterForms)
         }
         // let allForms = this.selectedLetter.letterForms.map(letterForm => ({ letterForm: letterForm.form })).flat()
         // let uniqueItems = [...new Set(allForms)]
