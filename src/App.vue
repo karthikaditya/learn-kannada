@@ -23,12 +23,12 @@ export default {
       collapsed: true,
       menu: [
         {
-          header: 'Navigation',
+          header: 'ನ್ಯಾವಿಗೇಷನ್',
           hiddenOnCollapse: true
         },
         {
           href: '/',
-          title: 'Home',
+          title: 'ಮುಖಪುಟ',
           icon: 'fa fa-home'
         },
         {
@@ -61,11 +61,16 @@ export default {
               title: 'ಚಿಹ್ನೆಗಳು',
               icon: 'fa fa-star',
             },
+            {
+              href: '/learn/Shasanagalu',
+              title: 'ಶಾಸನಗಳು',
+              icon: 'fa fa-tablet',
+            },
           ]
         },
         {
           href: '/about',
-          title: 'About',
+          title: 'ನಮ್ಮ ಬಗ್ಗೆ',
           icon: 'fa fa-inbox'
         },
       ],

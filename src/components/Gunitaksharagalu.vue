@@ -1,6 +1,7 @@
 <script setup>
 import LetterFormsDisplay from './LetterForms/LetterFormsDisplay.vue';
-import LetterSelector from './LetterForms/LetterSelector.vue'
+import LetterSelector from './LetterForms/LetterSelector.vue';
+import YearFilterVue from './SubComponents/YearFilter.vue';
 
 import axios from 'axios';
 
@@ -13,11 +14,9 @@ export default {
         return {
             gunitaksharaLetters: [],
             publicPath: import.meta.env.BASE_URL,
-            letters: [
-                ""
-            ],
             selectedLetter: Object,
-            gunitaksharaChildren: []
+            gunitaksharaChildren: [],
+            yearData: ''
         }
     },
     mounted() {
@@ -37,12 +36,15 @@ export default {
         },
 
         getGunitaksharas(gnLetter) {
-            var gnLetterPath = './assets/json/gunitakshara/'+ gnLetter.key + '.json'
+            var gnLetterPath = './assets/json/gunitakshara/' + gnLetter.key + '.json'
             axios.get(`${this.publicPath}${gnLetterPath}`)
                 .then(response => {
                     this.gunitaksharaChildren = response.data.filter(l => l.isAvailable == true)
                 })
-        }
+        },
+        getData(data) {
+            this.yearData = data;
+        },
     }
 }
 </script>
@@ -51,11 +53,15 @@ export default {
     <div class="body-padding" style="margin: auto;">
         <h2>ಗುಣಿತಾಕ್ಷರಗಳು</h2>
 
-        <!-- <LetterSelector :jsonData="gunitaksharaLetters" v-model:selectedLetter="selectedLetter" /> -->
-        <LetterSelector :jsonData="gunitaksharaLetters" @eventname="getGunitaksharas" />
+        <div class="body-padding" style="margin: auto;">
+            <YearFilterVue @yearData="getData" />
 
-        <LetterFormsDisplay v-for="letter in gunitaksharaChildren" :selectedLetter="letter" :showImage="true"/>
+            <!-- <LetterSelector :jsonData="gunitaksharaLetters" v-model:selectedLetter="selectedLetter" /> -->
+            <LetterSelector :jsonData="gunitaksharaLetters" @eventname="getGunitaksharas" />
 
+            <LetterFormsDisplay v-for="letter in gunitaksharaChildren" :selectedLetter="letter" :showImage="true"
+                :yearData="yearData"/>
+        </div>
     </div>
 </template>
 

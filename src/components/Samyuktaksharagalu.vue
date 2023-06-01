@@ -1,7 +1,7 @@
 <script setup>
 import LetterFormsDisplay from './LetterForms/LetterFormsDisplay.vue';
 import LetterSelector from './LetterForms/LetterSelector.vue'
-
+import YearFilterVue from './SubComponents/YearFilter.vue';
 import axios from 'axios';
 
 </script>
@@ -13,11 +13,9 @@ export default {
         return {
             samyuktaksharaLetters: [],
             publicPath: import.meta.env.BASE_URL,
-            letters: [
-                ""
-            ],
             selectedLetter: Object,
-            samyuktaksharaChildren: []
+            samyuktaksharaChildren: [],
+            yearData: ''
         }
     },
     mounted() {
@@ -37,12 +35,15 @@ export default {
         },
 
         getSamyuktakshara(gnLetter) {
-            var gnLetterPath = './assets/json/samyuktakshara/'+ gnLetter.key + '.json'
+            var gnLetterPath = './assets/json/samyuktakshara/' + gnLetter.key + '.json'
             axios.get(`${this.publicPath}${gnLetterPath}`)
                 .then(response => {
                     this.samyuktaksharaChildren = response.data.filter(l => l.isAvailable == true)
                 })
-        }
+        },
+        getData(data) {
+            this.yearData = data;
+        },
     }
 }
 </script>
@@ -51,10 +52,14 @@ export default {
     <div class="body-padding" style="margin: auto;">
         <h2>ಸಂಯುಕ್ತಾಕ್ಷರಗಳು</h2>
 
-        <LetterSelector :jsonData="samyuktaksharaLetters" @eventname="getSamyuktakshara" />
+        <div class="body-padding" style="margin: auto;">
+            <YearFilterVue @yearData="getData" />
 
-        <LetterFormsDisplay v-for="letter in samyuktaksharaChildren" :selectedLetter="letter" :showImage="true"/>
+            <LetterSelector :jsonData="samyuktaksharaLetters" @eventname="getSamyuktakshara" />
 
+            <LetterFormsDisplay v-for="letter in samyuktaksharaChildren" :selectedLetter="letter" :showImage="true"
+                :yearData="yearData"/>
+        </div>
     </div>
 </template>
 

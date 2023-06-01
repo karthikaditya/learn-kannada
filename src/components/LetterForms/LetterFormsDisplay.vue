@@ -10,17 +10,19 @@ import { getFileNameFromPath } from '../../models/utils';
             <h2 style="color: red; background-color: yellow; font-size: 64px;">{{ selectedLetter.key }}</h2>
         </div>
         <div class="right-column">
-            <div v-for="group in groupedLetters" class="flex-container-parent">
+            <div v-if="groupedLetters.size > 0">
 
-                <!-- <div v-if="group[1].length > 0"> -->
-                <h2 style="border-bottom: 2px solid red;">{{ getGroupName(group[0]) }}</h2>
-                <div class="flex-container">
-                    <BasicLetter v-for="letter in group[1]" :image_src="letter.path" :showLetterText="false" />
+                <div v-for="group in groupedLetters" class="flex-container-parent">
+
+                    <h2 style="border-bottom: 2px solid red;">{{ getGroupName(group[0]) }}</h2>
+                    <div class="flex-container">
+                        <BasicLetter v-for="letter in group[1]" :image_src="letter.path" :showLetterText="false" />
+                    </div>
+
                 </div>
-                <!-- </div>
-                <div v-else>
-                    <h2>No letters available</h2>
-                </div> -->
+            </div>
+            <div v-else>
+                <h2>ಈ ಅವಧಿಯಲ್ಲಿ ಯಾವುದೇ ಅಕ್ಷರಗಳು ಲಭ್ಯವಿಲ್ಲ</h2>
             </div>
         </div>
     </div>
@@ -35,15 +37,15 @@ export default {
             // console.log('newValue:', newValue, 'previousValue:', oldValue);
             //const uniqueItems = [...new Set(newValue.letterForms.map((item) => item.form))];
 
-            let filteredData = this.applyYearFilter(newValue.letterForms, this.yearData);
+            this.applyYearFilter(newValue.letterForms, this.yearData);
         },
         yearData(newValue, oldValue) {
-            let filteredData = this.applyYearFilter(this.selectedLetter.letterForms, newValue);
+            this.applyYearFilter(this.selectedLetter.letterForms, newValue);
         }
     },
     data() {
         return {
-            groupedLetters: ''
+            groupedLetters: []
         }
     },
     methods: {

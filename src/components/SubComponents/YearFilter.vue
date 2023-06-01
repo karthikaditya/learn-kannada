@@ -1,17 +1,21 @@
 <template>
     <div>
-        <label for="from-year" style="color: black;">ವರ್ಷದಿಂದ:</label>
-        <input type="number" id="from-year" name="from-year" :min="minYear" :max="maxYear" :step="stepYear" v-model="fromYear">
-
-        <label for="to-year" style="color: black;">ವರ್ಷದವರೆಗೆ:</label>
-        <input type="number" id="to-year" name="to-year" :min="minYear+stepYear" :max="maxYear" :step="stepYear" v-model="toYear">
-
         <div>
-            <button @click="passData()">
+            <label for="from-year" style="color: black;margin: 10px;">ವರ್ಷದಿಂದ:</label>
+            <input type="number" id="from-year" name="from-year" :min="minYear" :max="maxYear" :step="stepYear"
+                v-model="fromYear">
+
+            <label for="to-year" style="color: black;margin: 10px;">ವರ್ಷದವರೆಗೆ:</label>
+            <input type="number" id="to-year" name="to-year" :min="minYear + stepYear" :max="maxYear" :step="stepYear"
+                v-model="toYear">
+        </div>
+
+        <div style="padding: 10px;">
+            <button class="filter-button" @click="passData()" type="button" style="cursor: pointer;">
                 ಫಿಲ್ಟರ್
             </button>
-
-            <button @click="resetData()">
+            <span style="margin: 0 10px;"></span>
+            <button class="reset-button" @click="resetData()" type="button" style="cursor: pointer;">
                 ರೆಸೆಟ್
             </button>
         </div>
@@ -20,14 +24,19 @@
 </template>
   
 <script>
+
+const MinYear = 1300;
+const MaxYear = 1400;
+const StepYear = 1;
+
 export default {
     data() {
         return {
-            minYear: 1300,
-            maxYear: 1400,
-            stepYear: 20,
-            fromYear: 1300,
-            toYear: 1400
+            minYear: MinYear,
+            maxYear: MaxYear,
+            stepYear: StepYear,
+            fromYear: MinYear,
+            toYear: MaxYear
         }
     },
     watch: {
@@ -47,9 +56,17 @@ export default {
         }
     }, methods: {
         passData() {
-            this.$emit('yearData', { fromYear: this.fromYear, toYear: this.toYear });
+            if (this.fromYear >= this.minYear & this.toYear <= this.maxYear) {
+                this.$emit('yearData', { fromYear: this.fromYear, toYear: this.toYear });
+            } else {
+                alert("ಆಯ್ಕೆಮಾಡಿದ ವರ್ಷಗಳು ನಿರ್ದಿಷ್ಟ ಶ್ರೇಣಿಯಲ್ಲಿಲ್ಲ");
+                this.fromYear = this.minYear;
+                this.toYear = this.maxYear;
+            }
         },
-        resetData(){
+        resetData() {
+            this.fromYear = this.minYear;
+            this.toYear = this.maxYear;
             this.$emit('yearData', { fromYear: this.minYear, toYear: this.maxYear });
         }
     },
@@ -57,3 +74,26 @@ export default {
 
 </script>
   
+<style>
+.filter-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.reset-button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>
