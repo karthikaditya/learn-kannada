@@ -1,6 +1,6 @@
 <script setup>
 import BasicLetter from '../../components/LetterForms/BasicLetter.vue'
-import { getFileNameFromPath } from '../../models/utils';
+import { groupBy, getYear } from '../../models/utils';
 
 </script>
 
@@ -34,7 +34,7 @@ export default {
     props: { selectedLetter: String, showImage: Boolean, yearData: String },
     watch: {
         selectedLetter(newValue, oldValue) {
-            // console.log('newValue:', newValue, 'previousValue:', oldValue);
+            console.log('newValue:', newValue, 'previousValue:', oldValue);
             //const uniqueItems = [...new Set(newValue.letterForms.map((item) => item.form))];
 
             this.applyYearFilter(newValue.letterForms, this.yearData);
@@ -49,19 +49,7 @@ export default {
         }
     },
     methods: {
-        groupBy(list, keyGetter) {
-            const map = new Map();
-            list.forEach((item) => {
-                const key = keyGetter(item);
-                const collection = map.get(key);
-                if (!collection) {
-                    map.set(key, [item]);
-                } else {
-                    collection.push(item);
-                }
-            });
-            return map;
-        },
+        
 
         getLetterForForm(formId) {
             return this.groupedLetters.get(formId)
@@ -71,34 +59,22 @@ export default {
             return "ರೂಪ " + formId.substr(-1)
         },
 
-        getYear(filePath) {
-            let fileName = getFileNameFromPath(filePath);
-            let indx = fileName.indexOf("_");
-            let imageYear = new Date().getFullYear();
-
-            if (indx !== -1) {
-                imageYear = fileName.substring(0, indx);
-            }
-            return imageYear
-        },
-
         getGroupedForms(letterForms) {
-            this.groupedLetters = this.groupBy(letterForms, letter => letter.form);
+            this.groupedLetters = groupBy(letterForms, letter => letter.form);
         },
         applyYearFilter(letterForms, yearData) {
 
-            if (yearData !== "") {
+            if (yearData == "") {    
+                this.getGroupedForms(letterForms);
+            } else {
                 let filteredData = letterForms.map(l => {
                     return {
-                        form: l.form,
-                        path: l.path,
-                        year: this.getYear(l.path)
+                        ...l,
+                        year: getYear(l.path)
                     };
                 }).filter(l => l.year >= yearData.fromYear & l.year <= yearData.toYear);
 
                 this.getGroupedForms(filteredData);
-            } else {
-                this.getGroupedForms(letterForms);
             }
         }
 
@@ -106,7 +82,7 @@ export default {
     }, mounted() {
 
         if (this.selectedLetter !== "") {
-            this.getGroupedForms(this.selectedLetter.letterForms)
+            this.applyYearFilter(this.selectedLetter.letterForms, this.yearData);
         }
         // let allForms = this.selectedLetter.letterForms.map(letterForm => ({ letterForm: letterForm.form })).flat()
         // let uniqueItems = [...new Set(allForms)]

@@ -57,8 +57,7 @@ export default {
 
             <LetterSelector :jsonData="samyuktaksharaLetters" @eventname="getSamyuktakshara" />
 
-            <LetterFormsDisplay v-for="letter in samyuktaksharaChildren" :selectedLetter="letter" :showImage="true"
-                :yearData="yearData"/>
+            <LetterFormsDisplay v-for="letter in samyuktaksharaChildren" :selectedLetter="letter" :showImage="true" :yearData="yearData"/>
         </div>
     </div>
 </template>
