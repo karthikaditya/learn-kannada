@@ -6,6 +6,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import Learn from './components/Learn.vue'
 import About from './components/About.vue'
 import HelloWorld from './components/HelloWorld.vue'
+import NotFound from './components/NotFound.vue'
 
 import AksharaRupagalu from './components/AksharaRupagalu.vue'
 import Gunitaksharagalu from './components/Gunitaksharagalu.vue'
@@ -69,6 +70,10 @@ const router = createRouter({
             path: '/:pathMatch(.*)',
             component: HelloWorld,
         },
+        {
+            path : '/*',
+            component: NotFound
+        }
     ],
 })
 
