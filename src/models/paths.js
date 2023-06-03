@@ -1,3 +1,4 @@
+export const imagesFolder = "1300-1400_Kannada_Characters";
 
 export const gunitaksharaLettersPath = './assets/json/gunitakshara/letters.json';
 

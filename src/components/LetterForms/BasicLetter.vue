@@ -1,5 +1,7 @@
 <script setup>
 import { getFileNameFromPath } from '../../models/utils';
+import { imagesFolder } from '../../models/paths';
+import ImageModal from '../SubComponents/ImageModal.vue';
 </script>
 
 <script>
@@ -14,12 +16,13 @@ export default {
     data() {
         return {
             publicPath: import.meta.env.BASE_URL,
-            imagesFolder: "1300-1400_Kannada_Characters",
-            fileName: ''
+            fileName: '',
+            showModalDialog: false,
         }
     }, methods: {
         letterClicked(num) {
             //alert(num + " image clicked")
+            //this.showModalDialog = true
         }
     }, mounted() {
         this.fileName = getFileNameFromPath(this.image_src)
@@ -29,6 +32,8 @@ export default {
 </script>
 
 <template>
+    <ImageModal :showModalDialog="showModalDialog" :imagePath="image_src" />
+
     <div :style="`display: inline-block; margin: 2px; box-shadow: 5px 5px 5px gray; width: ${imageSizePx}px;`">
         <!-- border: 2px solid lightgray; -->
         <p v-if="showLetterText">{{ title }}</p>
