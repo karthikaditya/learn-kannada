@@ -29,10 +29,21 @@ export default {
     <div class="flex-container" style="justify-content: center;">
         <div class="flex-item-left">
             <div v-for="(item, index) in jsonData" :key="item.id" @click="selectLetter(item.id)"
-                :class="{ 'red-bottom-border': index === 0 }"
                 :style="`display: inline-block; border: 2px solid white; margin: 2px; padding: 5px;`">
-                <p :style="[selectedLetter.id === item.id ? { 'border-bottom': '3px solid red' } : {}]"
+
+
+                <!-- <div ref="firstDiv" class="flex-container" v-if="group === groupedShasanaDetails[0]">
+                    First div element
+                </div>
+                <div class="flex-container" v-else>
+                    Other div elements
+                </div> -->
+
+                <p ref="firstP" v-if="index == 0 & selectedLetter == ''" :style="`border-bottom: 3px solid red`"
                     style="font-size: 32px; padding: 5px; cursor: pointer;">{{ item.key }}</p>
+
+                <p :style="[selectedLetter.id === item.id ? { 'border-bottom': '3px solid red' } : {}]"
+                    style="font-size: 32px; padding: 5px; cursor: pointer;" v-else>{{ item.key }}</p>
             </div>
 
         </div>
@@ -41,7 +52,7 @@ export default {
 </template>
 
 <style>
-.red-bottom-border{
+.red-bottom-border {
     border-bottom: 3px solid red;
 }
 </style>

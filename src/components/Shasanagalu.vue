@@ -15,7 +15,9 @@ export default {
             selectedShasana: null,
             shasanas: [],
             publicPath: import.meta.env.BASE_URL,
-            groupedShasanaDetails: []
+            groupedShasanaDetails: [],
+            totalLines: 0,
+            totalCharacters: 0
         }
     },
     watch: {
@@ -32,8 +34,8 @@ export default {
                     //sorting each group by posNumber
                     this.groupedShasanaDetails = new Map([...sortedMap.entries()].map(([k, v]) => [k, v.sort((a, b) => a.posNumber - b.posNumber)]));
 
-                    let totalLines = sortedMap.size;
-                    let totalCharacters = Array.from(sortedMap.values()).flat().length;
+                    this.totalLines = sortedMap.size;
+                    this.totalCharacters = Array.from(sortedMap.values()).flat().length;
 
                 });
         }
@@ -51,7 +53,6 @@ export default {
 
     }, mounted() {
         this.fetchShasanaData();
-        // this.$refs.childFlex.style.gap = '0';
     },
 }
 
@@ -68,13 +69,14 @@ export default {
                 <option v-for="sha in shasanas" :key="sha.id" :value="sha.key">{{ sha.displayName }}</option>
             </select>
 
-            <!-- <p>You selected: {{ selectedShasana }}</p> -->
+            <p v-if="selectedShasana !== null">ಆಯ್ಕೆ ಮಾಡಿದ ಶಾಸನದಲ್ಲಿ {{ totalLines }} ಸಾಲುಗಳು ಮತ್ತು ಒಟ್ಟು {{ totalCharacters }} ಅಕ್ಷರಗಳಿವೆ</p>
         </div>
 
-        <div v-for="group in groupedShasanaDetails" class="flex-container-parent">
-
-            <div ref="childFlex" class="flex-container">
-                <BasicLetter v-for="letter in group[1]" :image_src="letter.filePath" :showLetterText="false" :imageSizePx="50"/>
+        <div v-for="(group, index) in groupedShasanaDetails" :class="flex-container-parent">
+            <p>ಕೆಳಗಿನ ಸಾಲಿನಲ್ಲಿ {{ group[1].length }} ಅಕ್ಷರಗಳಿವೆ - ಸಾಲು {{ index+1 }}</p>
+            <div class="flex-container-no-gap">
+                <BasicLetter v-for="letter in group[1]" :image_src="letter.filePath" :showLetterText="false"
+                    :imageSizePx="50" />
             </div>
 
         </div>
