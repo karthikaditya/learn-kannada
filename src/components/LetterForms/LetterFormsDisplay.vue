@@ -16,7 +16,7 @@ import { groupBy, getYear } from '../../models/utils';
 
                     <h2 style="border-bottom: 2px solid red;">{{ getGroupName(group[0]) }}</h2>
                     <div class="flex-container">
-                        <BasicLetter v-for="letter in group[1]" :image_src="letter.path" :showLetterText="false" />
+                        <BasicLetter v-for="letter in group[1]" :image_src="letter.path" :showLetterText="false" :imageSizePx="100"/>
                     </div>
 
                 </div>
@@ -31,10 +31,10 @@ import { groupBy, getYear } from '../../models/utils';
 <script>
 export default {
 
-    props: { selectedLetter: String, showImage: Boolean, yearData: String },
+    props: { selectedLetter: Object, showImage: Boolean, yearData: String },
     watch: {
         selectedLetter(newValue, oldValue) {
-            console.log('newValue:', newValue, 'previousValue:', oldValue);
+            // console.log('newValue:', newValue, 'previousValue:', oldValue);
             //const uniqueItems = [...new Set(newValue.letterForms.map((item) => item.form))];
 
             this.applyYearFilter(newValue.letterForms, this.yearData);

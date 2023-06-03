@@ -2,6 +2,7 @@
 import LetterFormsDisplay from './LetterForms/LetterFormsDisplay.vue';
 import LetterSelector from './LetterForms/LetterSelector.vue';
 import YearFilterVue from './SubComponents/YearFilter.vue';
+import {gunitaksharaLettersPath} from '../models/paths.js'
 
 import axios from 'axios';
 
@@ -20,7 +21,7 @@ export default {
         }
     },
     mounted() {
-        this.fetchData('./assets/json/gunitakshara/letters.json');
+        this.fetchData(gunitaksharaLettersPath);
     },
     methods: {
         fetchData(jsonPath) {

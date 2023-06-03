@@ -5,8 +5,9 @@
 <template>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <sidebar-menu v-model:collapsed="collapsed" :menu="menu" @update:collapsed="onToggleCollapse" :show-one-child="true" />
+  <sidebar-menu v-model:collapsed="collapsed" :menu="menu" :show-child="true" :disable-hover="true"/>
   <!-- :theme="'white-theme'" -->
+  <!-- @update:collapsed="onToggleCollapse" -->
   <div v-if="!collapsed" class="sidebar-overlay" @click="collapsed = true"></div>
 
   <div id="demo" :class="[{ collapsed: collapsed }]" :style="`text-align: center;`">
@@ -20,7 +21,7 @@ export default {
   data() {
     return {
       currentPath: window.location.hash,
-      collapsed: true,
+      collapsed: false,
       menu: [
         {
           header: 'ನ್ಯಾವಿಗೇಷನ್',
@@ -76,7 +77,7 @@ export default {
       ],
       methods: {
         onToggleCollapse(collapsed) {
-          console.log('onToggleCollapse')
+          // console.log('onToggleCollapse')
         },
       }
     }

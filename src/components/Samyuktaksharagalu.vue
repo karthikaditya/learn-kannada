@@ -2,6 +2,8 @@
 import LetterFormsDisplay from './LetterForms/LetterFormsDisplay.vue';
 import LetterSelector from './LetterForms/LetterSelector.vue'
 import YearFilterVue from './SubComponents/YearFilter.vue';
+import {samyuktaksharaLettersPath} from '../models/paths.js'
+
 import axios from 'axios';
 
 </script>
@@ -19,7 +21,7 @@ export default {
         }
     },
     mounted() {
-        this.fetchData('./assets/json/samyuktakshara/letters.json');
+        this.fetchData(samyuktaksharaLettersPath);
     },
     methods: {
         fetchData(jsonPath) {
