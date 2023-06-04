@@ -44,7 +44,7 @@ export default {
         fetchShasanaData() {
             axios.get(`${this.publicPath}./assets/json/shasanas.json`)
                 .then(response => {
-                    this.shasanas = response.data;
+                    this.shasanas = response.data.sort((a, b) => parseInt(a.year) - parseInt(b.year));
                 })
                 .catch(error => {
                     console.log(error);

@@ -74,6 +74,8 @@ export default {
                     };
                 }).filter(l => l.year >= yearData.fromYear & l.year <= yearData.toYear);
 
+                // let filteredData = letterForms.filter(l => l.year >= yearData.fromYear & l.year <= yearData.toYear);
+
                 this.getGroupedForms(filteredData);
             }
         }
