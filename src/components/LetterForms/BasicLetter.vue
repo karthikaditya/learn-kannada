@@ -1,5 +1,5 @@
 <script setup>
-import { getFileNameFromPath } from '../../models/utils';
+import { getFileNameFromPath, getYear } from '../../models/utils';
 import { imagesFolder } from '../../models/paths';
 import ImageModal from '../SubComponents/ImageModal.vue';
 </script>
@@ -7,10 +7,11 @@ import ImageModal from '../SubComponents/ImageModal.vue';
 <script>
 
 export default {
-    props: { title: String, image_src: String, showLetterText: Boolean, imageSizePx: Number },
+    props: { title: String, image_src: String, showLetterText: Boolean, imageSizePx: Number, showLetterYear: Boolean, displayText: String },
     watch: {
         image_src(newValue, oldValue) {
             this.fileName = getFileNameFromPath(newValue)
+            this.updateDisplayText(newValue)
         }
     },
     data() {
@@ -18,14 +19,24 @@ export default {
             publicPath: import.meta.env.BASE_URL,
             fileName: '',
             showModalDialog: false,
+            displayTextLetter: ''
         }
     }, methods: {
         letterClicked(num) {
             //alert(num + " image clicked")
             //this.showModalDialog = true
+        },
+        updateDisplayText(imageSrc) {
+            if (this.showLetterYear) {
+                let letterYear = getYear(imageSrc)
+                this.displayTextLetter = letterYear.toString()
+            } else {
+                this.displayTextLetter = this.displayText
+            }
         }
     }, mounted() {
         this.fileName = getFileNameFromPath(this.image_src)
+        this.updateDisplayText(this.image_src);
     }
 }
 
@@ -40,6 +51,9 @@ export default {
         <img :src="`${publicPath}./assets/${imagesFolder}/${image_src}`" :alt="`Image text`" :style="`max-height: 250px;
     max-width: 100px; display: block; width: 100%;height: ${imageSizePx}px;object-fit: fill;`"
             @click="letterClicked(`${image_src}`)" :title="`${fileName}`">
+
+        <p style="font-size: 12px;">{{ displayTextLetter }}</p>
+        <!-- v-if="showLetterYear" -->
     </div>
 
     <!-- <div class="container">

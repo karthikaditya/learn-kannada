@@ -8,7 +8,8 @@
     "posNumber": 7,
     "letter": "1",
     "fileName": "1370_IthDar_DoddaGubbi_1_7_1",
-    "filePath": "1/1_form1/1370_IthDar_DoddaGubbi_1_7_1.jpg"
+    "filePath": "1/1_form1/1370_IthDar_DoddaGubbi_1_7_1.jpg",
+    "kannadaWord": "1"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "posNumber": 5,
     "letter": "1",
     "fileName": "1370_IthDar_DoddaGubbi_3_5_1",
-    "filePath": "1/1_form1/1370_IthDar_DoddaGubbi_3_5_1.jpg"
+    "filePath": "1/1_form1/1370_IthDar_DoddaGubbi_3_5_1.jpg",
+    "kannadaWord": "1"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "posNumber": 8,
     "letter": "2",
     "fileName": "1370_IthDar_DoddaGubbi_1_8_2",
-    "filePath": "2/2_form1/1370_IthDar_DoddaGubbi_1_8_2.jpg"
+    "filePath": "2/2_form1/1370_IthDar_DoddaGubbi_1_8_2.jpg",
+    "kannadaWord": "2"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "posNumber": 10,
     "letter": "3",
     "fileName": "1370_IthDar_DoddaGubbi_1_10_3",
-    "filePath": "3/3_form1/1370_IthDar_DoddaGubbi_1_10_3.jpg"
+    "filePath": "3/3_form1/1370_IthDar_DoddaGubbi_1_10_3.jpg",
+    "kannadaWord": "3"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "posNumber": 9,
     "letter": "9",
     "fileName": "1370_IthDar_DoddaGubbi_1_9_9",
-    "filePath": "9/9_form1/1370_IthDar_DoddaGubbi_1_9_9.jpg"
+    "filePath": "9/9_form1/1370_IthDar_DoddaGubbi_1_9_9.jpg",
+    "kannadaWord": "9"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "posNumber": 1,
     "letter": "ba",
     "fileName": "1370_IthDar_DoddaGubbi_11_1_ba",
-    "filePath": "ba/ba_form1/1370_IthDar_DoddaGubbi_11_1_ba.jpg"
+    "filePath": "ba/ba_form1/1370_IthDar_DoddaGubbi_11_1_ba.jpg",
+    "kannadaWord": "ಬ"
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "posNumber": 4,
     "letter": "ba",
     "fileName": "1370_IthDar_DoddaGubbi_5_4_ba",
-    "filePath": "ba/ba_form1/1370_IthDar_DoddaGubbi_5_4_ba.jpg"
+    "filePath": "ba/ba_form1/1370_IthDar_DoddaGubbi_5_4_ba.jpg",
+    "kannadaWord": "ಬ"
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "posNumber": 4,
     "letter": "ba",
     "fileName": "1370_IthDar_DoddaGubbi_6_4_ba",
-    "filePath": "ba/ba_form1/1370_IthDar_DoddaGubbi_6_4_ba.jpg"
+    "filePath": "ba/ba_form1/1370_IthDar_DoddaGubbi_6_4_ba.jpg",
+    "kannadaWord": "ಬ"
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "posNumber": 2,
     "letter": "ba",
     "fileName": "1370_IthDar_DoddaGubbi_8_2_ba",
-    "filePath": "ba/ba_form1/1370_IthDar_DoddaGubbi_8_2_ba.jpg"
+    "filePath": "ba/ba_form1/1370_IthDar_DoddaGubbi_8_2_ba.jpg",
+    "kannadaWord": "ಬ"
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "posNumber": 7,
     "letter": "ba",
     "fileName": "1370_IthDar_DoddaGubbi_8_7_ba",
-    "filePath": "ba/ba_form1/1370_IthDar_DoddaGubbi_8_7_ba.jpg"
+    "filePath": "ba/ba_form1/1370_IthDar_DoddaGubbi_8_7_ba.jpg",
+    "kannadaWord": "ಬ"
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "posNumber": 9,
     "letter": "baṃ",
     "fileName": "1370_IthDar_DoddaGubbi_4_9_baṃ",
-    "filePath": "baṃ/baṃ_form1/1370_IthDar_DoddaGubbi_4_9_baṃ.jpg"
+    "filePath": "baṃ/baṃ_form1/1370_IthDar_DoddaGubbi_4_9_baṃ.jpg",
+    "kannadaWord": "ಬಂ"
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "posNumber": 6,
     "letter": "bda",
     "fileName": "1370_IthDar_DoddaGubbi_1_6_bda",
-    "filePath": "bda/bda_form2/1370_IthDar_DoddaGubbi_1_6_bda.jpg"
+    "filePath": "bda/bda_form2/1370_IthDar_DoddaGubbi_1_6_bda.jpg",
+    "kannadaWord": "ಬ್ದ"
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "posNumber": 3,
     "letter": "bi",
     "fileName": "1370_IthDar_DoddaGubbi_4_3_bi",
-    "filePath": "bi/bi_form1/1370_IthDar_DoddaGubbi_4_3_bi.jpg"
+    "filePath": "bi/bi_form1/1370_IthDar_DoddaGubbi_4_3_bi.jpg",
+    "kannadaWord": "ಬಿ"
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "posNumber": 2,
     "letter": "cā",
     "fileName": "1370_IthDar_DoddaGubbi_5_2_cā",
-    "filePath": "cā/cā_form1/1370_IthDar_DoddaGubbi_5_2_cā.jpg"
+    "filePath": "cā/cā_form1/1370_IthDar_DoddaGubbi_5_2_cā.jpg",
+    "kannadaWord": "ಚಾ"
   },
   {
     "id": 15,
@@ -162,7 +176,8 @@
     "posNumber": 2,
     "letter": "cŏ",
     "fileName": "1370_IthDar_DoddaGubbi_6_2_cŏ",
-    "filePath": "cŏ/cŏ_form1/1370_IthDar_DoddaGubbi_6_2_cŏ.jpg"
+    "filePath": "cŏ/cŏ_form1/1370_IthDar_DoddaGubbi_6_2_cŏ.jpg",
+    "kannadaWord": "ಚೊ"
   },
   {
     "id": 16,
@@ -173,7 +188,8 @@
     "posNumber": 6,
     "letter": "cŏ",
     "fileName": "1370_IthDar_DoddaGubbi_7_6_cŏ",
-    "filePath": "cŏ/cŏ_form1/1370_IthDar_DoddaGubbi_7_6_cŏ.jpg"
+    "filePath": "cŏ/cŏ_form1/1370_IthDar_DoddaGubbi_7_6_cŏ.jpg",
+    "kannadaWord": "ಚೊ"
   },
   {
     "id": 17,
@@ -184,7 +200,8 @@
     "posNumber": 3,
     "letter": "da",
     "fileName": "1370_IthDar_DoddaGubbi_10_3_da",
-    "filePath": "da/da_form2/1370_IthDar_DoddaGubbi_10_3_da.jpg"
+    "filePath": "da/da_form2/1370_IthDar_DoddaGubbi_10_3_da.jpg",
+    "kannadaWord": "ದ"
   },
   {
     "id": 18,
@@ -195,7 +212,8 @@
     "posNumber": 3,
     "letter": "da",
     "fileName": "1370_IthDar_DoddaGubbi_11_3_da",
-    "filePath": "da/da_form2/1370_IthDar_DoddaGubbi_11_3_da.jpg"
+    "filePath": "da/da_form2/1370_IthDar_DoddaGubbi_11_3_da.jpg",
+    "kannadaWord": "ದ"
   },
   {
     "id": 19,
@@ -206,7 +224,8 @@
     "posNumber": 3,
     "letter": "da",
     "fileName": "1370_IthDar_DoddaGubbi_7_3_da",
-    "filePath": "da/da_form2/1370_IthDar_DoddaGubbi_7_3_da.jpg"
+    "filePath": "da/da_form2/1370_IthDar_DoddaGubbi_7_3_da.jpg",
+    "kannadaWord": "ದ"
   },
   {
     "id": 20,
@@ -217,7 +236,8 @@
     "posNumber": 7,
     "letter": "de",
     "fileName": "1370_IthDar_DoddaGubbi_6_7_de",
-    "filePath": "de/de_form1/1370_IthDar_DoddaGubbi_6_7_de.jpg"
+    "filePath": "de/de_form1/1370_IthDar_DoddaGubbi_6_7_de.jpg",
+    "kannadaWord": "ದೇ"
   },
   {
     "id": 21,
@@ -228,7 +248,8 @@
     "posNumber": 5,
     "letter": "dhā",
     "fileName": "1370_IthDar_DoddaGubbi_2_5_dhā",
-    "filePath": "dhā/dhā_form1/1370_IthDar_DoddaGubbi_2_5_dhā.jpg"
+    "filePath": "dhā/dhā_form1/1370_IthDar_DoddaGubbi_2_5_dhā.jpg",
+    "kannadaWord": "ಧಾ"
   },
   {
     "id": 22,
@@ -239,7 +260,8 @@
     "posNumber": 4,
     "letter": "du",
     "fileName": "1370_IthDar_DoddaGubbi_7_4_du",
-    "filePath": "du/du_form1/1370_IthDar_DoddaGubbi_7_4_du.jpg"
+    "filePath": "du/du_form1/1370_IthDar_DoddaGubbi_7_4_du.jpg",
+    "kannadaWord": "ದು"
   },
   {
     "id": 23,
@@ -250,7 +272,8 @@
     "posNumber": 1,
     "letter": "ga",
     "fileName": "1370_IthDar_DoddaGubbi_6_1_ga",
-    "filePath": "ga/ga_form1/1370_IthDar_DoddaGubbi_6_1_ga.jpg"
+    "filePath": "ga/ga_form1/1370_IthDar_DoddaGubbi_6_1_ga.jpg",
+    "kannadaWord": "ಗ"
   },
   {
     "id": 24,
@@ -261,7 +284,8 @@
     "posNumber": 6,
     "letter": "ga",
     "fileName": "1370_IthDar_DoddaGubbi_8_6_ga",
-    "filePath": "ga/ga_form1/1370_IthDar_DoddaGubbi_8_6_ga.jpg"
+    "filePath": "ga/ga_form1/1370_IthDar_DoddaGubbi_8_6_ga.jpg",
+    "kannadaWord": "ಗ"
   },
   {
     "id": 25,
@@ -272,7 +296,8 @@
     "posNumber": 6,
     "letter": "gu",
     "fileName": "1370_IthDar_DoddaGubbi_3_6_gu",
-    "filePath": "gu/gu_form1/1370_IthDar_DoddaGubbi_3_6_gu.jpg"
+    "filePath": "gu/gu_form1/1370_IthDar_DoddaGubbi_3_6_gu.jpg",
+    "kannadaWord": "ಗು"
   },
   {
     "id": 26,
@@ -283,7 +308,8 @@
     "posNumber": 2,
     "letter": "gu",
     "fileName": "1370_IthDar_DoddaGubbi_4_2_gu",
-    "filePath": "gu/gu_form1/1370_IthDar_DoddaGubbi_4_2_gu.jpg"
+    "filePath": "gu/gu_form1/1370_IthDar_DoddaGubbi_4_2_gu.jpg",
+    "kannadaWord": "ಗು"
   },
   {
     "id": 27,
@@ -294,7 +320,8 @@
     "posNumber": 1,
     "letter": "gā",
     "fileName": "1370_IthDar_DoddaGubbi_5_1_gā",
-    "filePath": "gā/gā_form2/1370_IthDar_DoddaGubbi_5_1_gā.jpg"
+    "filePath": "gā/gā_form2/1370_IthDar_DoddaGubbi_5_1_gā.jpg",
+    "kannadaWord": "ಗಾ"
   },
   {
     "id": 28,
@@ -305,7 +332,8 @@
     "posNumber": 4,
     "letter": "gŏ",
     "fileName": "1370_IthDar_DoddaGubbi_9_4_gŏ",
-    "filePath": "gŏ/gŏ_form1/1370_IthDar_DoddaGubbi_9_4_gŏ.jpg"
+    "filePath": "gŏ/gŏ_form1/1370_IthDar_DoddaGubbi_9_4_gŏ.jpg",
+    "kannadaWord": "ಗೊ"
   },
   {
     "id": 29,
@@ -316,7 +344,8 @@
     "posNumber": 5,
     "letter": "i",
     "fileName": "1370_IthDar_DoddaGubbi_10_5_i",
-    "filePath": "i/i_form1/1370_IthDar_DoddaGubbi_10_5_i.jpg"
+    "filePath": "i/i_form1/1370_IthDar_DoddaGubbi_10_5_i.jpg",
+    "kannadaWord": "ಇ"
   },
   {
     "id": 30,
@@ -327,7 +356,8 @@
     "posNumber": 7,
     "letter": "ja",
     "fileName": "1370_IthDar_DoddaGubbi_5_7_ja",
-    "filePath": "ja/ja_form1/1370_IthDar_DoddaGubbi_5_7_ja.jpg"
+    "filePath": "ja/ja_form1/1370_IthDar_DoddaGubbi_5_7_ja.jpg",
+    "kannadaWord": "ಜ"
   },
   {
     "id": 31,
@@ -338,7 +368,8 @@
     "posNumber": 1,
     "letter": "ja",
     "fileName": "1370_IthDar_DoddaGubbi_9_1_ja",
-    "filePath": "ja/ja_form1/1370_IthDar_DoddaGubbi_9_1_ja.jpg"
+    "filePath": "ja/ja_form1/1370_IthDar_DoddaGubbi_9_1_ja.jpg",
+    "kannadaWord": "ಜ"
   },
   {
     "id": 32,
@@ -349,7 +380,8 @@
     "posNumber": 10,
     "letter": "ka",
     "fileName": "1370_IthDar_DoddaGubbi_6_10_ka",
-    "filePath": "ka/ka_form3/1370_IthDar_DoddaGubbi_6_10_ka.jpg"
+    "filePath": "ka/ka_form3/1370_IthDar_DoddaGubbi_6_10_ka.jpg",
+    "kannadaWord": "ಕ"
   },
   {
     "id": 33,
@@ -360,7 +392,8 @@
     "posNumber": 7,
     "letter": "ka",
     "fileName": "1370_IthDar_DoddaGubbi_7_7_ka",
-    "filePath": "ka/ka_form3/1370_IthDar_DoddaGubbi_7_7_ka.jpg"
+    "filePath": "ka/ka_form3/1370_IthDar_DoddaGubbi_7_7_ka.jpg",
+    "kannadaWord": "ಕ"
   },
   {
     "id": 34,
@@ -371,7 +404,8 @@
     "posNumber": 3,
     "letter": "kkā",
     "fileName": "1370_IthDar_DoddaGubbi_6_3_kkā",
-    "filePath": "kkā/kkā_form1/1370_IthDar_DoddaGubbi_6_3_kkā.jpg"
+    "filePath": "kkā/kkā_form1/1370_IthDar_DoddaGubbi_6_3_kkā.jpg",
+    "kannadaWord": "ಕ್ಕಾ"
   },
   {
     "id": 35,
@@ -382,7 +416,8 @@
     "posNumber": 5,
     "letter": "kta",
     "fileName": "1370_IthDar_DoddaGubbi_6_5_kta",
-    "filePath": "kta/kta_form1/1370_IthDar_DoddaGubbi_6_5_kta.jpg"
+    "filePath": "kta/kta_form1/1370_IthDar_DoddaGubbi_6_5_kta.jpg",
+    "kannadaWord": "ಕ್ತ"
   },
   {
     "id": 36,
@@ -393,7 +428,8 @@
     "posNumber": 3,
     "letter": "kta",
     "fileName": "1370_IthDar_DoddaGubbi_8_3_kta",
-    "filePath": "kta/kta_form1/1370_IthDar_DoddaGubbi_8_3_kta.jpg"
+    "filePath": "kta/kta_form1/1370_IthDar_DoddaGubbi_8_3_kta.jpg",
+    "kannadaWord": "ಕ್ತ"
   },
   {
     "id": 37,
@@ -404,7 +440,8 @@
     "posNumber": 5,
     "letter": "kā",
     "fileName": "1370_IthDar_DoddaGubbi_1_5_kā",
-    "filePath": "kā/kā_form1/1370_IthDar_DoddaGubbi_1_5_kā.jpg"
+    "filePath": "kā/kā_form1/1370_IthDar_DoddaGubbi_1_5_kā.jpg",
+    "kannadaWord": "ಕಾ"
   },
   {
     "id": 38,
@@ -415,7 +452,8 @@
     "posNumber": 5,
     "letter": "kā",
     "fileName": "1370_IthDar_DoddaGubbi_11_5_kā",
-    "filePath": "kā/kā_form3/1370_IthDar_DoddaGubbi_11_5_kā.jpg"
+    "filePath": "kā/kā_form3/1370_IthDar_DoddaGubbi_11_5_kā.jpg",
+    "kannadaWord": "ಕಾ"
   },
   {
     "id": 39,
@@ -426,7 +464,8 @@
     "posNumber": 1,
     "letter": "kĕ",
     "fileName": "1370_IthDar_DoddaGubbi_7_1_kĕ",
-    "filePath": "kĕ/kĕ_form1/1370_IthDar_DoddaGubbi_7_1_kĕ.jpg"
+    "filePath": "kĕ/kĕ_form1/1370_IthDar_DoddaGubbi_7_1_kĕ.jpg",
+    "kannadaWord": "ಕೆ"
   },
   {
     "id": 40,
@@ -437,7 +476,8 @@
     "posNumber": 1,
     "letter": "li",
     "fileName": "1370_IthDar_DoddaGubbi_10_1_li",
-    "filePath": "li/li_form2/1370_IthDar_DoddaGubbi_10_1_li.jpg"
+    "filePath": "li/li_form2/1370_IthDar_DoddaGubbi_10_1_li.jpg",
+    "kannadaWord": "ಲಿ"
   },
   {
     "id": 41,
@@ -448,7 +488,8 @@
     "posNumber": 9,
     "letter": "lo",
     "fileName": "1370_IthDar_DoddaGubbi_6_9_lo",
-    "filePath": "lo/lo_form1/1370_IthDar_DoddaGubbi_6_9_lo.jpg"
+    "filePath": "lo/lo_form1/1370_IthDar_DoddaGubbi_6_9_lo.jpg",
+    "kannadaWord": "ಲೋ"
   },
   {
     "id": 42,
@@ -459,7 +500,8 @@
     "posNumber": 1,
     "letter": "lu",
     "fileName": "1370_IthDar_DoddaGubbi_4_1_lu",
-    "filePath": "lu/lu_form2/1370_IthDar_DoddaGubbi_4_1_lu.jpg"
+    "filePath": "lu/lu_form2/1370_IthDar_DoddaGubbi_4_1_lu.jpg",
+    "kannadaWord": "ಲು"
   },
   {
     "id": 43,
@@ -470,7 +512,8 @@
     "posNumber": 8,
     "letter": "l̤i",
     "fileName": "1370_IthDar_DoddaGubbi_4_8_l̤i",
-    "filePath": "l̤i/l̤i_form1/1370_IthDar_DoddaGubbi_4_8_l̤i.jpg"
+    "filePath": "l̤i/l̤i_form1/1370_IthDar_DoddaGubbi_4_8_l̤i.jpg",
+    "kannadaWord": "ಳಿ"
   },
   {
     "id": 44,
@@ -481,7 +524,8 @@
     "posNumber": 9,
     "letter": "ma",
     "fileName": "1370_IthDar_DoddaGubbi_5_9_ma",
-    "filePath": "ma/ma_form1/1370_IthDar_DoddaGubbi_5_9_ma.jpg"
+    "filePath": "ma/ma_form1/1370_IthDar_DoddaGubbi_5_9_ma.jpg",
+    "kannadaWord": "ಮ"
   },
   {
     "id": 45,
@@ -492,7 +536,8 @@
     "posNumber": 5,
     "letter": "ma",
     "fileName": "1370_IthDar_DoddaGubbi_8_5_ma",
-    "filePath": "ma/ma_form1/1370_IthDar_DoddaGubbi_8_5_ma.jpg"
+    "filePath": "ma/ma_form1/1370_IthDar_DoddaGubbi_8_5_ma.jpg",
+    "kannadaWord": "ಮ"
   },
   {
     "id": 46,
@@ -503,7 +548,8 @@
     "posNumber": 8,
     "letter": "na",
     "fileName": "1370_IthDar_DoddaGubbi_10_8_na",
-    "filePath": "na/na_form1/1370_IthDar_DoddaGubbi_10_8_na.jpg"
+    "filePath": "na/na_form1/1370_IthDar_DoddaGubbi_10_8_na.jpg",
+    "kannadaWord": "ನ"
   },
   {
     "id": 47,
@@ -514,7 +560,8 @@
     "posNumber": 6,
     "letter": "na",
     "fileName": "1370_IthDar_DoddaGubbi_4_6_na",
-    "filePath": "na/na_form1/1370_IthDar_DoddaGubbi_4_6_na.jpg"
+    "filePath": "na/na_form1/1370_IthDar_DoddaGubbi_4_6_na.jpg",
+    "kannadaWord": "ನ"
   },
   {
     "id": 48,
@@ -525,7 +572,8 @@
     "posNumber": 8,
     "letter": "na",
     "fileName": "1370_IthDar_DoddaGubbi_5_8_na",
-    "filePath": "na/na_form1/1370_IthDar_DoddaGubbi_5_8_na.jpg"
+    "filePath": "na/na_form1/1370_IthDar_DoddaGubbi_5_8_na.jpg",
+    "kannadaWord": "ನ"
   },
   {
     "id": 49,
@@ -536,7 +584,8 @@
     "posNumber": 4,
     "letter": "na",
     "fileName": "1370_IthDar_DoddaGubbi_8_4_na",
-    "filePath": "na/na_form1/1370_IthDar_DoddaGubbi_8_4_na.jpg"
+    "filePath": "na/na_form1/1370_IthDar_DoddaGubbi_8_4_na.jpg",
+    "kannadaWord": "ನ"
   },
   {
     "id": 50,
@@ -547,7 +596,8 @@
     "posNumber": 2,
     "letter": "ni",
     "fileName": "1370_IthDar_DoddaGubbi_2_2_ni",
-    "filePath": "ni/ni_form2/1370_IthDar_DoddaGubbi_2_2_ni.jpg"
+    "filePath": "ni/ni_form2/1370_IthDar_DoddaGubbi_2_2_ni.jpg",
+    "kannadaWord": "ನಿ"
   },
   {
     "id": 51,
@@ -558,7 +608,8 @@
     "posNumber": 7,
     "letter": "ni",
     "fileName": "1370_IthDar_DoddaGubbi_9_7_ni",
-    "filePath": "ni/ni_form2/1370_IthDar_DoddaGubbi_9_7_ni.jpg"
+    "filePath": "ni/ni_form2/1370_IthDar_DoddaGubbi_9_7_ni.jpg",
+    "kannadaWord": "ನಿ"
   },
   {
     "id": 52,
@@ -569,7 +620,8 @@
     "posNumber": 6,
     "letter": "nu",
     "fileName": "1370_IthDar_DoddaGubbi_6_6_nu",
-    "filePath": "nu/nu_form1/1370_IthDar_DoddaGubbi_6_6_nu.jpg"
+    "filePath": "nu/nu_form1/1370_IthDar_DoddaGubbi_6_6_nu.jpg",
+    "kannadaWord": "ನು"
   },
   {
     "id": 53,
@@ -580,7 +632,8 @@
     "posNumber": 2,
     "letter": "nu",
     "fileName": "1370_IthDar_DoddaGubbi_9_2_nu",
-    "filePath": "nu/nu_form1/1370_IthDar_DoddaGubbi_9_2_nu.jpg"
+    "filePath": "nu/nu_form1/1370_IthDar_DoddaGubbi_9_2_nu.jpg",
+    "kannadaWord": "ನು"
   },
   {
     "id": 54,
@@ -591,7 +644,8 @@
     "posNumber": 4,
     "letter": "nu",
     "fileName": "1370_IthDar_DoddaGubbi_10_4_nu",
-    "filePath": "nu/nu_form2/1370_IthDar_DoddaGubbi_10_4_nu.jpg"
+    "filePath": "nu/nu_form2/1370_IthDar_DoddaGubbi_10_4_nu.jpg",
+    "kannadaWord": "ನು"
   },
   {
     "id": 55,
@@ -602,7 +656,8 @@
     "posNumber": 5,
     "letter": "pi",
     "fileName": "1370_IthDar_DoddaGubbi_9_5_pi",
-    "filePath": "pi/pi_form1/1370_IthDar_DoddaGubbi_9_5_pi.jpg"
+    "filePath": "pi/pi_form1/1370_IthDar_DoddaGubbi_9_5_pi.jpg",
+    "kannadaWord": "ಪಿ"
   },
   {
     "id": 56,
@@ -613,7 +668,8 @@
     "posNumber": 2,
     "letter": "pu",
     "fileName": "1370_IthDar_DoddaGubbi_3_2_pu",
-    "filePath": "pu/pu_form1/1370_IthDar_DoddaGubbi_3_2_pu.jpg"
+    "filePath": "pu/pu_form1/1370_IthDar_DoddaGubbi_3_2_pu.jpg",
+    "kannadaWord": "ಪು"
   },
   {
     "id": 57,
@@ -624,7 +680,8 @@
     "posNumber": 9,
     "letter": "ra",
     "fileName": "1370_IthDar_DoddaGubbi_3_9_ra",
-    "filePath": "ra/ra_form1/1370_IthDar_DoddaGubbi_3_9_ra.jpg"
+    "filePath": "ra/ra_form1/1370_IthDar_DoddaGubbi_3_9_ra.jpg",
+    "kannadaWord": "ರ"
   },
   {
     "id": 58,
@@ -635,7 +692,8 @@
     "posNumber": 6,
     "letter": "ra",
     "fileName": "1370_IthDar_DoddaGubbi_2_6_ra",
-    "filePath": "ra/ra_form2/1370_IthDar_DoddaGubbi_2_6_ra.jpg"
+    "filePath": "ra/ra_form2/1370_IthDar_DoddaGubbi_2_6_ra.jpg",
+    "kannadaWord": "ರ"
   },
   {
     "id": 59,
@@ -646,7 +704,8 @@
     "posNumber": 1,
     "letter": "ra",
     "fileName": "1370_IthDar_DoddaGubbi_3_1_ra",
-    "filePath": "ra/ra_form2/1370_IthDar_DoddaGubbi_3_1_ra.jpg"
+    "filePath": "ra/ra_form2/1370_IthDar_DoddaGubbi_3_1_ra.jpg",
+    "kannadaWord": "ರ"
   },
   {
     "id": 60,
@@ -657,7 +716,8 @@
     "posNumber": 2,
     "letter": "ra",
     "fileName": "1370_IthDar_DoddaGubbi_11_2_ra",
-    "filePath": "ra/ra_form3/1370_IthDar_DoddaGubbi_11_2_ra.jpg"
+    "filePath": "ra/ra_form3/1370_IthDar_DoddaGubbi_11_2_ra.jpg",
+    "kannadaWord": "ರ"
   },
   {
     "id": 61,
@@ -668,7 +728,8 @@
     "posNumber": 3,
     "letter": "ri",
     "fileName": "1370_IthDar_DoddaGubbi_5_3_ri",
-    "filePath": "ri/ri_form1/1370_IthDar_DoddaGubbi_5_3_ri.jpg"
+    "filePath": "ri/ri_form1/1370_IthDar_DoddaGubbi_5_3_ri.jpg",
+    "kannadaWord": "ರಿ"
   },
   {
     "id": 62,
@@ -679,7 +740,8 @@
     "posNumber": 6,
     "letter": "ro",
     "fileName": "1370_IthDar_DoddaGubbi_5_6_ro",
-    "filePath": "ro/ro_form1/1370_IthDar_DoddaGubbi_5_6_ro.jpg"
+    "filePath": "ro/ro_form1/1370_IthDar_DoddaGubbi_5_6_ro.jpg",
+    "kannadaWord": "ರೋ"
   },
   {
     "id": 63,
@@ -690,7 +752,8 @@
     "posNumber": 7,
     "letter": "ru",
     "fileName": "1370_IthDar_DoddaGubbi_3_7_ru",
-    "filePath": "ru/ru_form2/1370_IthDar_DoddaGubbi_3_7_ru.jpg"
+    "filePath": "ru/ru_form2/1370_IthDar_DoddaGubbi_3_7_ru.jpg",
+    "kannadaWord": "ರು"
   },
   {
     "id": 64,
@@ -701,7 +764,8 @@
     "posNumber": 9,
     "letter": "rŏ",
     "fileName": "1370_IthDar_DoddaGubbi_8_9_rŏ",
-    "filePath": "rŏ/rŏ_form1/1370_IthDar_DoddaGubbi_8_9_rŏ.jpg"
+    "filePath": "rŏ/rŏ_form1/1370_IthDar_DoddaGubbi_8_9_rŏ.jpg",
+    "kannadaWord": "ರೊ"
   },
   {
     "id": 65,
@@ -712,7 +776,8 @@
     "posNumber": 6,
     "letter": "sa",
     "fileName": "1370_IthDar_DoddaGubbi_10_6_sa",
-    "filePath": "sa/sa_form1/1370_IthDar_DoddaGubbi_10_6_sa.jpg"
+    "filePath": "sa/sa_form1/1370_IthDar_DoddaGubbi_10_6_sa.jpg",
+    "kannadaWord": "ಸ"
   },
   {
     "id": 66,
@@ -723,7 +788,8 @@
     "posNumber": 8,
     "letter": "saṃ",
     "fileName": "1370_IthDar_DoddaGubbi_2_8_saṃ",
-    "filePath": "saṃ/saṃ_form1/1370_IthDar_DoddaGubbi_2_8_saṃ.jpg"
+    "filePath": "saṃ/saṃ_form1/1370_IthDar_DoddaGubbi_2_8_saṃ.jpg",
+    "kannadaWord": "ಸಂ"
   },
   {
     "id": 67,
@@ -734,7 +800,8 @@
     "posNumber": 2,
     "letter": "saṃ",
     "fileName": "1370_IthDar_DoddaGubbi_7_2_saṃ",
-    "filePath": "saṃ/saṃ_form1/1370_IthDar_DoddaGubbi_7_2_saṃ.jpg"
+    "filePath": "saṃ/saṃ_form1/1370_IthDar_DoddaGubbi_7_2_saṃ.jpg",
+    "kannadaWord": "ಸಂ"
   },
   {
     "id": 68,
@@ -745,7 +812,8 @@
     "posNumber": 2,
     "letter": "sti",
     "fileName": "1370_IthDar_DoddaGubbi_1_2_sti",
-    "filePath": "sti/sti_form1/1370_IthDar_DoddaGubbi_1_2_sti.jpg"
+    "filePath": "sti/sti_form1/1370_IthDar_DoddaGubbi_1_2_sti.jpg",
+    "kannadaWord": "ಸ್ತಿ"
   },
   {
     "id": 69,
@@ -756,7 +824,8 @@
     "posNumber": 5,
     "letter": "stā",
     "fileName": "1370_IthDar_DoddaGubbi_4_5_stā",
-    "filePath": "stā/stā_form1/1370_IthDar_DoddaGubbi_4_5_stā.jpg"
+    "filePath": "stā/stā_form1/1370_IthDar_DoddaGubbi_4_5_stā.jpg",
+    "kannadaWord": "ಸ್ತಾ"
   },
   {
     "id": 70,
@@ -767,7 +836,8 @@
     "posNumber": 4,
     "letter": "su",
     "fileName": "1370_IthDar_DoddaGubbi_3_4_su",
-    "filePath": "su/su_form1/1370_IthDar_DoddaGubbi_3_4_su.jpg"
+    "filePath": "su/su_form1/1370_IthDar_DoddaGubbi_3_4_su.jpg",
+    "kannadaWord": "ಸು"
   },
   {
     "id": 71,
@@ -778,7 +848,8 @@
     "posNumber": 1,
     "letter": "sva",
     "fileName": "1370_IthDar_DoddaGubbi_1_1_sva",
-    "filePath": "sva/sva_form1/1370_IthDar_DoddaGubbi_1_1_sva.jpg"
+    "filePath": "sva/sva_form1/1370_IthDar_DoddaGubbi_1_1_sva.jpg",
+    "kannadaWord": "ಸ್ವ"
   },
   {
     "id": 72,
@@ -789,7 +860,8 @@
     "posNumber": 7,
     "letter": "sā",
     "fileName": "1370_IthDar_DoddaGubbi_10_7_sā",
-    "filePath": "sā/sā_form1/1370_IthDar_DoddaGubbi_10_7_sā.jpg"
+    "filePath": "sā/sā_form1/1370_IthDar_DoddaGubbi_10_7_sā.jpg",
+    "kannadaWord": "ಸಾ"
   },
   {
     "id": 73,
@@ -800,7 +872,8 @@
     "posNumber": 4,
     "letter": "sā",
     "fileName": "1370_IthDar_DoddaGubbi_2_4_sā",
-    "filePath": "sā/sā_form1/1370_IthDar_DoddaGubbi_2_4_sā.jpg"
+    "filePath": "sā/sā_form1/1370_IthDar_DoddaGubbi_2_4_sā.jpg",
+    "kannadaWord": "ಸಾ"
   },
   {
     "id": 74,
@@ -811,7 +884,8 @@
     "posNumber": 4,
     "letter": "tha",
     "fileName": "1370_IthDar_DoddaGubbi_11_4_tha",
-    "filePath": "tha/tha_form1/1370_IthDar_DoddaGubbi_11_4_tha.jpg"
+    "filePath": "tha/tha_form1/1370_IthDar_DoddaGubbi_11_4_tha.jpg",
+    "kannadaWord": "ಥ"
   },
   {
     "id": 75,
@@ -822,7 +896,8 @@
     "posNumber": 10,
     "letter": "tsa",
     "fileName": "1370_IthDar_DoddaGubbi_2_10_tsa",
-    "filePath": "tsa/tsa_form2/1370_IthDar_DoddaGubbi_2_10_tsa.jpg"
+    "filePath": "tsa/tsa_form2/1370_IthDar_DoddaGubbi_2_10_tsa.jpg",
+    "kannadaWord": "ತ್ಸ"
   },
   {
     "id": 76,
@@ -833,7 +908,8 @@
     "posNumber": 9,
     "letter": "va",
     "fileName": "1370_IthDar_DoddaGubbi_10_9_va",
-    "filePath": "va/va_form1/1370_IthDar_DoddaGubbi_10_9_va.jpg"
+    "filePath": "va/va_form1/1370_IthDar_DoddaGubbi_10_9_va.jpg",
+    "kannadaWord": "ವ"
   },
   {
     "id": 77,
@@ -844,7 +920,8 @@
     "posNumber": 9,
     "letter": "va",
     "fileName": "1370_IthDar_DoddaGubbi_2_9_va",
-    "filePath": "va/va_form1/1370_IthDar_DoddaGubbi_2_9_va.jpg"
+    "filePath": "va/va_form1/1370_IthDar_DoddaGubbi_2_9_va.jpg",
+    "kannadaWord": "ವ"
   },
   {
     "id": 78,
@@ -855,7 +932,8 @@
     "posNumber": 7,
     "letter": "va",
     "fileName": "1370_IthDar_DoddaGubbi_4_7_va",
-    "filePath": "va/va_form2/1370_IthDar_DoddaGubbi_4_7_va.jpg"
+    "filePath": "va/va_form2/1370_IthDar_DoddaGubbi_4_7_va.jpg",
+    "kannadaWord": "ವ"
   },
   {
     "id": 79,
@@ -866,7 +944,8 @@
     "posNumber": 8,
     "letter": "va",
     "fileName": "1370_IthDar_DoddaGubbi_6_8_va",
-    "filePath": "va/va_form2/1370_IthDar_DoddaGubbi_6_8_va.jpg"
+    "filePath": "va/va_form2/1370_IthDar_DoddaGubbi_6_8_va.jpg",
+    "kannadaWord": "ವ"
   },
   {
     "id": 80,
@@ -877,7 +956,8 @@
     "posNumber": 8,
     "letter": "vā",
     "fileName": "1370_IthDar_DoddaGubbi_3_8_vā",
-    "filePath": "vā/vā_form2/1370_IthDar_DoddaGubbi_3_8_vā.jpg"
+    "filePath": "vā/vā_form2/1370_IthDar_DoddaGubbi_3_8_vā.jpg",
+    "kannadaWord": "ವಾ"
   },
   {
     "id": 81,
@@ -888,7 +968,8 @@
     "posNumber": 3,
     "letter": "ya",
     "fileName": "1370_IthDar_DoddaGubbi_2_3_ya",
-    "filePath": "ya/ya_form1/1370_IthDar_DoddaGubbi_2_3_ya.jpg"
+    "filePath": "ya/ya_form1/1370_IthDar_DoddaGubbi_2_3_ya.jpg",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 82,
@@ -899,7 +980,8 @@
     "posNumber": 4,
     "letter": "ya",
     "fileName": "1370_IthDar_DoddaGubbi_4_4_ya",
-    "filePath": "ya/ya_form1/1370_IthDar_DoddaGubbi_4_4_ya.jpg"
+    "filePath": "ya/ya_form1/1370_IthDar_DoddaGubbi_4_4_ya.jpg",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 83,
@@ -910,7 +992,8 @@
     "posNumber": 6,
     "letter": "ya",
     "fileName": "1370_IthDar_DoddaGubbi_9_6_ya",
-    "filePath": "ya/ya_form1/1370_IthDar_DoddaGubbi_9_6_ya.jpg"
+    "filePath": "ya/ya_form1/1370_IthDar_DoddaGubbi_9_6_ya.jpg",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 84,
@@ -921,7 +1004,8 @@
     "posNumber": 5,
     "letter": "yi",
     "fileName": "1370_IthDar_DoddaGubbi_5_5_yi",
-    "filePath": "yi/yi_form1/1370_IthDar_DoddaGubbi_5_5_yi.jpg"
+    "filePath": "yi/yi_form1/1370_IthDar_DoddaGubbi_5_5_yi.jpg",
+    "kannadaWord": "ಯಿ"
   },
   {
     "id": 85,
@@ -932,7 +1016,8 @@
     "posNumber": 8,
     "letter": "yi",
     "fileName": "1370_IthDar_DoddaGubbi_8_8_yi",
-    "filePath": "yi/yi_form1/1370_IthDar_DoddaGubbi_8_8_yi.jpg"
+    "filePath": "yi/yi_form1/1370_IthDar_DoddaGubbi_8_8_yi.jpg",
+    "kannadaWord": "ಯಿ"
   },
   {
     "id": 86,
@@ -943,7 +1028,8 @@
     "posNumber": 3,
     "letter": "yi",
     "fileName": "1370_IthDar_DoddaGubbi_9_3_yi",
-    "filePath": "yi/yi_form1/1370_IthDar_DoddaGubbi_9_3_yi.jpg"
+    "filePath": "yi/yi_form1/1370_IthDar_DoddaGubbi_9_3_yi.jpg",
+    "kannadaWord": "ಯಿ"
   },
   {
     "id": 87,
@@ -954,7 +1040,8 @@
     "posNumber": 5,
     "letter": "ā",
     "fileName": "1370_IthDar_DoddaGubbi_7_5_ā",
-    "filePath": "ā/ā_form1/1370_IthDar_DoddaGubbi_7_5_ā.jpg"
+    "filePath": "ā/ā_form1/1370_IthDar_DoddaGubbi_7_5_ā.jpg",
+    "kannadaWord": "ಆ"
   },
   {
     "id": 88,
@@ -965,7 +1052,8 @@
     "posNumber": 1,
     "letter": "ĕ",
     "fileName": "1370_IthDar_DoddaGubbi_2_1_ĕ",
-    "filePath": "ĕ/ĕ_form1/1370_IthDar_DoddaGubbi_2_1_ĕ.jpg"
+    "filePath": "ĕ/ĕ_form1/1370_IthDar_DoddaGubbi_2_1_ĕ.jpg",
+    "kannadaWord": "ಎ"
   },
   {
     "id": 89,
@@ -976,7 +1064,8 @@
     "posNumber": 4,
     "letter": "śa",
     "fileName": "1370_IthDar_DoddaGubbi_1_4_śa",
-    "filePath": "śa/śa_form1/1370_IthDar_DoddaGubbi_1_4_śa.jpg"
+    "filePath": "śa/śa_form1/1370_IthDar_DoddaGubbi_1_4_śa.jpg",
+    "kannadaWord": "ಶ"
   },
   {
     "id": 90,
@@ -987,7 +1076,8 @@
     "posNumber": 7,
     "letter": "śrī",
     "fileName": "1370_IthDar_DoddaGubbi_11_7_śrī",
-    "filePath": "śrī/śrī_form1/1370_IthDar_DoddaGubbi_11_7_śrī.jpg"
+    "filePath": "śrī/śrī_form1/1370_IthDar_DoddaGubbi_11_7_śrī.jpg",
+    "kannadaWord": "ಶ್ರೀ"
   },
   {
     "id": 91,
@@ -998,7 +1088,8 @@
     "posNumber": 3,
     "letter": "śrī",
     "fileName": "1370_IthDar_DoddaGubbi_1_3_śrī",
-    "filePath": "śrī/śrī_form1/1370_IthDar_DoddaGubbi_1_3_śrī.jpg"
+    "filePath": "śrī/śrī_form1/1370_IthDar_DoddaGubbi_1_3_śrī.jpg",
+    "kannadaWord": "ಶ್ರೀ"
   },
   {
     "id": 92,
@@ -1009,7 +1100,8 @@
     "posNumber": 6,
     "letter": "ḻa",
     "fileName": "1370_IthDar_DoddaGubbi_11_6_ḻa",
-    "filePath": "ḻa/ḻa_form1/1370_IthDar_DoddaGubbi_11_6_ḻa.jpg"
+    "filePath": "ḻa/ḻa_form1/1370_IthDar_DoddaGubbi_11_6_ḻa.jpg",
+    "kannadaWord": "ೞ"
   },
   {
     "id": 93,
@@ -1020,7 +1112,8 @@
     "posNumber": 7,
     "letter": "ṇa",
     "fileName": "1370_IthDar_DoddaGubbi_2_7_ṇa",
-    "filePath": "ṇa/ṇa_form1/1370_IthDar_DoddaGubbi_2_7_ṇa.jpg"
+    "filePath": "ṇa/ṇa_form1/1370_IthDar_DoddaGubbi_2_7_ṇa.jpg",
+    "kannadaWord": "ಣ"
   },
   {
     "id": 94,
@@ -1031,6 +1124,7 @@
     "posNumber": 3,
     "letter": "ṣya",
     "fileName": "1370_IthDar_DoddaGubbi_3_3_ṣya",
-    "filePath": "ṣya/ṣya_form1/1370_IthDar_DoddaGubbi_3_3_ṣya.jpg"
+    "filePath": "ṣya/ṣya_form1/1370_IthDar_DoddaGubbi_3_3_ṣya.jpg",
+    "kannadaWord": "ಷ್ಯ"
   }
 ]

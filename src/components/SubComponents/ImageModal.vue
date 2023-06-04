@@ -5,7 +5,7 @@ import { imagesFolder } from '../../models/paths';
 
 <script>
 export default {
-    props: { showModalDialog: Boolean, imagePath: Object },
+    props: { showModalDialog: Boolean, imagePath: String },
     watch: {
         showModalDialog(newValue, oldValue) {
             this.showModal = this.showModalDialog

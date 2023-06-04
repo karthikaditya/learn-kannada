@@ -8,7 +8,8 @@
     "posNumber": 4,
     "letter": "llāṃ",
     "fileName": "1400_Bn90_Begurdoorpost_3_4_llāṃ",
-    "filePath": "llāṃ/1400_Bn90_Begurdoorpost_3_4_llāṃ.jpg"
+    "filePath": "llāṃ/1400_Bn90_Begurdoorpost_3_4_llāṃ.jpg",
+    "kannadaWord": "ಲ್ಲಾಂ"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "posNumber": 5,
     "letter": "a",
     "fileName": "1400_Bn90_Begurdoorpost_8_5_a",
-    "filePath": "a/a_form1/1400_Bn90_Begurdoorpost_8_5_a.jpg"
+    "filePath": "a/a_form1/1400_Bn90_Begurdoorpost_8_5_a.jpg",
+    "kannadaWord": "ಅ"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "posNumber": 3,
     "letter": "ba",
     "fileName": "1400_Bn90_Begurdoorpost_11_3_ba",
-    "filePath": "ba/ba_form1/1400_Bn90_Begurdoorpost_11_3_ba.jpg"
+    "filePath": "ba/ba_form1/1400_Bn90_Begurdoorpost_11_3_ba.jpg",
+    "kannadaWord": "ಬ"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "posNumber": 7,
     "letter": "be",
     "fileName": "1400_Bn90_Begurdoorpost_2_7_be",
-    "filePath": "be/be_form1/1400_Bn90_Begurdoorpost_2_7_be.jpg"
+    "filePath": "be/be_form1/1400_Bn90_Begurdoorpost_2_7_be.jpg",
+    "kannadaWord": "ಬೇ"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "posNumber": 3,
     "letter": "cĕ",
     "fileName": "1400_Bn90_Begurdoorpost_3_3_cĕ",
-    "filePath": "cĕ/cĕ_form1/1400_Bn90_Begurdoorpost_3_3_cĕ.jpg"
+    "filePath": "cĕ/cĕ_form1/1400_Bn90_Begurdoorpost_3_3_cĕ.jpg",
+    "kannadaWord": "ಚೆ"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "posNumber": 3,
     "letter": "de",
     "fileName": "1400_Bn90_Begurdoorpost_2_3_de",
-    "filePath": "de/de_form2/1400_Bn90_Begurdoorpost_2_3_de.jpg"
+    "filePath": "de/de_form2/1400_Bn90_Begurdoorpost_2_3_de.jpg",
+    "kannadaWord": "ದೇ"
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "posNumber": 5,
     "letter": "dhū",
     "fileName": "1400_Bn90_Begurdoorpost_10_5_dhū",
-    "filePath": "dhū/dhū_form1/1400_Bn90_Begurdoorpost_10_5_dhū.jpg"
+    "filePath": "dhū/dhū_form1/1400_Bn90_Begurdoorpost_10_5_dhū.jpg",
+    "kannadaWord": "ಧೂ"
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "posNumber": 5,
     "letter": "ga",
     "fileName": "1400_Bn90_Begurdoorpost_1_5_ga",
-    "filePath": "ga/ga_form2/1400_Bn90_Begurdoorpost_1_5_ga.jpg"
+    "filePath": "ga/ga_form2/1400_Bn90_Begurdoorpost_1_5_ga.jpg",
+    "kannadaWord": "ಗ"
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "posNumber": 1,
     "letter": "ga",
     "fileName": "1400_Bn90_Begurdoorpost_5_1_ga",
-    "filePath": "ga/ga_form2/1400_Bn90_Begurdoorpost_5_1_ga.jpg"
+    "filePath": "ga/ga_form2/1400_Bn90_Begurdoorpost_5_1_ga.jpg",
+    "kannadaWord": "ಗ"
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "posNumber": 2,
     "letter": "ga",
     "fileName": "1400_Bn90_Begurdoorpost_5_2_ga",
-    "filePath": "ga/ga_form2/1400_Bn90_Begurdoorpost_5_2_ga.jpg"
+    "filePath": "ga/ga_form2/1400_Bn90_Begurdoorpost_5_2_ga.jpg",
+    "kannadaWord": "ಗ"
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "posNumber": 4,
     "letter": "gaṃ",
     "fileName": "1400_Bn90_Begurdoorpost_9_4_gaṃ",
-    "filePath": "gaṃ/gaṃ_form2/1400_Bn90_Begurdoorpost_9_4_gaṃ.jpg"
+    "filePath": "gaṃ/gaṃ_form2/1400_Bn90_Begurdoorpost_9_4_gaṃ.jpg",
+    "kannadaWord": "ಗಂ"
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "posNumber": 6,
     "letter": "gĕ",
     "fileName": "1400_Bn90_Begurdoorpost_2_6_gĕ",
-    "filePath": "gĕ/gĕ_form3/1400_Bn90_Begurdoorpost_2_6_gĕ.jpg"
+    "filePath": "gĕ/gĕ_form3/1400_Bn90_Begurdoorpost_2_6_gĕ.jpg",
+    "kannadaWord": "ಗೆ"
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "posNumber": 3,
     "letter": "gĕ",
     "fileName": "1400_Bn90_Begurdoorpost_9_3_gĕ",
-    "filePath": "gĕ/gĕ_form3/1400_Bn90_Begurdoorpost_9_3_gĕ.jpg"
+    "filePath": "gĕ/gĕ_form3/1400_Bn90_Begurdoorpost_9_3_gĕ.jpg",
+    "kannadaWord": "ಗೆ"
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "posNumber": 1,
     "letter": "ha",
     "fileName": "1400_Bn90_Begurdoorpost_8_1_ha",
-    "filePath": "ha/ha_form2/1400_Bn90_Begurdoorpost_8_1_ha.jpg"
+    "filePath": "ha/ha_form2/1400_Bn90_Begurdoorpost_8_1_ha.jpg",
+    "kannadaWord": "ಹ"
   },
   {
     "id": 15,
@@ -162,7 +176,8 @@
     "posNumber": 1,
     "letter": "hū",
     "fileName": "1400_Bn90_Begurdoorpost_3_1_hū",
-    "filePath": "hū/hū_form1/1400_Bn90_Begurdoorpost_3_1_hū.jpg"
+    "filePath": "hū/hū_form1/1400_Bn90_Begurdoorpost_3_1_hū.jpg",
+    "kannadaWord": "ಹೂ"
   },
   {
     "id": 16,
@@ -173,7 +188,8 @@
     "posNumber": 4,
     "letter": "ka",
     "fileName": "1400_Bn90_Begurdoorpost_7_4_ka",
-    "filePath": "ka/ka_form2/1400_Bn90_Begurdoorpost_7_4_ka.jpg"
+    "filePath": "ka/ka_form2/1400_Bn90_Begurdoorpost_7_4_ka.jpg",
+    "kannadaWord": "ಕ"
   },
   {
     "id": 17,
@@ -184,7 +200,8 @@
     "posNumber": 1,
     "letter": "ku",
     "fileName": "1400_Bn90_Begurdoorpost_12_1_ku",
-    "filePath": "ku/ku_form2/1400_Bn90_Begurdoorpost_12_1_ku.jpg"
+    "filePath": "ku/ku_form2/1400_Bn90_Begurdoorpost_12_1_ku.jpg",
+    "kannadaWord": "ಕು"
   },
   {
     "id": 18,
@@ -195,7 +212,8 @@
     "posNumber": 5,
     "letter": "kŏ",
     "fileName": "1400_Bn90_Begurdoorpost_6_5_kŏ",
-    "filePath": "kŏ/kŏ_form1/1400_Bn90_Begurdoorpost_6_5_kŏ.jpg"
+    "filePath": "kŏ/kŏ_form1/1400_Bn90_Begurdoorpost_6_5_kŏ.jpg",
+    "kannadaWord": "ಕೊ"
   },
   {
     "id": 19,
@@ -206,7 +224,8 @@
     "posNumber": 5,
     "letter": "lu",
     "fileName": "1400_Bn90_Begurdoorpost_11_5_lu",
-    "filePath": "lu/lu_form1/1400_Bn90_Begurdoorpost_11_5_lu.jpg"
+    "filePath": "lu/lu_form1/1400_Bn90_Begurdoorpost_11_5_lu.jpg",
+    "kannadaWord": "ಲು"
   },
   {
     "id": 20,
@@ -217,7 +236,8 @@
     "posNumber": 4,
     "letter": "ma",
     "fileName": "1400_Bn90_Begurdoorpost_4_4_ma",
-    "filePath": "ma/ma_form1/1400_Bn90_Begurdoorpost_4_4_ma.jpg"
+    "filePath": "ma/ma_form1/1400_Bn90_Begurdoorpost_4_4_ma.jpg",
+    "kannadaWord": "ಮ"
   },
   {
     "id": 21,
@@ -228,7 +248,8 @@
     "posNumber": 1,
     "letter": "na",
     "fileName": "1400_Bn90_Begurdoorpost_10_1_na",
-    "filePath": "na/na_form1/1400_Bn90_Begurdoorpost_10_1_na.jpg"
+    "filePath": "na/na_form1/1400_Bn90_Begurdoorpost_10_1_na.jpg",
+    "kannadaWord": "ನ"
   },
   {
     "id": 22,
@@ -239,7 +260,8 @@
     "posNumber": 4,
     "letter": "na",
     "fileName": "1400_Bn90_Begurdoorpost_1_4_na",
-    "filePath": "na/na_form1/1400_Bn90_Begurdoorpost_1_4_na.jpg"
+    "filePath": "na/na_form1/1400_Bn90_Begurdoorpost_1_4_na.jpg",
+    "kannadaWord": "ನ"
   },
   {
     "id": 23,
@@ -250,7 +272,8 @@
     "posNumber": 4,
     "letter": "nu",
     "fileName": "1400_Bn90_Begurdoorpost_6_4_nu",
-    "filePath": "nu/nu_form1/1400_Bn90_Begurdoorpost_6_4_nu.jpg"
+    "filePath": "nu/nu_form1/1400_Bn90_Begurdoorpost_6_4_nu.jpg",
+    "kannadaWord": "ನು"
   },
   {
     "id": 24,
@@ -261,7 +284,8 @@
     "posNumber": 3,
     "letter": "pa",
     "fileName": "1400_Bn90_Begurdoorpost_7_3_pa",
-    "filePath": "pa/pa_form1/1400_Bn90_Begurdoorpost_7_3_pa.jpg"
+    "filePath": "pa/pa_form1/1400_Bn90_Begurdoorpost_7_3_pa.jpg",
+    "kannadaWord": "ಪ"
   },
   {
     "id": 25,
@@ -272,7 +296,8 @@
     "posNumber": 5,
     "letter": "pi",
     "fileName": "1400_Bn90_Begurdoorpost_9_5_pi",
-    "filePath": "pi/pi_form2/1400_Bn90_Begurdoorpost_9_5_pi.jpg"
+    "filePath": "pi/pi_form2/1400_Bn90_Begurdoorpost_9_5_pi.jpg",
+    "kannadaWord": "ಪಿ"
   },
   {
     "id": 26,
@@ -283,7 +308,8 @@
     "posNumber": 3,
     "letter": "ppa",
     "fileName": "1400_Bn90_Begurdoorpost_6_3_ppa",
-    "filePath": "ppa/ppa_form1/1400_Bn90_Begurdoorpost_6_3_ppa.jpg"
+    "filePath": "ppa/ppa_form1/1400_Bn90_Begurdoorpost_6_3_ppa.jpg",
+    "kannadaWord": "ಪ್ಪ"
   },
   {
     "id": 27,
@@ -294,7 +320,8 @@
     "posNumber": 6,
     "letter": "pā",
     "fileName": "1400_Bn90_Begurdoorpost_10_6_pā",
-    "filePath": "pā/pā_form2/1400_Bn90_Begurdoorpost_10_6_pā.jpg"
+    "filePath": "pā/pā_form2/1400_Bn90_Begurdoorpost_10_6_pā.jpg",
+    "kannadaWord": "ಪಾ"
   },
   {
     "id": 28,
@@ -305,7 +332,8 @@
     "posNumber": 2,
     "letter": "ra",
     "fileName": "1400_Bn90_Begurdoorpost_2_2_ra",
-    "filePath": "ra/ra_form1/1400_Bn90_Begurdoorpost_2_2_ra.jpg"
+    "filePath": "ra/ra_form1/1400_Bn90_Begurdoorpost_2_2_ra.jpg",
+    "kannadaWord": "ರ"
   },
   {
     "id": 29,
@@ -316,7 +344,8 @@
     "posNumber": 2,
     "letter": "ra",
     "fileName": "1400_Bn90_Begurdoorpost_3_2_ra",
-    "filePath": "ra/ra_form1/1400_Bn90_Begurdoorpost_3_2_ra.jpg"
+    "filePath": "ra/ra_form1/1400_Bn90_Begurdoorpost_3_2_ra.jpg",
+    "kannadaWord": "ರ"
   },
   {
     "id": 30,
@@ -327,7 +356,8 @@
     "posNumber": 5,
     "letter": "ra",
     "fileName": "1400_Bn90_Begurdoorpost_7_5_ra",
-    "filePath": "ra/ra_form1/1400_Bn90_Begurdoorpost_7_5_ra.jpg"
+    "filePath": "ra/ra_form1/1400_Bn90_Begurdoorpost_7_5_ra.jpg",
+    "kannadaWord": "ರ"
   },
   {
     "id": 31,
@@ -338,7 +368,8 @@
     "posNumber": 3,
     "letter": "ra",
     "fileName": "1400_Bn90_Begurdoorpost_10_3_ra",
-    "filePath": "ra/ra_form3/1400_Bn90_Begurdoorpost_10_3_ra.jpg"
+    "filePath": "ra/ra_form3/1400_Bn90_Begurdoorpost_10_3_ra.jpg",
+    "kannadaWord": "ರ"
   },
   {
     "id": 32,
@@ -349,7 +380,8 @@
     "posNumber": 1,
     "letter": "ra",
     "fileName": "1400_Bn90_Begurdoorpost_11_1_ra",
-    "filePath": "ra/ra_form3/1400_Bn90_Begurdoorpost_11_1_ra.jpg"
+    "filePath": "ra/ra_form3/1400_Bn90_Begurdoorpost_11_1_ra.jpg",
+    "kannadaWord": "ರ"
   },
   {
     "id": 33,
@@ -360,7 +392,8 @@
     "posNumber": 6,
     "letter": "re",
     "fileName": "1400_Bn90_Begurdoorpost_1_6_re",
-    "filePath": "re/re_form1/1400_Bn90_Begurdoorpost_1_6_re.jpg"
+    "filePath": "re/re_form1/1400_Bn90_Begurdoorpost_1_6_re.jpg",
+    "kannadaWord": "ರೇ"
   },
   {
     "id": 34,
@@ -371,7 +404,8 @@
     "posNumber": 5,
     "letter": "ri",
     "fileName": "1400_Bn90_Begurdoorpost_2_5_ri",
-    "filePath": "ri/ri_form1/1400_Bn90_Begurdoorpost_2_5_ri.jpg"
+    "filePath": "ri/ri_form1/1400_Bn90_Begurdoorpost_2_5_ri.jpg",
+    "kannadaWord": "ರಿ"
   },
   {
     "id": 35,
@@ -382,7 +416,8 @@
     "posNumber": 2,
     "letter": "ri",
     "fileName": "1400_Bn90_Begurdoorpost_8_2_ri",
-    "filePath": "ri/ri_form1/1400_Bn90_Begurdoorpost_8_2_ri.jpg"
+    "filePath": "ri/ri_form1/1400_Bn90_Begurdoorpost_8_2_ri.jpg",
+    "kannadaWord": "ರಿ"
   },
   {
     "id": 36,
@@ -393,7 +428,8 @@
     "posNumber": 2,
     "letter": "sti",
     "fileName": "1400_Bn90_Begurdoorpost_1_2_sti",
-    "filePath": "sti/sti_form2/1400_Bn90_Begurdoorpost_1_2_sti.jpg"
+    "filePath": "sti/sti_form2/1400_Bn90_Begurdoorpost_1_2_sti.jpg",
+    "kannadaWord": "ಸ್ತಿ"
   },
   {
     "id": 37,
@@ -404,7 +440,8 @@
     "posNumber": 1,
     "letter": "sva",
     "fileName": "1400_Bn90_Begurdoorpost_1_1_sva",
-    "filePath": "sva/sva_form2/1400_Bn90_Begurdoorpost_1_1_sva.jpg"
+    "filePath": "sva/sva_form2/1400_Bn90_Begurdoorpost_1_1_sva.jpg",
+    "kannadaWord": "ಸ್ವ"
   },
   {
     "id": 38,
@@ -415,7 +452,8 @@
     "posNumber": 2,
     "letter": "sĕ",
     "fileName": "1400_Bn90_Begurdoorpost_4_2_sĕ",
-    "filePath": "sĕ/sĕ_form3/1400_Bn90_Begurdoorpost_4_2_sĕ.jpg"
+    "filePath": "sĕ/sĕ_form3/1400_Bn90_Begurdoorpost_4_2_sĕ.jpg",
+    "kannadaWord": "ಸೆ"
   },
   {
     "id": 39,
@@ -426,7 +464,8 @@
     "posNumber": 5,
     "letter": "sŏ",
     "fileName": "1400_Bn90_Begurdoorpost_5_5_sŏ",
-    "filePath": "sŏ/sŏ_form1/1400_Bn90_Begurdoorpost_5_5_sŏ.jpg"
+    "filePath": "sŏ/sŏ_form1/1400_Bn90_Begurdoorpost_5_5_sŏ.jpg",
+    "kannadaWord": "ಸೊ"
   },
   {
     "id": 40,
@@ -437,7 +476,8 @@
     "posNumber": 4,
     "letter": "ti",
     "fileName": "1400_Bn90_Begurdoorpost_10_4_ti",
-    "filePath": "ti/ti_form1/1400_Bn90_Begurdoorpost_10_4_ti.jpg"
+    "filePath": "ti/ti_form1/1400_Bn90_Begurdoorpost_10_4_ti.jpg",
+    "kannadaWord": "ತಿ"
   },
   {
     "id": 41,
@@ -448,7 +488,8 @@
     "posNumber": 2,
     "letter": "ti",
     "fileName": "1400_Bn90_Begurdoorpost_11_2_ti",
-    "filePath": "ti/ti_form1/1400_Bn90_Begurdoorpost_11_2_ti.jpg"
+    "filePath": "ti/ti_form1/1400_Bn90_Begurdoorpost_11_2_ti.jpg",
+    "kannadaWord": "ತಿ"
   },
   {
     "id": 42,
@@ -459,7 +500,8 @@
     "posNumber": 3,
     "letter": "u",
     "fileName": "1400_Bn90_Begurdoorpost_5_3_u",
-    "filePath": "u/u_form1/1400_Bn90_Begurdoorpost_5_3_u.jpg"
+    "filePath": "u/u_form1/1400_Bn90_Begurdoorpost_5_3_u.jpg",
+    "kannadaWord": "ಉ"
   },
   {
     "id": 43,
@@ -470,7 +512,8 @@
     "posNumber": 2,
     "letter": "u",
     "fileName": "1400_Bn90_Begurdoorpost_7_2_u",
-    "filePath": "u/u_form1/1400_Bn90_Begurdoorpost_7_2_u.jpg"
+    "filePath": "u/u_form1/1400_Bn90_Begurdoorpost_7_2_u.jpg",
+    "kannadaWord": "ಉ"
   },
   {
     "id": 44,
@@ -481,7 +524,8 @@
     "posNumber": 4,
     "letter": "va",
     "fileName": "1400_Bn90_Begurdoorpost_2_4_va",
-    "filePath": "va/va_form2/1400_Bn90_Begurdoorpost_2_4_va.jpg"
+    "filePath": "va/va_form2/1400_Bn90_Begurdoorpost_2_4_va.jpg",
+    "kannadaWord": "ವ"
   },
   {
     "id": 45,
@@ -492,7 +536,8 @@
     "posNumber": 2,
     "letter": "vā",
     "fileName": "1400_Bn90_Begurdoorpost_10_2_vā",
-    "filePath": "vā/vā_form2/1400_Bn90_Begurdoorpost_10_2_vā.jpg"
+    "filePath": "vā/vā_form2/1400_Bn90_Begurdoorpost_10_2_vā.jpg",
+    "kannadaWord": "ವಾ"
   },
   {
     "id": 46,
@@ -503,7 +548,8 @@
     "posNumber": 5,
     "letter": "ya",
     "fileName": "1400_Bn90_Begurdoorpost_4_5_ya",
-    "filePath": "ya/ya_form1/1400_Bn90_Begurdoorpost_4_5_ya.jpg"
+    "filePath": "ya/ya_form1/1400_Bn90_Begurdoorpost_4_5_ya.jpg",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 47,
@@ -514,7 +560,8 @@
     "posNumber": 3,
     "letter": "yā",
     "fileName": "1400_Bn90_Begurdoorpost_8_3_yā",
-    "filePath": "yā/yā_form1/1400_Bn90_Begurdoorpost_8_3_yā.jpg"
+    "filePath": "yā/yā_form1/1400_Bn90_Begurdoorpost_8_3_yā.jpg",
+    "kannadaWord": "ಯಾ"
   },
   {
     "id": 48,
@@ -525,7 +572,8 @@
     "posNumber": 6,
     "letter": "śaṃ",
     "fileName": "1400_Bn90_Begurdoorpost_11_6_śaṃ",
-    "filePath": "śaṃ/śaṃ_form1/1400_Bn90_Begurdoorpost_11_6_śaṃ.jpg"
+    "filePath": "śaṃ/śaṃ_form1/1400_Bn90_Begurdoorpost_11_6_śaṃ.jpg",
+    "kannadaWord": "ಶಂ"
   },
   {
     "id": 49,
@@ -536,7 +584,8 @@
     "posNumber": 3,
     "letter": "śrī",
     "fileName": "1400_Bn90_Begurdoorpost_1_3_śrī",
-    "filePath": "śrī/śrī_form4/1400_Bn90_Begurdoorpost_1_3_śrī.jpg"
+    "filePath": "śrī/śrī_form4/1400_Bn90_Begurdoorpost_1_3_śrī.jpg",
+    "kannadaWord": "ಶ್ರೀ"
   },
   {
     "id": 50,
@@ -547,7 +596,8 @@
     "posNumber": 1,
     "letter": "śva",
     "fileName": "1400_Bn90_Begurdoorpost_2_1_śva",
-    "filePath": "śva/śva_form2/1400_Bn90_Begurdoorpost_2_1_śva.jpg"
+    "filePath": "śva/śva_form2/1400_Bn90_Begurdoorpost_2_1_śva.jpg",
+    "kannadaWord": "ಶ್ವ"
   },
   {
     "id": 51,
@@ -558,7 +608,8 @@
     "posNumber": 1,
     "letter": "ḍi",
     "fileName": "1400_Bn90_Begurdoorpost_4_1_ḍi",
-    "filePath": "ḍi/ḍi_form4/1400_Bn90_Begurdoorpost_4_1_ḍi.jpg"
+    "filePath": "ḍi/ḍi_form4/1400_Bn90_Begurdoorpost_4_1_ḍi.jpg",
+    "kannadaWord": "ಡಿ"
   },
   {
     "id": 52,
@@ -569,7 +620,8 @@
     "posNumber": 4,
     "letter": "ḍu",
     "fileName": "1400_Bn90_Begurdoorpost_5_4_ḍu",
-    "filePath": "ḍu/ḍu_form1/1400_Bn90_Begurdoorpost_5_4_ḍu.jpg"
+    "filePath": "ḍu/ḍu_form1/1400_Bn90_Begurdoorpost_5_4_ḍu.jpg",
+    "kannadaWord": "ಡು"
   },
   {
     "id": 53,
@@ -580,7 +632,8 @@
     "posNumber": 1,
     "letter": "ḍḍa",
     "fileName": "1400_Bn90_Begurdoorpost_9_1_ḍḍa",
-    "filePath": "ḍḍa/ḍḍa_form1/1400_Bn90_Begurdoorpost_9_1_ḍḍa.jpg"
+    "filePath": "ḍḍa/ḍḍa_form1/1400_Bn90_Begurdoorpost_9_1_ḍḍa.jpg",
+    "kannadaWord": "ಡ್ಡ"
   },
   {
     "id": 54,
@@ -591,7 +644,8 @@
     "posNumber": 1,
     "letter": "ṃ",
     "fileName": "1400_Bn90_Begurdoorpost_6_1_ṃ",
-    "filePath": "ṃ/ṃ_form1/1400_Bn90_Begurdoorpost_6_1_ṃ.jpg"
+    "filePath": "ṃ/ṃ_form1/1400_Bn90_Begurdoorpost_6_1_ṃ.jpg",
+    "kannadaWord": "ಂ"
   },
   {
     "id": 55,
@@ -602,7 +656,8 @@
     "posNumber": 6,
     "letter": "ṇa",
     "fileName": "1400_Bn90_Begurdoorpost_7_6_ṇa",
-    "filePath": "ṇa/ṇa_form1/1400_Bn90_Begurdoorpost_7_6_ṇa.jpg"
+    "filePath": "ṇa/ṇa_form1/1400_Bn90_Begurdoorpost_7_6_ṇa.jpg",
+    "kannadaWord": "ಣ"
   },
   {
     "id": 56,
@@ -613,7 +668,8 @@
     "posNumber": 4,
     "letter": "ṇa",
     "fileName": "1400_Bn90_Begurdoorpost_8_4_ṇa",
-    "filePath": "ṇa/ṇa_form1/1400_Bn90_Begurdoorpost_8_4_ṇa.jpg"
+    "filePath": "ṇa/ṇa_form1/1400_Bn90_Begurdoorpost_8_4_ṇa.jpg",
+    "kannadaWord": "ಣ"
   },
   {
     "id": 57,
@@ -624,7 +680,8 @@
     "posNumber": 2,
     "letter": "ṇa",
     "fileName": "1400_Bn90_Begurdoorpost_6_2_ṇa",
-    "filePath": "ṇa/ṇa_form2/1400_Bn90_Begurdoorpost_6_2_ṇa.jpg"
+    "filePath": "ṇa/ṇa_form2/1400_Bn90_Begurdoorpost_6_2_ṇa.jpg",
+    "kannadaWord": "ಣ"
   },
   {
     "id": 58,
@@ -635,7 +692,8 @@
     "posNumber": 2,
     "letter": "ṇi",
     "fileName": "1400_Bn90_Begurdoorpost_9_2_ṇi",
-    "filePath": "ṇi/ṇi_form2/1400_Bn90_Begurdoorpost_9_2_ṇi.jpg"
+    "filePath": "ṇi/ṇi_form2/1400_Bn90_Begurdoorpost_9_2_ṇi.jpg",
+    "kannadaWord": "ಣಿ"
   },
   {
     "id": 59,
@@ -646,7 +704,8 @@
     "posNumber": 1,
     "letter": "ṭṭa",
     "fileName": "1400_Bn90_Begurdoorpost_7_1_ṭṭa",
-    "filePath": "ṭṭa/ṭṭa_form1/1400_Bn90_Begurdoorpost_7_1_ṭṭa.jpg"
+    "filePath": "ṭṭa/ṭṭa_form1/1400_Bn90_Begurdoorpost_7_1_ṭṭa.jpg",
+    "kannadaWord": "ಟ್ಟ"
   },
   {
     "id": 60,
@@ -657,7 +716,8 @@
     "posNumber": 4,
     "letter": "ṭṭa",
     "fileName": "1400_Bn90_Begurdoorpost_11_4_ṭṭa",
-    "filePath": "ṭṭa/ṭṭa_form2/1400_Bn90_Begurdoorpost_11_4_ṭṭa.jpg"
+    "filePath": "ṭṭa/ṭṭa_form2/1400_Bn90_Begurdoorpost_11_4_ṭṭa.jpg",
+    "kannadaWord": "ಟ್ಟ"
   },
   {
     "id": 61,
@@ -668,6 +728,7 @@
     "posNumber": 3,
     "letter": "ṭṭi",
     "fileName": "1400_Bn90_Begurdoorpost_4_3_ṭṭi",
-    "filePath": "ṭṭi/ṭṭi_form1/1400_Bn90_Begurdoorpost_4_3_ṭṭi.jpg"
+    "filePath": "ṭṭi/ṭṭi_form1/1400_Bn90_Begurdoorpost_4_3_ṭṭi.jpg",
+    "kannadaWord": "ಟ್ಟಿ"
   }
 ]

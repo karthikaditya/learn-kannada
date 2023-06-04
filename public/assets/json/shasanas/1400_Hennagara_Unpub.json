@@ -8,7 +8,8 @@
     "posNumber": 4,
     "letter": "1",
     "fileName": "1400_Hennagara_Unpub_2_4_1",
-    "filePath": "1/1_form1/1400_Hennagara_Unpub_2_4_1.JPG"
+    "filePath": "1/1_form1/1400_Hennagara_Unpub_2_4_1.JPG",
+    "kannadaWord": "1"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "posNumber": 6,
     "letter": "a",
     "fileName": "1400_Hennagara_Unpub_3_6_a",
-    "filePath": "a/a_form3/1400_Hennagara_Unpub_3_6_a.JPG"
+    "filePath": "a/a_form3/1400_Hennagara_Unpub_3_6_a.JPG",
+    "kannadaWord": "ಅ"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "posNumber": 3,
     "letter": "ba",
     "fileName": "1400_Hennagara_Unpub_2_3_ba",
-    "filePath": "ba/ba_form1/1400_Hennagara_Unpub_2_3_ba.JPG"
+    "filePath": "ba/ba_form1/1400_Hennagara_Unpub_2_3_ba.JPG",
+    "kannadaWord": "ಬ"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "posNumber": 2,
     "letter": "bhā",
     "fileName": "1400_Hennagara_Unpub_4_2_bhā",
-    "filePath": "bhā/bhā_form1/1400_Hennagara_Unpub_4_2_bhā.JPG"
+    "filePath": "bhā/bhā_form1/1400_Hennagara_Unpub_4_2_bhā.JPG",
+    "kannadaWord": "ಭಾ"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "posNumber": 2,
     "letter": "da",
     "fileName": "1400_Hennagara_Unpub_9_2_da",
-    "filePath": "da/da_form2/1400_Hennagara_Unpub_9_2_da.JPG"
+    "filePath": "da/da_form2/1400_Hennagara_Unpub_9_2_da.JPG",
+    "kannadaWord": "ದ"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "posNumber": 1,
     "letter": "dhi",
     "fileName": "1400_Hennagara_Unpub_5_1_dhi",
-    "filePath": "dhi/dhi_form1/1400_Hennagara_Unpub_5_1_dhi.JPG"
+    "filePath": "dhi/dhi_form1/1400_Hennagara_Unpub_5_1_dhi.JPG",
+    "kannadaWord": "ಧಿ"
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "posNumber": 11,
     "letter": "gaṃ",
     "fileName": "1400_Hennagara_Unpub_4_11_gaṃ",
-    "filePath": "gaṃ/gaṃ_form1/1400_Hennagara_Unpub_4_11_gaṃ.JPG"
+    "filePath": "gaṃ/gaṃ_form1/1400_Hennagara_Unpub_4_11_gaṃ.JPG",
+    "kannadaWord": "ಗಂ"
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "posNumber": 4,
     "letter": "gĕ",
     "fileName": "1400_Hennagara_Unpub_11_4_gĕ",
-    "filePath": "gĕ/gĕ_form3/1400_Hennagara_Unpub_11_4_gĕ.JPG"
+    "filePath": "gĕ/gĕ_form3/1400_Hennagara_Unpub_11_4_gĕ.JPG",
+    "kannadaWord": "ಗೆ"
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "posNumber": 4,
     "letter": "gĕ",
     "fileName": "1400_Hennagara_Unpub_4_4_gĕ",
-    "filePath": "gĕ/gĕ_form3/1400_Hennagara_Unpub_4_4_gĕ.JPG"
+    "filePath": "gĕ/gĕ_form3/1400_Hennagara_Unpub_4_4_gĕ.JPG",
+    "kannadaWord": "ಗೆ"
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "posNumber": 4,
     "letter": "hā",
     "fileName": "1400_Hennagara_Unpub_6_4_hā",
-    "filePath": "hā/hā_form2/1400_Hennagara_Unpub_6_4_hā.JPG"
+    "filePath": "hā/hā_form2/1400_Hennagara_Unpub_6_4_hā.JPG",
+    "kannadaWord": "ಹಾ"
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "posNumber": 3,
     "letter": "ja",
     "fileName": "1400_Hennagara_Unpub_5_3_ja",
-    "filePath": "ja/ja_form1/1400_Hennagara_Unpub_5_3_ja.JPG"
+    "filePath": "ja/ja_form1/1400_Hennagara_Unpub_5_3_ja.JPG",
+    "kannadaWord": "ಜ"
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "posNumber": 5,
     "letter": "ja",
     "fileName": "1400_Hennagara_Unpub_5_5_ja",
-    "filePath": "ja/ja_form1/1400_Hennagara_Unpub_5_5_ja.JPG"
+    "filePath": "ja/ja_form1/1400_Hennagara_Unpub_5_5_ja.JPG",
+    "kannadaWord": "ಜ"
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "posNumber": 1,
     "letter": "je",
     "fileName": "1400_Hennagara_Unpub_2_1_je",
-    "filePath": "je/je_form1/1400_Hennagara_Unpub_2_1_je.JPG"
+    "filePath": "je/je_form1/1400_Hennagara_Unpub_2_1_je.JPG",
+    "kannadaWord": "ಜೇ"
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "posNumber": 1,
     "letter": "jĕ",
     "fileName": "1400_Hennagara_Unpub_7_1_jĕ",
-    "filePath": "jĕ/jĕ_form1/1400_Hennagara_Unpub_7_1_jĕ.JPG"
+    "filePath": "jĕ/jĕ_form1/1400_Hennagara_Unpub_7_1_jĕ.JPG",
+    "kannadaWord": "ಜೆ"
   },
   {
     "id": 15,
@@ -162,7 +176,8 @@
     "posNumber": 4,
     "letter": "kha",
     "fileName": "1400_Hennagara_Unpub_1_4_kha",
-    "filePath": "kha/kha_form1/1400_Hennagara_Unpub_1_4_kha.JPG"
+    "filePath": "kha/kha_form1/1400_Hennagara_Unpub_1_4_kha.JPG",
+    "kannadaWord": "ಖ"
   },
   {
     "id": 16,
@@ -173,7 +188,8 @@
     "posNumber": 2,
     "letter": "ki",
     "fileName": "1400_Hennagara_Unpub_8_2_ki",
-    "filePath": "ki/ki_form1/1400_Hennagara_Unpub_8_2_ki.JPG"
+    "filePath": "ki/ki_form1/1400_Hennagara_Unpub_8_2_ki.JPG",
+    "kannadaWord": "ಕಿ"
   },
   {
     "id": 17,
@@ -184,7 +200,8 @@
     "posNumber": 3,
     "letter": "le",
     "fileName": "1400_Hennagara_Unpub_3_3_le",
-    "filePath": "le/le_form1/1400_Hennagara_Unpub_3_3_le.JPG"
+    "filePath": "le/le_form1/1400_Hennagara_Unpub_3_3_le.JPG",
+    "kannadaWord": "ಲೇ"
   },
   {
     "id": 18,
@@ -195,7 +212,8 @@
     "posNumber": 5,
     "letter": "lu",
     "fileName": "1400_Hennagara_Unpub_2_5_lu",
-    "filePath": "lu/lu_form2/1400_Hennagara_Unpub_2_5_lu.JPG"
+    "filePath": "lu/lu_form2/1400_Hennagara_Unpub_2_5_lu.JPG",
+    "kannadaWord": "ಲು"
   },
   {
     "id": 19,
@@ -206,7 +224,8 @@
     "posNumber": 7,
     "letter": "ma",
     "fileName": "1400_Hennagara_Unpub_2_7_ma",
-    "filePath": "ma/ma_form1/1400_Hennagara_Unpub_2_7_ma.JPG"
+    "filePath": "ma/ma_form1/1400_Hennagara_Unpub_2_7_ma.JPG",
+    "kannadaWord": "ಮ"
   },
   {
     "id": 20,
@@ -217,7 +236,8 @@
     "posNumber": 3,
     "letter": "ma",
     "fileName": "1400_Hennagara_Unpub_6_3_ma",
-    "filePath": "ma/ma_form1/1400_Hennagara_Unpub_6_3_ma.JPG"
+    "filePath": "ma/ma_form1/1400_Hennagara_Unpub_6_3_ma.JPG",
+    "kannadaWord": "ಮ"
   },
   {
     "id": 21,
@@ -228,7 +248,8 @@
     "posNumber": 5,
     "letter": "ma",
     "fileName": "1400_Hennagara_Unpub_8_5_ma",
-    "filePath": "ma/ma_form1/1400_Hennagara_Unpub_8_5_ma.JPG"
+    "filePath": "ma/ma_form1/1400_Hennagara_Unpub_8_5_ma.JPG",
+    "kannadaWord": "ಮ"
   },
   {
     "id": 22,
@@ -239,7 +260,8 @@
     "posNumber": 8,
     "letter": "me",
     "fileName": "1400_Hennagara_Unpub_5_8_me",
-    "filePath": "me/me_form2/1400_Hennagara_Unpub_5_8_me.JPG"
+    "filePath": "me/me_form2/1400_Hennagara_Unpub_5_8_me.JPG",
+    "kannadaWord": "ಮೇ"
   },
   {
     "id": 23,
@@ -250,7 +272,8 @@
     "posNumber": 3,
     "letter": "mi",
     "fileName": "1400_Hennagara_Unpub_11_3_mi",
-    "filePath": "mi/mi_form1/1400_Hennagara_Unpub_11_3_mi.JPG"
+    "filePath": "mi/mi_form1/1400_Hennagara_Unpub_11_3_mi.JPG",
+    "kannadaWord": "ಮಿ"
   },
   {
     "id": 24,
@@ -261,7 +284,8 @@
     "posNumber": 7,
     "letter": "mŏ",
     "fileName": "1400_Hennagara_Unpub_9_7_mŏ",
-    "filePath": "mŏ/mŏ_form1/1400_Hennagara_Unpub_9_7_mŏ.JPG"
+    "filePath": "mŏ/mŏ_form1/1400_Hennagara_Unpub_9_7_mŏ.JPG",
+    "kannadaWord": "ಮೊ"
   },
   {
     "id": 25,
@@ -272,7 +296,8 @@
     "posNumber": 6,
     "letter": "nu",
     "fileName": "1400_Hennagara_Unpub_9_6_nu",
-    "filePath": "nu/nu_form1/1400_Hennagara_Unpub_9_6_nu.JPG"
+    "filePath": "nu/nu_form1/1400_Hennagara_Unpub_9_6_nu.JPG",
+    "kannadaWord": "ನು"
   },
   {
     "id": 26,
@@ -283,7 +308,8 @@
     "posNumber": 6,
     "letter": "ppu",
     "fileName": "1400_Hennagara_Unpub_4_6_ppu",
-    "filePath": "ppu/ppu_form1/1400_Hennagara_Unpub_4_6_ppu.JPG"
+    "filePath": "ppu/ppu_form1/1400_Hennagara_Unpub_4_6_ppu.JPG",
+    "kannadaWord": "ಪ್ಪು"
   },
   {
     "id": 27,
@@ -294,7 +320,8 @@
     "posNumber": 14,
     "letter": "pra",
     "fileName": "1400_Hennagara_Unpub_5_14_pra",
-    "filePath": "pra/pra_form2/1400_Hennagara_Unpub_5_14_pra.JPG"
+    "filePath": "pra/pra_form2/1400_Hennagara_Unpub_5_14_pra.JPG",
+    "kannadaWord": "ಪ್ರ"
   },
   {
     "id": 28,
@@ -305,7 +332,8 @@
     "posNumber": 4,
     "letter": "pĕṃ",
     "fileName": "1400_Hennagara_Unpub_8_4_pĕṃ",
-    "filePath": "pĕṃ/pĕṃ_form1/1400_Hennagara_Unpub_8_4_pĕṃ.JPG"
+    "filePath": "pĕṃ/pĕṃ_form1/1400_Hennagara_Unpub_8_4_pĕṃ.JPG",
+    "kannadaWord": "ಪೆಂ"
   },
   {
     "id": 29,
@@ -316,7 +344,8 @@
     "posNumber": 10,
     "letter": "ra",
     "fileName": "1400_Hennagara_Unpub_4_10_ra",
-    "filePath": "ra/ra_form1/1400_Hennagara_Unpub_4_10_ra.JPG"
+    "filePath": "ra/ra_form1/1400_Hennagara_Unpub_4_10_ra.JPG",
+    "kannadaWord": "ರ"
   },
   {
     "id": 30,
@@ -327,7 +356,8 @@
     "posNumber": 1,
     "letter": "ra",
     "fileName": "1400_Hennagara_Unpub_9_1_ra",
-    "filePath": "ra/ra_form1/1400_Hennagara_Unpub_9_1_ra.JPG"
+    "filePath": "ra/ra_form1/1400_Hennagara_Unpub_9_1_ra.JPG",
+    "kannadaWord": "ರ"
   },
   {
     "id": 31,
@@ -338,7 +368,8 @@
     "posNumber": 5,
     "letter": "ra",
     "fileName": "1400_Hennagara_Unpub_3_5_ra",
-    "filePath": "ra/ra_form3/1400_Hennagara_Unpub_3_5_ra.JPG"
+    "filePath": "ra/ra_form3/1400_Hennagara_Unpub_3_5_ra.JPG",
+    "kannadaWord": "ರ"
   },
   {
     "id": 32,
@@ -349,7 +380,8 @@
     "posNumber": 10,
     "letter": "ra",
     "fileName": "1400_Hennagara_Unpub_5_10_ra",
-    "filePath": "ra/ra_form3/1400_Hennagara_Unpub_5_10_ra.JPG"
+    "filePath": "ra/ra_form3/1400_Hennagara_Unpub_5_10_ra.JPG",
+    "kannadaWord": "ರ"
   },
   {
     "id": 33,
@@ -360,7 +392,8 @@
     "posNumber": 13,
     "letter": "ra",
     "fileName": "1400_Hennagara_Unpub_5_13_ra",
-    "filePath": "ra/ra_form3/1400_Hennagara_Unpub_5_13_ra.JPG"
+    "filePath": "ra/ra_form3/1400_Hennagara_Unpub_5_13_ra.JPG",
+    "kannadaWord": "ರ"
   },
   {
     "id": 34,
@@ -371,7 +404,8 @@
     "posNumber": 7,
     "letter": "ra",
     "fileName": "1400_Hennagara_Unpub_5_7_ra",
-    "filePath": "ra/ra_form3/1400_Hennagara_Unpub_5_7_ra.JPG"
+    "filePath": "ra/ra_form3/1400_Hennagara_Unpub_5_7_ra.JPG",
+    "kannadaWord": "ರ"
   },
   {
     "id": 35,
@@ -382,7 +416,8 @@
     "posNumber": 7,
     "letter": "ri",
     "fileName": "1400_Hennagara_Unpub_3_7_ri",
-    "filePath": "ri/ri_form1/1400_Hennagara_Unpub_3_7_ri.JPG"
+    "filePath": "ri/ri_form1/1400_Hennagara_Unpub_3_7_ri.JPG",
+    "kannadaWord": "ರಿ"
   },
   {
     "id": 36,
@@ -393,7 +428,8 @@
     "posNumber": 7,
     "letter": "ru",
     "fileName": "1400_Hennagara_Unpub_6_7_ru",
-    "filePath": "ru/ru_form1/1400_Hennagara_Unpub_6_7_ru.JPG"
+    "filePath": "ru/ru_form1/1400_Hennagara_Unpub_6_7_ru.JPG",
+    "kannadaWord": "ರು"
   },
   {
     "id": 37,
@@ -404,7 +440,8 @@
     "posNumber": 8,
     "letter": "rā",
     "fileName": "1400_Hennagara_Unpub_3_8_rā",
-    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_3_8_rā.JPG"
+    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_3_8_rā.JPG",
+    "kannadaWord": "ರಾ"
   },
   {
     "id": 38,
@@ -415,7 +452,8 @@
     "posNumber": 8,
     "letter": "rā",
     "fileName": "1400_Hennagara_Unpub_4_8_rā",
-    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_4_8_rā.JPG"
+    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_4_8_rā.JPG",
+    "kannadaWord": "ರಾ"
   },
   {
     "id": 39,
@@ -426,7 +464,8 @@
     "posNumber": 2,
     "letter": "rā",
     "fileName": "1400_Hennagara_Unpub_5_2_rā",
-    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_5_2_rā.JPG"
+    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_5_2_rā.JPG",
+    "kannadaWord": "ರಾ"
   },
   {
     "id": 40,
@@ -437,7 +476,8 @@
     "posNumber": 4,
     "letter": "rā",
     "fileName": "1400_Hennagara_Unpub_5_4_rā",
-    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_5_4_rā.JPG"
+    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_5_4_rā.JPG",
+    "kannadaWord": "ರಾ"
   },
   {
     "id": 41,
@@ -448,7 +488,8 @@
     "posNumber": 1,
     "letter": "rā",
     "fileName": "1400_Hennagara_Unpub_6_1_rā",
-    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_6_1_rā.JPG"
+    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_6_1_rā.JPG",
+    "kannadaWord": "ರಾ"
   },
   {
     "id": 42,
@@ -459,7 +500,8 @@
     "posNumber": 5,
     "letter": "rā",
     "fileName": "1400_Hennagara_Unpub_6_5_rā",
-    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_6_5_rā.JPG"
+    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_6_5_rā.JPG",
+    "kannadaWord": "ರಾ"
   },
   {
     "id": 43,
@@ -470,7 +512,8 @@
     "posNumber": 3,
     "letter": "rā",
     "fileName": "1400_Hennagara_Unpub_7_3_rā",
-    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_7_3_rā.JPG"
+    "filePath": "rā/rā_form3/1400_Hennagara_Unpub_7_3_rā.JPG",
+    "kannadaWord": "ರಾ"
   },
   {
     "id": 44,
@@ -481,7 +524,8 @@
     "posNumber": 3,
     "letter": "saṃ",
     "fileName": "1400_Hennagara_Unpub_9_3_saṃ",
-    "filePath": "saṃ/saṃ_form1/1400_Hennagara_Unpub_9_3_saṃ.JPG"
+    "filePath": "saṃ/saṃ_form1/1400_Hennagara_Unpub_9_3_saṃ.JPG",
+    "kannadaWord": "ಸಂ"
   },
   {
     "id": 45,
@@ -492,7 +536,8 @@
     "posNumber": 2,
     "letter": "sti",
     "fileName": "1400_Hennagara_Unpub_1_2_sti",
-    "filePath": "sti/sti_form2/1400_Hennagara_Unpub_1_2_sti.JPG"
+    "filePath": "sti/sti_form2/1400_Hennagara_Unpub_1_2_sti.JPG",
+    "kannadaWord": "ಸ್ತಿ"
   },
   {
     "id": 46,
@@ -503,7 +548,8 @@
     "posNumber": 1,
     "letter": "sva",
     "fileName": "1400_Hennagara_Unpub_1_1_sva",
-    "filePath": "sva/sva_form1/1400_Hennagara_Unpub_1_1_sva.JPG"
+    "filePath": "sva/sva_form1/1400_Hennagara_Unpub_1_1_sva.JPG",
+    "kannadaWord": "ಸ್ವ"
   },
   {
     "id": 47,
@@ -514,7 +560,8 @@
     "posNumber": 4,
     "letter": "sva",
     "fileName": "1400_Hennagara_Unpub_3_4_sva",
-    "filePath": "sva/sva_form1/1400_Hennagara_Unpub_3_4_sva.JPG"
+    "filePath": "sva/sva_form1/1400_Hennagara_Unpub_3_4_sva.JPG",
+    "kannadaWord": "ಸ್ವ"
   },
   {
     "id": 48,
@@ -525,7 +572,8 @@
     "posNumber": 9,
     "letter": "sva",
     "fileName": "1400_Hennagara_Unpub_5_9_sva",
-    "filePath": "sva/sva_form2/1400_Hennagara_Unpub_5_9_sva.JPG"
+    "filePath": "sva/sva_form2/1400_Hennagara_Unpub_5_9_sva.JPG",
+    "kannadaWord": "ಸ್ವ"
   },
   {
     "id": 49,
@@ -536,7 +584,8 @@
     "posNumber": 2,
     "letter": "svā",
     "fileName": "1400_Hennagara_Unpub_11_2_svā",
-    "filePath": "svā/svā_form1/1400_Hennagara_Unpub_11_2_svā.JPG"
+    "filePath": "svā/svā_form1/1400_Hennagara_Unpub_11_2_svā.JPG",
+    "kannadaWord": "ಸ್ವಾ"
   },
   {
     "id": 50,
@@ -547,7 +596,8 @@
     "posNumber": 5,
     "letter": "ta",
     "fileName": "1400_Hennagara_Unpub_4_5_ta",
-    "filePath": "ta/ta_form1/1400_Hennagara_Unpub_4_5_ta.JPG"
+    "filePath": "ta/ta_form1/1400_Hennagara_Unpub_4_5_ta.JPG",
+    "kannadaWord": "ತ"
   },
   {
     "id": 51,
@@ -558,7 +608,8 @@
     "posNumber": 4,
     "letter": "thĕ",
     "fileName": "1400_Hennagara_Unpub_9_4_thĕ",
-    "filePath": "thĕ/thĕ_form1/1400_Hennagara_Unpub_9_4_thĕ.JPG"
+    "filePath": "thĕ/thĕ_form1/1400_Hennagara_Unpub_9_4_thĕ.JPG",
+    "kannadaWord": "ಥೆ"
   },
   {
     "id": 52,
@@ -569,7 +620,8 @@
     "posNumber": 7,
     "letter": "va",
     "fileName": "1400_Hennagara_Unpub_4_7_va",
-    "filePath": "va/va_form2/1400_Hennagara_Unpub_4_7_va.JPG"
+    "filePath": "va/va_form2/1400_Hennagara_Unpub_4_7_va.JPG",
+    "kannadaWord": "ವ"
   },
   {
     "id": 53,
@@ -580,7 +632,8 @@
     "posNumber": 10,
     "letter": "vi",
     "fileName": "1400_Hennagara_Unpub_3_10_vi",
-    "filePath": "vi/vi_form1/1400_Hennagara_Unpub_3_10_vi.JPG"
+    "filePath": "vi/vi_form1/1400_Hennagara_Unpub_3_10_vi.JPG",
+    "kannadaWord": "ವಿ"
   },
   {
     "id": 54,
@@ -591,7 +644,8 @@
     "posNumber": 12,
     "letter": "vī",
     "fileName": "1400_Hennagara_Unpub_5_12_vī",
-    "filePath": "vī/vī_form1/1400_Hennagara_Unpub_5_12_vī.JPG"
+    "filePath": "vī/vī_form1/1400_Hennagara_Unpub_5_12_vī.JPG",
+    "kannadaWord": "ವೀ"
   },
   {
     "id": 55,
@@ -602,7 +656,8 @@
     "posNumber": 9,
     "letter": "ya",
     "fileName": "1400_Hennagara_Unpub_3_9_ya",
-    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_3_9_ya.JPG"
+    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_3_9_ya.JPG",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 56,
@@ -613,7 +668,8 @@
     "posNumber": 9,
     "letter": "ya",
     "fileName": "1400_Hennagara_Unpub_4_9_ya",
-    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_4_9_ya.JPG"
+    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_4_9_ya.JPG",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 57,
@@ -624,7 +680,8 @@
     "posNumber": 2,
     "letter": "ya",
     "fileName": "1400_Hennagara_Unpub_6_2_ya",
-    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_6_2_ya.JPG"
+    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_6_2_ya.JPG",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 58,
@@ -635,7 +692,8 @@
     "posNumber": 6,
     "letter": "ya",
     "fileName": "1400_Hennagara_Unpub_6_6_ya",
-    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_6_6_ya.JPG"
+    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_6_6_ya.JPG",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 59,
@@ -646,7 +704,8 @@
     "posNumber": 2,
     "letter": "ya",
     "fileName": "1400_Hennagara_Unpub_7_2_ya",
-    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_7_2_ya.JPG"
+    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_7_2_ya.JPG",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 60,
@@ -657,7 +716,8 @@
     "posNumber": 4,
     "letter": "ya",
     "fileName": "1400_Hennagara_Unpub_7_4_ya",
-    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_7_4_ya.JPG"
+    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_7_4_ya.JPG",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 61,
@@ -668,7 +728,8 @@
     "posNumber": 3,
     "letter": "ya",
     "fileName": "1400_Hennagara_Unpub_8_3_ya",
-    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_8_3_ya.JPG"
+    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_8_3_ya.JPG",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 62,
@@ -679,7 +740,8 @@
     "posNumber": 5,
     "letter": "ya",
     "fileName": "1400_Hennagara_Unpub_9_5_ya",
-    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_9_5_ya.JPG"
+    "filePath": "ya/ya_form1/1400_Hennagara_Unpub_9_5_ya.JPG",
+    "kannadaWord": "ಯ"
   },
   {
     "id": 63,
@@ -690,7 +752,8 @@
     "posNumber": 3,
     "letter": "śrī",
     "fileName": "1400_Hennagara_Unpub_1_3_śrī",
-    "filePath": "śrī/śrī_form1/1400_Hennagara_Unpub_1_3_śrī.JPG"
+    "filePath": "śrī/śrī_form1/1400_Hennagara_Unpub_1_3_śrī.JPG",
+    "kannadaWord": "ಶ್ರೀ"
   },
   {
     "id": 64,
@@ -701,7 +764,8 @@
     "posNumber": 6,
     "letter": "śrī",
     "fileName": "1400_Hennagara_Unpub_2_6_śrī",
-    "filePath": "śrī/śrī_form3/1400_Hennagara_Unpub_2_6_śrī.JPG"
+    "filePath": "śrī/śrī_form3/1400_Hennagara_Unpub_2_6_śrī.JPG",
+    "kannadaWord": "ಶ್ರೀ"
   },
   {
     "id": 65,
@@ -712,7 +776,8 @@
     "posNumber": 3,
     "letter": "śrī",
     "fileName": "1400_Hennagara_Unpub_10_3_śrī",
-    "filePath": "śrī/śrī_form4/1400_Hennagara_Unpub_10_3_śrī.JPG"
+    "filePath": "śrī/śrī_form4/1400_Hennagara_Unpub_10_3_śrī.JPG",
+    "kannadaWord": "ಶ್ರೀ"
   },
   {
     "id": 66,
@@ -723,7 +788,8 @@
     "posNumber": 11,
     "letter": "śrī",
     "fileName": "1400_Hennagara_Unpub_5_11_śrī",
-    "filePath": "śrī/śrī_form4/1400_Hennagara_Unpub_5_11_śrī.JPG"
+    "filePath": "śrī/śrī_form4/1400_Hennagara_Unpub_5_11_śrī.JPG",
+    "kannadaWord": "ಶ್ರೀ"
   },
   {
     "id": 67,
@@ -734,7 +800,8 @@
     "posNumber": 1,
     "letter": "ḍa",
     "fileName": "1400_Hennagara_Unpub_4_1_ḍa",
-    "filePath": "ḍa/ḍa_form1/1400_Hennagara_Unpub_4_1_ḍa.JPG"
+    "filePath": "ḍa/ḍa_form1/1400_Hennagara_Unpub_4_1_ḍa.JPG",
+    "kannadaWord": "ಡ"
   },
   {
     "id": 68,
@@ -745,7 +812,8 @@
     "posNumber": 2,
     "letter": "ḍa",
     "fileName": "1400_Hennagara_Unpub_3_2_ḍa",
-    "filePath": "ḍa/ḍa_form2/1400_Hennagara_Unpub_3_2_ḍa.JPG"
+    "filePath": "ḍa/ḍa_form2/1400_Hennagara_Unpub_3_2_ḍa.JPG",
+    "kannadaWord": "ಡ"
   },
   {
     "id": 69,
@@ -756,7 +824,8 @@
     "posNumber": 1,
     "letter": "ṃ",
     "fileName": "1400_Hennagara_Unpub_3_1_ṃ",
-    "filePath": "ṃ/ṃ_form1/1400_Hennagara_Unpub_3_1_ṃ.JPG"
+    "filePath": "ṃ/ṃ_form1/1400_Hennagara_Unpub_3_1_ṃ.JPG",
+    "kannadaWord": "ಂ"
   },
   {
     "id": 70,
@@ -767,7 +836,8 @@
     "posNumber": 3,
     "letter": "ṣĕ",
     "fileName": "1400_Hennagara_Unpub_4_3_ṣĕ",
-    "filePath": "ṣĕ/ṣĕ_form2/1400_Hennagara_Unpub_4_3_ṣĕ.JPG"
+    "filePath": "ṣĕ/ṣĕ_form2/1400_Hennagara_Unpub_4_3_ṣĕ.JPG",
+    "kannadaWord": "ಷೆ"
   },
   {
     "id": 71,
@@ -778,6 +848,7 @@
     "posNumber": 2,
     "letter": "ṣṭa",
     "fileName": "1400_Hennagara_Unpub_2_2_ṣṭa",
-    "filePath": "ṣṭa/ṣṭa_form1/1400_Hennagara_Unpub_2_2_ṣṭa.JPG"
+    "filePath": "ṣṭa/ṣṭa_form1/1400_Hennagara_Unpub_2_2_ṣṭa.JPG",
+    "kannadaWord": "ಷ್ಟ"
   }
 ]

@@ -16,7 +16,8 @@ import { groupBy, getYear } from '../../models/utils';
 
                     <h2 style="border-bottom: 2px solid red;">{{ getGroupName(group[0]) }}</h2>
                     <div class="flex-container">
-                        <BasicLetter v-for="letter in group[1]" :image_src="letter.path" :showLetterText="false" :imageSizePx="100"/>
+                        <BasicLetter v-for="letter in group[1]" :image_src="letter.path" :showLetterText="false"
+                            :imageSizePx="100" :showLetterYear="true" />
                     </div>
 
                 </div>
@@ -48,8 +49,13 @@ export default {
             groupedLetters: []
         }
     },
+    computed: {
+        sortedByYear(groupedLetters) {
+            return groupedLetters.sort((a, b) => a.year - b.year);
+        },
+    },
     methods: {
-        
+
 
         getLetterForForm(formId) {
             return this.groupedLetters.get(formId)
@@ -64,7 +70,7 @@ export default {
         },
         applyYearFilter(letterForms, yearData) {
 
-            if (yearData == "") {    
+            if (yearData == "") {
                 this.getGroupedForms(letterForms);
             } else {
                 let filteredData = letterForms.map(l => {
